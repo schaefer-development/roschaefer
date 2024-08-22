@@ -1,9 +1,7 @@
 <script lang="ts">
-	import { page } from '$app/stores';
 	import Robert from '$lib/images/roschaefer.jpg';
 	import Divider from '$lib/components/Divider.svelte';
-	import GithubLink from '$lib/components/GithubLink.svelte';
-	import LinkedInLink from '$lib/components/LinkedInLink.svelte';
+	import ProfileList from '$lib/components/ProfileList.svelte';
 </script>
 
 <svelte:head>
@@ -30,15 +28,10 @@
 		<div class="w-full md:w-57/12">
 			<div class="flex gap-y-2 flex-col">
 				<h3 class="text-primary uppercase tracking-widest mb-6">Robert Schäfer</h3>
-				<a class="text-white max-w-max" href="mailto:hello@roschaefer.de">hello@roschaefer.de</a>
-				<ul class="pt-6 flex gap-6">
-					<li class="hover:scale-110 ease-in-out transition-all duration-300">
-						<LinkedInLink></LinkedInLink>
-					</li>
-					<li class="hover:scale-110 ease-in-out transition-all duration-300">
-						<GithubLink></GithubLink>
-					</li>
-				</ul>
+				<a class="text-white max-w-max pb-6" href="mailto:hello@roschaefer.de"
+					>hello@roschaefer.de</a
+				>
+				<ProfileList></ProfileList>
 			</div>
 		</div>
 	</div>

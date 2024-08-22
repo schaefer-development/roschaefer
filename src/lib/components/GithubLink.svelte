@@ -1,7 +1,3 @@
-<script lang="ts">
-	export let fill = 'currentColor';
-</script>
-
 <a
 	class="border-none hover:border-none"
 	href="https://github.com/roschaefer"
@@ -10,7 +6,6 @@
 	aria-label="Github"
 >
 	<svg
-		{fill}
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 24 24"
 		role="img"
