@@ -1,9 +1,8 @@
 import type { PageServerLoad } from './$types';
-import resume from './resume.json'
+import resume from './resume.json';
 
 export const load = (() => {
 	return {
-    resume
+		resume
 	};
 }) satisfies PageServerLoad;
-

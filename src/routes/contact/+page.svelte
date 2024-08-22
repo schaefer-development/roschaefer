@@ -3,7 +3,4 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<section>
-
-	Contact
-</section>
+<section>Contact</section>

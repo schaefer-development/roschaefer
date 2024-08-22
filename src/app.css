@@ -18,7 +18,23 @@
 
 body {
 	min-height: 100vh;
+	width: 100%;
+	overflow-x: hidden;
+	min-height: 100vh;
+	font-size: calc(20px + 0.25vw);
+	font-kerning: normal;
 	margin: 0;
+}
+
+::-moz-selection {
+	/* Code for Firefox */
+	background-color: var(--primary);
+	color: white;
+}
+
+::selection {
+	background-color: var(--primary);
+	color: white;
 }
 
 h1 {
