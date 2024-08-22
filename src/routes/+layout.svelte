@@ -6,13 +6,10 @@
 	import '../app.css';
 </script>
 
-<div
-	id="page"
-	class="app relative bg-gradient-to-r from-black to-neutral-700 flex flex-col justify-between"
->
+<div id="page" class="app relative flex flex-col justify-between">
 	<Header />
 	<PageTransition url={$page.url}>
-		<main class="relative max-w-4xl mx-auto mb-auto p-8">
+		<main class="relative max-w-4xl mx-auto mb-auto px-8 pb-12">
 			<slot />
 		</main>
 	</PageTransition>

@@ -11,7 +11,7 @@
 	--font-mono: 'Courier', monospace;
 	--color-bg-0: rgb(202, 216, 228);
 	--color-theme-1: #33ccff;
-	--color-text: white;
+	--color-text: #ccc;
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
@@ -21,6 +21,8 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 	min-height: 100vh;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(64, 64, 64, 1) 100%);
 	font-size: calc(20px + 0.25vw);
 	font-kerning: normal;
 	margin: 0;
@@ -41,6 +43,18 @@ h1 {
 	font-family: 'Jost Variable', sans-serif;
 }
 
+.decoratefont {
+	font-family: 'Jost Variable', sans-serif;
+}
+
+h1 {
+	@apply text-7xl md:text-8xl lg:text-9xl uppercase;
+}
+
+h3 {
+	@apply text-xl md:text-2xl lg:text-3xl;
+}
+
 h1,
 h2,
 p {
@@ -54,6 +68,13 @@ p {
 a {
 	color: var(--color-theme-1);
 	text-decoration: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+	transition: all 0.25s;
+}
+
+a:hover {
+	color: var(--color-theme-1);
+	border-bottom: 3px solid var(--color-theme-1);
 }
 
 button:focus:not(:focus-visible) {
@@ -70,4 +91,10 @@ button:focus:not(:focus-visible) {
 	position: absolute;
 	width: 1px;
 	white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: calc(15px + 0.25vw);
+	}
 }

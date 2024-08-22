@@ -18,18 +18,24 @@
 			class="w-16 aspect-ratio rounded-full my-4"
 			alt="Robert Schäfer"
 		/>
-		<h3 class="text-2xl">Hi, I'm Robert</h3>
+		<h3 class="text-white">Hi, I'm Robert</h3>
 	</div>
-	<h1 class="text-8xl font-medium uppercase text-white pb-8">
+	<h1 class="font-medium text-white mb-12">
 		Software<br /><span class="text-primary">Developer</span>
 	</h1>
 	<Divider />
-	<p class="py-8">
+	<p class="py-10">
 		At the moment a digital nomad, I work 100% remotely as a freelancer. Since my studies in 2009 I
 		am involved in computer science and started 2012 as a full stack developer.
 	</p>
-	<div class="flex gap-4">
-		<a href="/projects" class="px-6 py-2 bg-primary rounded-full text-black">Browse Projects</a>
-		<a href="/contact" class="px-6 py-2 border-4 border-white rounded-full">Get in Touch</a>
+	<div class="flex gap-8">
+		<a
+			class="text-sm font-black text-primary uppercase tracking-widest px-4 py-2 border-4 border-primary rounded-full hover:text-black hover:bg-primary ease-in-out transition-all duration-300"
+			href="/projects">Browse Projects</a
+		>
+		<a
+			class="text-sm font-black text-white uppercase tracking-widest px-4 py-2 border-4 border-white rounded-full hover:text-black hover:bg-white hover:border-b-white ease-in-out transition-all duration-300"
+			href="/contact">Get in touch</a
+		>
 	</div>
 </section>
