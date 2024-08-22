@@ -18,8 +18,8 @@
 	</h1>
 	<Divider />
 	{#each data.resume.projects as project, index}
-		<div class="py-12">
-			<p class="stroke text-9xl mb-6">{index + 1}</p>
+		<div class="pt-14">
+			<p class="stroke text-9xl">{index + 1}</p>
 			<h2 class="decoratefont mt-4">
 				{project.roles}
 			</h2>
@@ -27,12 +27,12 @@
 				{project.startDate} — {project.endDate}
 			</p>
 			<h3 class="font-bold text-white">{project.name}</h3>
-			<p class="pt-1">{@html marked(project.description)}</p>
+			<p class="pt-1 mb-6">{@html marked(project.description)}</p>
 			{#if project.keywords.length > 0}
-				<div class="py-10">
+				<div class="mb-6">
 					{#each project.keywords as keyword}
 						<div
-							class="m-1 inline-block rounded-full bg-neutral-200 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:bg-neutral-300 hover:shadow-lg focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:hover:bg-neutral-500 dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
+							class="cursor-default m-1 inline-block rounded-full bg-neutral-600 text-white px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
 						>
 							{keyword}
 						</div>
@@ -40,7 +40,7 @@
 				</div>
 			{/if}
 			{#if project.url}
-				<a class="flex mb-16 max-w-max" href={project.url}
+				<a class="flex max-w-max" href={project.url}
 					><svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -58,6 +58,7 @@
 					{project.url}</a
 				>
 			{/if}
+			<div class="w-full h-14" />
 			<Divider />
 		</div>
 	{/each}
@@ -66,7 +67,7 @@
 <style>
 	.stroke {
 		font-family: 'Jost Variable', sans-serif;
-		font-weight: 600;
+		font-weight: 700;
 		-webkit-text-fill-color: rgba(0, 0, 0, 0);
 		-webkit-text-stroke-width: 1.2px;
 		-webkit-text-stroke-color: rgba(184, 192, 204, 0.8);
