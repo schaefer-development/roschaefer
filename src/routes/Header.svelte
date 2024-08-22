@@ -17,7 +17,7 @@
 		>
 		<a
 			sveltekit:prefetch
-			class="text-sm text-primary uppercase tracking-widest px-4 py-2 border-4 border-primary rounded-full hover:text-black hover:bg-primary ease-in-out transition-all duration-300"
+			class="text-sm text-primary uppercase tracking-widest px-4 py-2 border-4 border-primary rounded-full hover:text-white hover:bg-primary hover:scale-110 ease-in-out transition-all duration-300"
 			href="/contact">Contact</a
 		>
 	</nav>

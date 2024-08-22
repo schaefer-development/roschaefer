@@ -30,11 +30,11 @@
 	</p>
 	<div class="flex gap-8">
 		<a
-			class="text-sm font-black text-primary uppercase tracking-widest px-4 py-2 border-4 border-primary rounded-full hover:text-black hover:bg-primary ease-in-out transition-all duration-300"
+			class="text-sm bg-primary font-black text-black uppercase tracking-widest px-4 py-2 border-4 border-primary rounded-full hover:text-white hover:bg-primary hover:scale-110 ease-in-out transition-all duration-300"
 			href="/projects">Browse Projects</a
 		>
 		<a
-			class="text-sm font-black text-white uppercase tracking-widest px-4 py-2 border-4 border-white rounded-full hover:text-black hover:bg-white hover:border-b-white ease-in-out transition-all duration-300"
+			class="text-sm font-black text-white uppercase tracking-widest px-4 py-2 border-4 border-white rounded-full hover:text-black hover:bg-white hover:border-b-white hover:scale-110 ease-in-out transition-all duration-300"
 			href="/contact">Get in touch</a
 		>
 	</div>

@@ -20,7 +20,7 @@
 	{#each data.resume.projects as project, index}
 		<div class="py-12">
 			<p class="stroke text-9xl mb-6">{index + 1}</p>
-			<h2 class="decoratefont font-medium text-primary text-4xl uppercase tracking-wider mt-4">
+			<h2 class="decoratefont mt-4">
 				{project.roles}
 			</h2>
 			<p class="mb-6">
@@ -31,7 +31,7 @@
 			<div class="py-10">
 				{#each project.keywords as keyword}
 					<div
-						class="m-1 inline-block rounded-full bg-neutral-200 px-3 py-1 text-xs font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:bg-neutral-300 hover:shadow-lg focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:hover:bg-neutral-500 dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
+						class="m-1 inline-block rounded-full bg-neutral-200 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:bg-neutral-300 hover:shadow-lg focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:hover:bg-neutral-500 dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
 					>
 						{keyword}
 					</div>
@@ -45,7 +45,7 @@
 						viewBox="0 0 24 24"
 						stroke-width="3"
 						stroke="currentColor"
-						class="w-5 mr-3"
+						class="w-4 md:w-5 mr-1.5"
 					>
 						<path
 							stroke-linecap="round"
