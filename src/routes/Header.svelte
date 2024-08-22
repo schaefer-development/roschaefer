@@ -1,4 +1,4 @@
-<header class="flex justify-center md:justify-end w-full">
+<header class="flex justify-center md:justify-end w-full h-24">
 	<nav class="flex items-center gap-x-6 md:gap-x-10 px-12 py-8">
 		<a
 			sveltekit:prefetch
