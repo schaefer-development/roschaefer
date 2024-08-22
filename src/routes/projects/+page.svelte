@@ -28,15 +28,17 @@
 			</p>
 			<h3 class="font-bold text-white">{project.name}</h3>
 			<p class="pt-1">{@html marked(project.description)}</p>
-			<div class="py-10">
-				{#each project.keywords as keyword}
-					<div
-						class="m-1 inline-block rounded-full bg-neutral-200 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:bg-neutral-300 hover:shadow-lg focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:hover:bg-neutral-500 dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
-					>
-						{keyword}
-					</div>
-				{/each}
-			</div>
+			{#if project.keywords.length > 0}
+				<div class="py-10">
+					{#each project.keywords as keyword}
+						<div
+							class="m-1 inline-block rounded-full bg-neutral-200 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:bg-neutral-300 hover:shadow-lg focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600 dark:text-neutral-200 dark:hover:bg-neutral-500 dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
+						>
+							{keyword}
+						</div>
+					{/each}
+				</div>
+			{/if}
 			{#if project.url}
 				<a class="flex mb-16 max-w-max" href={project.url}
 					><svg
