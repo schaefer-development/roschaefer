@@ -1,9 +1,10 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+  import { marked } from 'marked';
+  import Divider from '$lib/components/Divider.svelte';
 
-	import Divider from '$lib/components/Divider.svelte';
+	export let data: PageData;
 </script>
 
 <svelte:head>
@@ -26,7 +27,7 @@
 				{project.startDate} — {project.endDate}
 			</p>
 			<h3 class="font-bold text-white">{project.name}</h3>
-			<p class="pt-1">{project.description}</p>
+			<p class="pt-1">{@html marked(project.description)}</p>
 			<p class="py-10">{project.keywords.join(' • ')}</p>
 			{#if project.url}
 				<a class="flex mb-16 max-w-max" href={project.url}
