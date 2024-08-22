@@ -3,7 +3,6 @@
 
 	export let data: PageData;
 
-	import { page } from '$app/stores';
 	import Divider from '$lib/components/Divider.svelte';
 </script>
 
@@ -24,29 +23,30 @@
 				{project.roles}
 			</h2>
 			<p class="mb-6">
-				from {project.startDate} to
-				{project.endDate}
+				{project.startDate} — {project.endDate}
 			</p>
 			<h3 class="font-bold text-white">{project.name}</h3>
 			<p class="pt-1">{project.description}</p>
-			<p class="py-10">{project.keywords}</p>
-			<a class="flex mb-16 max-w-max" href={project.url}
-				><svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke-width="3"
-					stroke="currentColor"
-					class="w-5 mr-3"
+			<p class="py-10">{project.keywords.join(' • ')}</p>
+			{#if project.url}
+				<a class="flex mb-16 max-w-max" href={project.url}
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="3"
+						stroke="currentColor"
+						class="w-5 mr-3"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+						/>
+					</svg>
+					{project.url}</a
 				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-					/>
-				</svg>
-				{project.url}</a
-			>
+			{/if}
 			<Divider />
 		</div>
 	{/each}
