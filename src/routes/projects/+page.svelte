@@ -12,14 +12,14 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
+<section class="pb-24">
 	<h1 class="font-medium text-white mb-12">
 		My<br /><span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
 	{#each data.resume.projects as project, index}
 		<div class="pt-14">
-			<p class="stroke text-9xl">{index + 1}</p>
+			<p class="stroke text-9xl tracking-tighter">{index + 1}</p>
 			<h2 class="decoratefont mt-4">
 				{project.roles}
 			</h2>
@@ -27,9 +27,9 @@
 				{project.startDate} — {project.endDate}
 			</p>
 			<h3 class="font-bold text-white">{project.name}</h3>
-			<p class="pt-1 mb-6">{@html marked(project.description)}</p>
+			<p class="pt-1">{@html marked(project.description)}</p>
 			{#if project.keywords.length > 0}
-				<div class="mb-6">
+				<div class="py-6">
 					{#each project.keywords as keyword}
 						<div
 							class="cursor-default m-1 inline-block rounded-full bg-neutral-600 text-white px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
@@ -40,14 +40,14 @@
 				</div>
 			{/if}
 			{#if project.url}
-				<a class="flex max-w-max" href={project.url}
+				<a class="flex max-w-max mt-2" href={project.url}
 					><svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						stroke-width="3"
+						stroke-width="4"
 						stroke="currentColor"
-						class="w-4 md:w-5 mr-1.5"
+						class="w-3 md:w-4 mt-1 mr-1.5 md:mr-2"
 					>
 						<path
 							stroke-linecap="round"
@@ -58,7 +58,7 @@
 					{project.url}</a
 				>
 			{/if}
-			<div class="w-full h-14" />
+			<div class="w-full h-16" />
 			<Divider />
 		</div>
 	{/each}
@@ -66,7 +66,6 @@
 
 <style>
 	.stroke {
-		font-family: 'Jost Variable', sans-serif;
 		font-weight: 700;
 		-webkit-text-fill-color: rgba(0, 0, 0, 0);
 		-webkit-text-stroke-width: 1.2px;
