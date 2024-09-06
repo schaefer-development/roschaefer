@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.0/schema.json",
 	"basics": {
 		"name": "Robert Schäfer",
 		"label": "Full Stack Developer",
@@ -7,6 +7,8 @@
 		"email": "hello@roschaefer.de",
 		"url": "https://roschaefer.de/",
 		"summary": "At the moment a digital nomad, I work 100% remotely as a freelancer. Since my studies in 2009 I am involved in computer science and started 2012 as a full stack developer. In the past few years I enjoyed being a speaker, volunteered as a mentor and taught full stack development at university. At work, knowledge transfer is particularly important to me, i.e. pair programming, code reviews, helpful commit messages and tech talks. I value software quality and spend 70% of my time writing software tests or code reviews. In addition to that I'm an advocate of free and open-source software.",
+    "location": {
+    },
 		"profiles": [
 			{
 				"network": "LinkedIn",
@@ -194,7 +196,7 @@
 			"keywords": [
 				"Tailwind CSS",
 				"Storybook",
-				"Vue.js",
+				"Vue",
 				"Nuxt",
 				"Svelte",
 				"Stimulus",
@@ -275,7 +277,8 @@
 	"references": [],
 	"projects": [
 		{
-			"name": "auteon",
+			"name": "beteon",
+      "entity": "auteon",
 			"roles": ["Full Stack Developer"],
 			"startDate": "2021-06-30",
 			"endDate": "2023-09-01",
@@ -297,16 +300,17 @@
 			"url": "https://www.auteon.com"
 		},
 		{
-			"name": "tactile.news",
+			"name": "100eyes",
+      "entity": "tactile.news",
 			"roles": ["Full Stack Developer"],
-			"startDate": "2020-03-31",
-			"endDate": "2021-12-31",
+			"startDate": "2020-03-30",
 			"keywords": ["Ruby on Rails", "Stimulus", "Docker", "Ansible", "Traefik"],
 			"description": "Crowdsourced journalism tool [100eyes](https://github.com/tactilenews/100eyes) connecting WhatsApp, Telegram, Threema, Signal and E-Mail as communication channels.",
 			"url": "https://tactile.news/"
 		},
 		{
-			"name": "Hochschule für Technik und Wirtschaft Berlin",
+			"entity": "Hochschule für Technik und Wirtschaft Berlin",
+      "name": "Systems-Development and Framework",
 			"roles": ["University Lecturer"],
 			"startDate": "2019-10-31",
 			"endDate": "2021-03-31",
@@ -324,16 +328,57 @@
 				"Kubernetes"
 			],
 			"description": "[Design and hold weekly lectures and seminars](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs) with about 40 participants about fullstack development. Group tasks are submitted via pull requests on Github and reviewed by other teams and teaching staff.",
-			"url": "https://www.htw-berlin.de/",
+			"url": "https://youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs&si=XsL142uxD8b1zQSl",
 			"location": "Berlin, Germany"
 		},
 		{
+			"name": "Rhenania Computer",
+      "entity": "Johannes Schäfer",
+			"roles": ["Backend Developer"],
+			"startDate": "2021-12-09",
+			"endDate": "2023-06-28",
+			"keywords": ["Svelte", "SvelteKit", "HyGraph", "Node", "Netlify"],
+			"description": "",
+			"url": "https://rhenania-computer.de/de"
+		},
+		{
+			"name": "Ferienwohnung - Am Meer Norderneys",
+      "entity": "Johannes Schäfer",
+			"roles": ["Backend Developer"],
+			"startDate": "2022-01-28",
+			"endDate": "2022-08-09",
+			"keywords": ["Svelte", "SvelteKit", "Tailwind CSS"],
+			"description": "",
+			"url": "https://am-meer-norderney.de/"
+		},
+		{
+			"name": "Tanzimpulse - Institut für Tanzpädagogik",
+      "entity": "Johannes Schäfer",
+			"roles": ["Backend Developer"],
+			"startDate": "2021-05-12",
+			"endDate": "2022-12-10",
+			"keywords": ["Svelte", "SvelteKit", "Tailwind CSS"],
+			"description": "",
+			"url": "https://tanzimpulse.de/"
+		},
+		{
+			"name": "Werkhof Ichen",
+      "entity": "Johannes Schäfer",
+			"roles": ["Backend Developer"],
+			"startDate": "2020-08-11",
+			"endDate": "2023-05-02",
+			"keywords": ["Vue", "Nuxt", "HyGraph"],
+			"description": "",
+			"url": "https://werkhof-ichen.de/"
+		},
+		{
 			"name": "Human Connection",
+      "entity": "Human Connection gGmbH",
 			"roles": ["Technical Lead"],
 			"startDate": "2018-11-30",
 			"endDate": "2020-04-30",
 			"keywords": [
-				"Vue.js",
+				"Vue",
 				"Vue Test Utils",
 				"Storybook",
 				"Nuxt",
@@ -347,7 +392,7 @@
 			"description": "[Donation-based, free and open-source social network](https://github.com/Human-Connection/Human-Connection/graphs/contributors) for active citizenship. Development continues as [Ocelot-Social](https://github.com/Ocelot-Social-Community/Ocelot-Social)."
 		},
 		{
-			"name": "tactile.news",
+			"entity": "tactile.news",
 			"roles": ["Full Stack Developer"],
 			"startDate": "2019-03-31",
 			"endDate": "2019-05-31",
@@ -355,7 +400,7 @@
 			"description": "Automate journalism and generate a live report of bee hives based on their sensory data. Built with Ruby on Rails.\nWon German Reporter Award 2019, Nominated for Grimme Online Award 2020."
 		},
 		{
-			"name": "Rundfunk mitbestimmen",
+			"entity": "Rundfunk mitbestimmen",
 			"roles": ["Founder"],
 			"startDate": "2016-08-31",
 			"endDate": "2019-03-31",
@@ -364,7 +409,7 @@
 			"location": "Berlin"
 		},
 		{
-			"name": "MIZ Babelsberg",
+			"entity": "MIZ Babelsberg",
 			"roles": ["Programming Mentor"],
 			"startDate": "2015-09-30",
 			"endDate": "2018-11-30",
@@ -374,7 +419,7 @@
 			"location": "Potsdam, Brandenburg, Germany"
 		},
 		{
-			"name": "MIZ Babelsberg",
+			"entity": "MIZ Babelsberg",
 			"roles": ["Hackathon Coach"],
 			"startDate": "2016-09-30",
 			"endDate": "2016-09-30",
@@ -384,7 +429,7 @@
 			"location": "Potsdam, Brandenburg, Germany"
 		},
 		{
-			"name": "MIZ Babelsberg",
+			"entity": "MIZ Babelsberg",
 			"roles": ["Hackathon Coach"],
 			"startDate": "2016-08-31",
 			"endDate": "2016-08-31",
@@ -394,7 +439,7 @@
 			"location": "Potsdam, Brandenburg, Germany"
 		},
 		{
-			"name": "MIZ Babelsberg",
+			"entity": "MIZ Babelsberg",
 			"roles": ["Hackathon Coach"],
 			"startDate": "2015-08-31",
 			"endDate": "2015-08-31",
@@ -403,7 +448,7 @@
 			"url": "https://www.linkedin.com/company/miz-babelsberg/"
 		},
 		{
-			"name": "Solutiance",
+			"entity": "Solutiance AG",
 			"roles": ["Back End Developer"],
 			"startDate": "2018-04-30",
 			"endDate": "2018-06-30",
@@ -412,7 +457,7 @@
 			"url": "https://www.linkedin.com/company/solutiance/"
 		},
 		{
-			"name": "tactile.news",
+			"entity": "tactile.news",
 			"roles": ["IoT Developer"],
 			"startDate": "2018-01-31",
 			"endDate": "2018-01-31",
@@ -421,7 +466,7 @@
 			"location": "Lunenburg, Lower Saxony, Germany"
 		},
 		{
-			"name": "tactile.news",
+			"entity": "tactile.news",
 			"roles": ["Full Stack Developer"],
 			"startDate": "2016-05-31",
 			"endDate": "2017-10-31",
@@ -429,7 +474,7 @@
 			"description": "Automate journalism and generate a live report of dairy cows based on their sensory data. Built with Ruby on Rails.\nNominated for German Reporter Award 2017"
 		},
 		{
-			"name": "tactile.news",
+			"entity": "tactile.news",
 			"roles": ["IoT Developer"],
 			"startDate": "2017-06-30",
 			"endDate": "2017-06-30",
@@ -437,7 +482,7 @@
 			"description": "Rapid prototype of a smart shopping cart. Built with a Raspberry Pi, EmberJS, Python and WebSockets."
 		},
 		{
-			"name": "SAP",
+			"entity": "SAP",
 			"roles": ["Research Internship"],
 			"startDate": "2013-10-31",
 			"endDate": "2013-11-30",
@@ -446,7 +491,7 @@
 			"location": "Belfast, United Kingdom"
 		},
 		{
-			"name": "OXON AG",
+			"entity": "OXON AG",
 			"roles": ["Full Stack Developer"],
 			"startDate": "2013-04-01",
 			"endDate": "2013-09-30",
@@ -456,7 +501,7 @@
 			"location": "Bern, Switzerland"
 		},
 		{
-			"name": "Hasso Plattner Institute",
+			"entity": "Hasso Plattner Institute",
 			"roles": ["Student Assistant"],
 			"startDate": "2012-01-31",
 			"endDate": "2012-08-31",
