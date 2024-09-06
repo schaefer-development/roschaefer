@@ -23,7 +23,7 @@
 			<p class="mb-6">
 				{project.startDate} — {project.endDate}
 			</p>
-			<h3 class="font-bold text-white">{project.entity}</h3>
+			<h3 class="font-bold text-white">{project.name || project.entity}</h3>
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 			<p class="pt-1">{@html marked(project.description)}</p>
 			{#if project.keywords.length > 0}

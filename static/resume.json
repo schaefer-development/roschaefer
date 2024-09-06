@@ -215,13 +215,13 @@
       "name": "Frontend",
       "level": "",
       "keywords": [
-        "Tailwind CSS",
+        "Tailwind",
         "Storybook",
         "Vue",
         "Nuxt",
         "Svelte",
         "Stimulus",
-        "Ember.js",
+        "Ember",
         "Apollo Client",
         "D3",
         "Highcharts"
@@ -349,7 +349,7 @@
         "TypeScript",
         "Node",
         "Vue",
-        "Tailwind CSS",
+        "Tailwind",
         "Jest",
         "Testing-Library",
         "Auth0",
@@ -364,7 +364,7 @@
     },
     {
       "name": "100eyes",
-      "entity": "tactile.news",
+      "entity": "tactile.news GmbH",
       "roles": [
         "Full Stack Developer"
       ],
@@ -393,7 +393,7 @@
         "Promises",
         "Automated Software Testing",
         "CI/CD",
-        "Tailwind CSS",
+        "Tailwind",
         "SPA Frameworks",
         "CSR/SSR Rendering",
         "GraphQL",
@@ -434,7 +434,8 @@
       "keywords": [
         "Svelte",
         "SvelteKit",
-        "Tailwind CSS"
+        "Tailwind",
+        "Google Calendar API"
       ],
       "description": "",
       "url": "https://am-meer-norderney.de/"
@@ -450,7 +451,7 @@
       "keywords": [
         "Svelte",
         "SvelteKit",
-        "Tailwind CSS"
+        "Tailwind"
       ],
       "description": "",
       "url": "https://tanzimpulse.de/"
@@ -494,7 +495,7 @@
       "description": "[Donation-based, free and open-source social network](https://github.com/Human-Connection/Human-Connection/graphs/contributors) for active citizenship. Development continues as [Ocelot-Social](https://github.com/Ocelot-Social-Community/Ocelot-Social)."
     },
     {
-      "entity": "tactile.news",
+      "entity": "tactile.news GmbH",
       "roles": [
         "Full Stack Developer"
       ],
@@ -511,9 +512,9 @@
       "startDate": "2016-08-31",
       "endDate": "2019-03-31",
       "keywords": [
-        "Ember.js",
+        "Ember",
         "Ruby on Rails",
-        "Ember.js",
+        "Ember",
         "D3",
         "Highcharts",
         "Uberspace"
@@ -575,12 +576,13 @@
       ],
       "startDate": "2018-04-30",
       "endDate": "2018-06-30",
-      "keywords": [],
-      "description": "Custom CMS development using PHP and Docker with a focus on search engine optimization.",
-      "url": "https://www.linkedin.com/company/solutiance/"
+      "keywords": ["Wordpress", "PHP", "Docker"],
+      "description": "Custom CMS development with a focus on search engine optimization.",
+      "url": "https://solutiance.com/"
     },
     {
-      "entity": "tactile.news",
+      "entity": "tactile.news GmbH",
+      "name": "sMirror",
       "roles": [
         "IoT Developer"
       ],
@@ -591,7 +593,8 @@
       "location": "Lunenburg, Lower Saxony, Germany"
     },
     {
-      "entity": "tactile.news",
+      "entity": "tactile.news GmbH",
+      "name": "Superkühe",
       "roles": [
         "Full Stack Developer"
       ],
@@ -601,7 +604,7 @@
       "description": "Automate journalism and generate a live report of dairy cows based on their sensory data."
     },
     {
-      "entity": "tactile.news",
+      "entity": "tactile.news GmbH",
       "roles": [
         "IoT Developer"
       ],
