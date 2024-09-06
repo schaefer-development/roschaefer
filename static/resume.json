@@ -6,7 +6,8 @@
     "image": "https://avatars.githubusercontent.com/u/2110676",
     "email": "hello@roschaefer.de",
     "url": "https://roschaefer.de/",
-    "summary": "At the moment a digital nomad, I work 100% remotely as a freelancer. Since my studies in 2009 I am involved in computer science and started 2012 as a full stack developer. In the past few years I enjoyed being a speaker, volunteered as a mentor and taught full stack development at university. At work, knowledge transfer is particularly important to me, i.e. pair programming, code reviews, helpful commit messages and tech talks. I value software quality and spend 70% of my time writing software tests or code reviews. In addition to that I'm an advocate of free and open-source software.",
+    "phone": "https://signal.me/#eu/tCnLbbxqMMr49CvnfrdWEpc57STq2EpAtFEvfrM9c4fZwrnAwgdE0ZS163oz2PH6",
+    "summary": "I'm a digital nomad, working remotely as a freelance full stack developer. I'm passionate about free and open-source software and love sharing knowledge through pair programming and tech talks. At work I prioritize software quality, spending most of my time writing software tests and reviewing code.",
     "location": {},
     "profiles": [
       {
@@ -192,17 +193,19 @@
   ],
   "skills": [
     {
-      "name": "Computer Languages",
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
         "TypeScript",
         "JavaScript",
-        "HTML",
-        "CSS",
         "Ruby",
         "Python",
-        "Gherkin",
         "Java",
+        "Rust",
+        "Go",
+        "HTML",
+        "CSS",
+        "Gherkin",
         "SQL",
         "R",
         "LaTeX"
@@ -310,7 +313,7 @@
       "name": "Modern Compiled Languages",
       "keywords": [
         "Rust",
-        "Golang"
+        "Go"
       ]
     },
     {
@@ -414,7 +417,8 @@
         "SvelteKit",
         "HyGraph",
         "Node",
-        "Netlify"
+        "Netlify",
+        "Serverless"
       ],
       "description": "",
       "url": "https://rhenania-computer.de/de"
@@ -496,8 +500,8 @@
       ],
       "startDate": "2019-03-31",
       "endDate": "2019-05-31",
-      "keywords": [],
-      "description": "Automate journalism and generate a live report of bee hives based on their sensory data. Built with Ruby on Rails.\nWon German Reporter Award 2019, Nominated for Grimme Online Award 2020."
+      "keywords": ["Ruby on Rails"],
+      "description": "Automate journalism and generate a live report of bee hives based on their sensory data."
     },
     {
       "entity": "Rundfunk mitbestimmen",
@@ -582,8 +586,8 @@
       ],
       "startDate": "2018-01-31",
       "endDate": "2018-01-31",
-      "keywords": [],
-      "description": "Rapid prototype of a smart bathroom mirror and cabinet. Built with several Raspberry PI Zeros and Arduinos, plain HTML/JavaScript and MQTT.",
+      "keywords": ["Arduino", "Raspberry Pi", "HTML", "JavaScript", "MQTT"],
+      "description": "Rapid prototype of a smart bathroom mirror and cabinet.",
       "location": "Lunenburg, Lower Saxony, Germany"
     },
     {
@@ -593,8 +597,8 @@
       ],
       "startDate": "2016-05-31",
       "endDate": "2017-10-31",
-      "keywords": [],
-      "description": "Automate journalism and generate a live report of dairy cows based on their sensory data. Built with Ruby on Rails.\nNominated for German Reporter Award 2017"
+      "keywords": ["Ruby on Rails"],
+      "description": "Automate journalism and generate a live report of dairy cows based on their sensory data."
     },
     {
       "entity": "tactile.news",
@@ -603,8 +607,8 @@
       ],
       "startDate": "2017-06-30",
       "endDate": "2017-06-30",
-      "keywords": [],
-      "description": "Rapid prototype of a smart shopping cart. Built with a Raspberry Pi, EmberJS, Python and WebSockets."
+      "keywords": ["Ember", "Python", "Arduino", "Raspberry Pi"],
+      "description": "Rapid prototype of a smart shopping cart."
     },
     {
       "entity": "SAP",
