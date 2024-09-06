@@ -1,10 +1,8 @@
 <script lang="ts">
-	import type { PageData } from './$types';
+  import { page } from '$app/stores';
 
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
-
-	export let data: PageData;
 </script>
 
 <svelte:head>
@@ -17,7 +15,7 @@
 		My<br /><span class="text-primary">Speaker experience</span>
 	</h1>
 	<Divider />
-	{#each data.publications as publication, index}
+	{#each $page.data.resume.publications as publication, index}
 		<div class="pt-14">
 			<p class="stroke text-9xl tracking-tighter">{index + 1}</p>
 			<p class="mb-6">
