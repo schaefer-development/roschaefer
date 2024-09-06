@@ -2,8 +2,8 @@
 	import type { LayoutData } from './$types';
 
 	import { page } from '$app/stores';
-	import Header from './Header.svelte';
-	import Footer from './Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 	import '../app.css';
 
