@@ -1,518 +1,658 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.0/schema.json",
-	"basics": {
-		"name": "Robert Schäfer",
-		"label": "Full Stack Developer",
-		"image": "https://avatars.githubusercontent.com/u/2110676",
-		"email": "hello@roschaefer.de",
-		"url": "https://roschaefer.de/",
-		"summary": "At the moment a digital nomad, I work 100% remotely as a freelancer. Since my studies in 2009 I am involved in computer science and started 2012 as a full stack developer. In the past few years I enjoyed being a speaker, volunteered as a mentor and taught full stack development at university. At work, knowledge transfer is particularly important to me, i.e. pair programming, code reviews, helpful commit messages and tech talks. I value software quality and spend 70% of my time writing software tests or code reviews. In addition to that I'm an advocate of free and open-source software.",
-    "location": {
-    },
-		"profiles": [
-			{
-				"network": "LinkedIn",
-				"username": "Robert Schäfer",
-				"url": "https://www.linkedin.com/in/robert-schäfer-788b8615b/"
-			},
-			{
-				"id": "11444f76-fbdb-4461-8f30-54bfbcf452df",
-				"url": "https://github.com/roschaefer",
-				"network": "Github",
-				"username": "roschaefer"
-			},
-			{
-				"id": "19f445bb-b77e-4a45-9be3-15d905a99e6e",
-				"url": "https://www.youtube.com/channel/UCyrLYmvmLzWxnPHxt4n5aPw",
-				"network": "YouTube",
-				"username": "Robert Schäfer"
-			},
-			{
-				"id": "eefa7b2c-5246-41d1-a344-5ee600f55d92",
-				"url": "https://twitter.com/roschaeferDE",
-				"network": "Twitter",
-				"username": "roschaeferDE"
-			},
-			{
-				"id": "fcb53294-762d-4d77-881b-e379bf574407",
-				"url": "https://www.codementor.io/@roschaefer",
-				"network": "CodeMentor",
-				"username": "roschaefer"
-			}
-		]
-	},
-	"work": [],
-	"volunteer": [],
-	"education": [
-		{
-			"institution": "Hasso Plattner Institute",
-			"area": "IT-Systems Engineering",
-			"studyType": "Master of Science",
-			"startDate": "2014-10-01",
-			"endDate": "2018-03-31",
-			"score": "1.6",
-			"courses": []
-		},
-		{
-			"institution": "Hasso Plattner Institute",
-			"area": "IT-Systems Engineering",
-			"studyType": "Bachelor of Science",
-			"startDate": "2009-09-01",
-			"endDate": "2012-07-01",
-			"score": "1.7",
-			"courses": []
-		},
-		{
-			"institution": "Gymnasium Lohmar",
-			"area": "",
-			"studyType": "Abitur",
-			"startDate": "1999-12-31",
-			"endDate": "2008-12-31",
-			"score": "1.5",
-			"courses": []
-		}
-	],
-	"awards": [],
-	"certificates": [],
-	"publications": [
-		{
-			"name": "Vue.js Berlin Meetup",
-			"releaseDate": "2020-01-14",
-			"url": "https://youtu.be/p5iMjfVCXBY",
-			"summary": "Find open-source contributors in online learner communities"
-		},
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.2.0/schema.json",
+  "basics": {
+    "name": "Robert Schäfer",
+    "label": "Full Stack Developer",
+    "image": "https://avatars.githubusercontent.com/u/2110676",
+    "email": "hello@roschaefer.de",
+    "url": "https://roschaefer.de/",
+    "summary": "At the moment a digital nomad, I work 100% remotely as a freelancer. Since my studies in 2009 I am involved in computer science and started 2012 as a full stack developer. In the past few years I enjoyed being a speaker, volunteered as a mentor and taught full stack development at university. At work, knowledge transfer is particularly important to me, i.e. pair programming, code reviews, helpful commit messages and tech talks. I value software quality and spend 70% of my time writing software tests or code reviews. In addition to that I'm an advocate of free and open-source software.",
+    "location": {},
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Robert Schäfer",
+        "url": "https://www.linkedin.com/in/robert-schäfer-788b8615b/"
+      },
+      {
+        "id": "11444f76-fbdb-4461-8f30-54bfbcf452df",
+        "url": "https://github.com/roschaefer",
+        "network": "Github",
+        "username": "roschaefer"
+      },
+      {
+        "id": "19f445bb-b77e-4a45-9be3-15d905a99e6e",
+        "url": "https://www.youtube.com/channel/UCyrLYmvmLzWxnPHxt4n5aPw",
+        "network": "YouTube",
+        "username": "Robert Schäfer"
+      },
+      {
+        "id": "eefa7b2c-5246-41d1-a344-5ee600f55d92",
+        "url": "https://twitter.com/roschaeferDE",
+        "network": "Twitter",
+        "username": "roschaeferDE"
+      },
+      {
+        "id": "fcb53294-762d-4d77-881b-e379bf574407",
+        "url": "https://www.codementor.io/@roschaefer",
+        "network": "CodeMentor",
+        "username": "roschaefer"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
     {
-			"name": "Neo4J Online Meetup",
-			"releaseDate": "2019-06-20",
-			"url": "https://youtu.be/kGwGX6R70H4",
-			"summary": "Using Neo4J and GraphQL to build Human Connection"
+      "institution": "Hasso Plattner Institute",
+      "area": "IT-Systems Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2014-10-01",
+      "endDate": "2018-03-31",
+      "score": "1.6",
+      "courses": []
     },
     {
-			"name": "35C3 Congress",
-			"releaseDate": "2018-12-30",
-			"url": "https://media.ccc.de/v/35c3-9568-lightning_talks_day_4#t=1146",
-			"summary": "Find open-source contributors in online learner communities"
+      "institution": "Hasso Plattner Institute",
+      "area": "IT-Systems Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2009-09-01",
+      "endDate": "2012-07-01",
+      "score": "1.7",
+      "courses": []
     },
     {
-			"name": "35C3 Congress",
-			"releaseDate": "2018-12-29",
-			"url": "https://media.ccc.de/v/35c3-9567-lightning_talks_day_3#t=5180",
-			"summary": "Human Connection - free and open source social network"
-    },
-    {
-			"name": "Gesellschaft für Informatik",
-			"releaseDate": "2018-05-04",
-			"url": "https://youtu.be/fzTmJBo4R5A",
-			"summary": "Informatikradar #1 - \"Rundfunk Mitbestimmen\""
-    },
-    {
-			"name": "Ember.js Meetup Berlin",
-			"releaseDate": "2018-01-19",
-			"url": "https://www.youtube.com/watch?v=oWNqLev23AQ&list=PL1CiawkXA01NeLHG2QNHmtACrb_brDodm",
-			"summary": "Story-Trolley: Ember meets IoT - How to use Ember to build a smart shopping cart."
-    },
-    {
-			"name": "34C3 Congress",
-			"releaseDate": "2017-12-30",
-			"url": "https://media.ccc.de/v/34c3-9258-lightning_talks_day_4#t=1355",
-			"summary": "Lightning Talk: Rundfunk mitbestimmen"
-    },
-    {
-			"name": "University Meetup Group \"Bremer Gesellschaft\"",
-			"releaseDate": "2017-12-19",
-			"url": "https://www.facebook.com/events/732304050294246/",
-			"summary": "GEZ - scrap it or pay it?"
-    },
-    {
-			"name": "Codemotion Berlin 2017",
-			"releaseDate": "2017-10-12",
-			"url": "https://berlin2017.codemotionworld.com/speaker/3623/",
-			"summary": "Coding In The Woods - Introduction to Coding with Rails."
-    },
-    {
-			"name": "Z2X Festival",
-			"releaseDate": "2017-09-04",
-			"url": "https://www.zeit.de/campus/2017-09/z2x-festival-zehn-beste-projekte/seite-2",
-			"summary": "How to enjoy paying for public broadcasting - Ask-me-anything session at the festival for young visionaries."
-    },
-    {
-			"name": "Nerd Nite Berlin #17",
-			"releaseDate": "2017-06-16",
-			"url": "https://www.youtube.com/watch?v=3BmdDEuW-ZA",
-			"summary": "Lightning Talk: Rundfunk mitbestimmen"
-    },
-    {
-			"name": "OpenTechSummit 2017",
-			"releaseDate": "2017-05-25",
-			"url": "https://www.youtube.com/watch?v=mr_9iNma0pI&list=PL1CiawkXA01PaCTnImLLqbrcbJmf7Xssv",
-			"summary": "Why do I have to pay and don't get a say? Democratize public broadcasting."
-    },
-    {
-			"name": "re:publica 2017 - Love Out Loud",
-			"releaseDate": "2017-05-09",
-			"url": "https://www.youtube.com/watch?v=GKKaVHjxJII&t=358s",
-			"summary": "MIZ Rapid Fire Pitch - SensorStory (Best Practices)"
-    },
-    {
-			"name": "Ember.js Meetup Berlin",
-			"releaseDate": "2017-03-10",
-			"url": "https://www.youtube.com/watch?v=xSukVhdX0DI&list=PL1CiawkXA01N8PRcrZ4UlFJRT8Bx9gDOp",
-			"summary": "\"Ember.js + Rails + Capybara = ♥️\" Full stack testing Ember and Rails with Capybara."
-    },
-    {
-			"name": "Swift Meetup Berlin",
-			"releaseDate": "2022-11-22",
-			"url": "https://youtu.be/8TyViNgmeSQ",
-			"summary": "Lightning Talk: Rundfunk mitbestimmen"
-    },
-    {
-			"name": "HPI Hack'n Tell",
-			"releaseDate": "2016-10-26",
-			"url": "https://youtu.be/JxnWeyYFwUw",
-			"summary": "Lightning Talk: Rundfunk mitbestimmen"
+      "institution": "Gymnasium Lohmar",
+      "area": "",
+      "studyType": "Abitur",
+      "startDate": "1999-12-31",
+      "endDate": "2008-12-31",
+      "score": "1.5",
+      "courses": []
     }
-	],
-	"skills": [
-		{
-			"name": "Computer Languages",
-			"level": "",
-			"keywords": [
-				"TypeScript",
-				"JavaScript",
-				"HTML",
-				"CSS",
-				"Ruby",
-				"Python",
-				"Gherkin",
-				"Java",
-				"SQL",
-				"R",
-				"LaTeX"
-			]
-		},
-		{
-			"name": "Frontend",
-			"level": "",
-			"keywords": [
-				"Tailwind CSS",
-				"Storybook",
-				"Vue",
-				"Nuxt",
-				"Svelte",
-				"Stimulus",
-				"Ember.js",
-				"Apollo Client",
-				"D3",
-				"Highcharts"
-			]
-		},
-		{
-			"name": "Backend",
-			"level": "",
-			"keywords": ["Apollo Server", "Nuxt", "SvelteKit", "Express", "Node.js", "Ruby on Rails"]
-		},
-		{
-			"name": "Testing",
-			"level": "",
-			"keywords": ["Jest", "Testing Library", "Vue Test Utils", "Cucumber", "Cypress", "RSpec"]
-		},
-		{
-			"name": "DevOps",
-			"keywords": ["Docker", "Kubernetes", "Traefik", "Serverless", "Ansible"]
-		},
-		{
-			"name": "Deployment",
-			"keywords": [
-				"Google Cloud Platform",
-				"Hasura",
-				"Netlify",
-				"Vercel",
-				"Hygraph",
-				"Digital Ocean",
-				"Github Actions",
-				"Uberspace"
-			]
-		},
-		{
-			"name": "Databases",
-			"keywords": ["PostgreSQL", "MariaDB", "MongoDB", "Neo4j"]
-		},
-		{
-			"name": "Workstation",
-			"keywords": ["♥️  Neovim", "git", "Arch Linux", "fish shell", "Sway"]
-		}
-	],
-	"languages": [
-		{
-			"language": "German",
-			"fluency": "Native Speaker"
-		},
-		{
-			"language": "English",
-			"fluency": "Business Fluent"
-		},
-		{
-			"language": "Spanish",
-			"fluency": "Fluent"
-		}
-	],
-	"interests": [
-		{
-			"name": "Modern Compiled Languages",
-			"keywords": ["Rust", "Golang"]
-		},
-		{
-			"name": "Cross-platform Development",
-			"keywords": ["React Native", "Flutter"]
-		},
-		{
-			"name": "Infrastructure as Code",
-			"keywords": ["Terraform"]
-		},
-		{
-			"name": "Modern Node.js Backends",
-			"keywords": ["NestJS"]
-		}
-	],
-	"references": [],
-	"projects": [
-		{
-			"name": "beteon",
+  ],
+  "awards": [
+    {
+      "title": "Grimme Online Award (nominated)",
+      "date": "2020-06-25",
+      "summary": "Category Knowledge and Education [#bienenlive – Folge den Königinnen](https://www.grimme-online-award.de/archiv/2020/nominierte/n/d/bienenlive-folge-den-koeniginnen)",
+      "awarder": "Grimme-Institut"
+    },
+    {
+      "title": "German Reporter Award 2019",
+      "date": "2019-12-02",
+      "summary": "Category Multimedia [Team \"Sensor&Reporter\" #bienenlive](https://de.wikipedia.org/wiki/Deutscher_Reporter:innenpreis#Deutscher_Reporterpreis_2019)",
+      "awarder": "Reporter-Forum e. V."
+    },
+    {
+      "title": "German Reporter Award 2017 (nominated)",
+      "date": "2019-12-11",
+      "summary": "Category Multimedia [Team \"Superkühe\"](https://archiv.reporter-forum.de/index.php%3Fid=231.html#c2904)",
+      "awarder": "Reporter-Forum e. V."
+    }
+  ],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "Vue.js Berlin Meetup",
+      "releaseDate": "2020-01-14",
+      "url": "https://youtu.be/p5iMjfVCXBY",
+      "summary": "Find open-source contributors in online learner communities"
+    },
+    {
+      "name": "Neo4J Online Meetup",
+      "releaseDate": "2019-06-20",
+      "url": "https://youtu.be/kGwGX6R70H4",
+      "summary": "Using Neo4J and GraphQL to build Human Connection"
+    },
+    {
+      "name": "35C3 Congress",
+      "releaseDate": "2018-12-30",
+      "url": "https://media.ccc.de/v/35c3-9568-lightning_talks_day_4#t=1146",
+      "summary": "Find open-source contributors in online learner communities"
+    },
+    {
+      "name": "35C3 Congress",
+      "releaseDate": "2018-12-29",
+      "url": "https://media.ccc.de/v/35c3-9567-lightning_talks_day_3#t=5180",
+      "summary": "Human Connection - free and open source social network"
+    },
+    {
+      "name": "Gesellschaft für Informatik",
+      "releaseDate": "2018-05-04",
+      "url": "https://youtu.be/fzTmJBo4R5A",
+      "summary": "Informatikradar #1 - \"Rundfunk Mitbestimmen\""
+    },
+    {
+      "name": "Ember.js Meetup Berlin",
+      "releaseDate": "2018-01-19",
+      "url": "https://www.youtube.com/watch?v=oWNqLev23AQ&list=PL1CiawkXA01NeLHG2QNHmtACrb_brDodm",
+      "summary": "Story-Trolley: Ember meets IoT - How to use Ember to build a smart shopping cart."
+    },
+    {
+      "name": "34C3 Congress",
+      "releaseDate": "2017-12-30",
+      "url": "https://media.ccc.de/v/34c3-9258-lightning_talks_day_4#t=1355",
+      "summary": "Lightning Talk: Rundfunk mitbestimmen"
+    },
+    {
+      "name": "University Meetup Group \"Bremer Gesellschaft\"",
+      "releaseDate": "2017-12-19",
+      "url": "https://www.facebook.com/events/732304050294246/",
+      "summary": "GEZ - scrap it or pay it?"
+    },
+    {
+      "name": "Codemotion Berlin 2017",
+      "releaseDate": "2017-10-12",
+      "url": "https://berlin2017.codemotionworld.com/speaker/3623/",
+      "summary": "Coding In The Woods - Introduction to Coding with Rails."
+    },
+    {
+      "name": "Z2X Festival",
+      "releaseDate": "2017-09-04",
+      "url": "https://www.zeit.de/campus/2017-09/z2x-festival-zehn-beste-projekte/seite-2",
+      "summary": "How to enjoy paying for public broadcasting - Ask-me-anything session at the festival for young visionaries."
+    },
+    {
+      "name": "Nerd Nite Berlin #17",
+      "releaseDate": "2017-06-16",
+      "url": "https://www.youtube.com/watch?v=3BmdDEuW-ZA",
+      "summary": "Lightning Talk: Rundfunk mitbestimmen"
+    },
+    {
+      "name": "OpenTechSummit 2017",
+      "releaseDate": "2017-05-25",
+      "url": "https://www.youtube.com/watch?v=mr_9iNma0pI&list=PL1CiawkXA01PaCTnImLLqbrcbJmf7Xssv",
+      "summary": "Why do I have to pay and don't get a say? Democratize public broadcasting."
+    },
+    {
+      "name": "re:publica 2017 - Love Out Loud",
+      "releaseDate": "2017-05-09",
+      "url": "https://www.youtube.com/watch?v=GKKaVHjxJII&t=358s",
+      "summary": "MIZ Rapid Fire Pitch - SensorStory (Best Practices)"
+    },
+    {
+      "name": "Ember.js Meetup Berlin",
+      "releaseDate": "2017-03-10",
+      "url": "https://www.youtube.com/watch?v=xSukVhdX0DI&list=PL1CiawkXA01N8PRcrZ4UlFJRT8Bx9gDOp",
+      "summary": "\"Ember.js + Rails + Capybara = ♥️\" Full stack testing Ember and Rails with Capybara."
+    },
+    {
+      "name": "Swift Meetup Berlin",
+      "releaseDate": "2022-11-22",
+      "url": "https://youtu.be/8TyViNgmeSQ",
+      "summary": "Lightning Talk: Rundfunk mitbestimmen"
+    },
+    {
+      "name": "HPI Hack'n Tell",
+      "releaseDate": "2016-10-26",
+      "url": "https://youtu.be/JxnWeyYFwUw",
+      "summary": "Lightning Talk: Rundfunk mitbestimmen"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Computer Languages",
+      "level": "",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Ruby",
+        "Python",
+        "Gherkin",
+        "Java",
+        "SQL",
+        "R",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "",
+      "keywords": [
+        "Tailwind CSS",
+        "Storybook",
+        "Vue",
+        "Nuxt",
+        "Svelte",
+        "Stimulus",
+        "Ember.js",
+        "Apollo Client",
+        "D3",
+        "Highcharts"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "",
+      "keywords": [
+        "Apollo Server",
+        "Nuxt",
+        "SvelteKit",
+        "Express",
+        "Node.js",
+        "Ruby on Rails"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "",
+      "keywords": [
+        "Jest",
+        "Testing Library",
+        "Vue Test Utils",
+        "Cucumber",
+        "Cypress",
+        "RSpec"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Traefik",
+        "Serverless",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Deployment",
+      "keywords": [
+        "Google Cloud Platform",
+        "Hasura",
+        "Netlify",
+        "Vercel",
+        "Hygraph",
+        "Digital Ocean",
+        "Github Actions",
+        "Uberspace"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "PostgreSQL",
+        "MariaDB",
+        "MongoDB",
+        "Neo4j"
+      ]
+    },
+    {
+      "name": "Workstation",
+      "keywords": [
+        "♥️  Neovim",
+        "git",
+        "Arch Linux",
+        "fish shell",
+        "Sway"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Business Fluent"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Modern Compiled Languages",
+      "keywords": [
+        "Rust",
+        "Golang"
+      ]
+    },
+    {
+      "name": "Cross-platform Development",
+      "keywords": [
+        "Flutter"
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "keywords": [
+        "Terraform"
+      ]
+    },
+    {
+      "name": "Modern Node.js Backends",
+      "keywords": [
+        "NestJS"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "beteon",
       "entity": "auteon",
-			"roles": ["Full Stack Developer"],
-			"startDate": "2021-06-30",
-			"endDate": "2023-09-01",
-			"keywords": [
-				"TypeScript",
-				"Node",
-				"Vue",
-				"Tailwind CSS",
-				"Jest",
-				"Testing-Library",
-				"Auth0",
-				"Apollo GraphQL",
-				"Hasura",
-				"Terraform",
-				"Google Cloud Platform",
-				"Vercel"
-			],
-			"description": "Meta search-engine to enable competition in the automotive aftermarket. Full-Stack development.",
-			"url": "https://www.auteon.com"
-		},
-		{
-			"name": "100eyes",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "startDate": "2021-06-30",
+      "endDate": "2023-09-01",
+      "keywords": [
+        "TypeScript",
+        "Node",
+        "Vue",
+        "Tailwind CSS",
+        "Jest",
+        "Testing-Library",
+        "Auth0",
+        "Apollo GraphQL",
+        "Hasura",
+        "Terraform",
+        "Google Cloud Platform",
+        "Vercel"
+      ],
+      "description": "Meta search-engine to enable competition in the automotive aftermarket. Full-Stack development.",
+      "url": "https://www.auteon.com"
+    },
+    {
+      "name": "100eyes",
       "entity": "tactile.news",
-			"roles": ["Full Stack Developer"],
-			"startDate": "2020-03-30",
-			"keywords": ["Ruby on Rails", "Stimulus", "Docker", "Ansible", "Traefik"],
-			"description": "Crowdsourced journalism tool [100eyes](https://github.com/tactilenews/100eyes) connecting WhatsApp, Telegram, Threema, Signal and E-Mail as communication channels.",
-			"url": "https://tactile.news/"
-		},
-		{
-			"entity": "Hochschule für Technik und Wirtschaft Berlin",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "startDate": "2020-03-30",
+      "keywords": [
+        "Ruby on Rails",
+        "Stimulus",
+        "Docker",
+        "Ansible",
+        "Traefik"
+      ],
+      "description": "Crowdsourced journalism tool [100eyes](https://github.com/tactilenews/100eyes) connecting WhatsApp, Telegram, Threema, Signal and E-Mail as communication channels.",
+      "url": "https://tactile.news/"
+    },
+    {
+      "entity": "Hochschule für Technik und Wirtschaft Berlin",
       "name": "Systems-Development and Framework",
-			"roles": ["University Lecturer"],
-			"startDate": "2019-10-31",
-			"endDate": "2021-03-31",
-			"keywords": [
-				"Advanced Git",
-				"Functional Programming",
-				"Promises",
-				"Automated Software Testing",
-				"CI/CD",
-				"Tailwind CSS",
-				"SPA Frameworks",
-				"CSR/SSR Rendering",
-				"GraphQL",
-				"Graph Databases",
-				"Kubernetes"
-			],
-			"description": "[Design and hold weekly lectures and seminars](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs) with about 40 participants about fullstack development. Group tasks are submitted via pull requests on Github and reviewed by other teams and teaching staff.",
-			"url": "https://youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs&si=XsL142uxD8b1zQSl",
-			"location": "Berlin, Germany"
-		},
-		{
-			"name": "Rhenania Computer",
+      "roles": [
+        "University Lecturer"
+      ],
+      "startDate": "2019-10-31",
+      "endDate": "2021-03-31",
+      "keywords": [
+        "Advanced Git",
+        "Functional Programming",
+        "Promises",
+        "Automated Software Testing",
+        "CI/CD",
+        "Tailwind CSS",
+        "SPA Frameworks",
+        "CSR/SSR Rendering",
+        "GraphQL",
+        "Graph Databases",
+        "Kubernetes"
+      ],
+      "description": "[Design and hold weekly lectures and seminars](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs) with about 40 participants about fullstack development. Group tasks are submitted via pull requests on Github and reviewed by other teams and teaching staff.",
+      "url": "https://youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs&si=XsL142uxD8b1zQSl",
+      "location": "Berlin, Germany"
+    },
+    {
+      "name": "Rhenania Computer",
       "entity": "Johannes Schäfer",
-			"roles": ["Backend Developer"],
-			"startDate": "2021-12-09",
-			"endDate": "2023-06-28",
-			"keywords": ["Svelte", "SvelteKit", "HyGraph", "Node", "Netlify"],
-			"description": "",
-			"url": "https://rhenania-computer.de/de"
-		},
-		{
-			"name": "Ferienwohnung - Am Meer Norderneys",
+      "roles": [
+        "Backend Developer"
+      ],
+      "startDate": "2021-12-09",
+      "endDate": "2023-06-28",
+      "keywords": [
+        "Svelte",
+        "SvelteKit",
+        "HyGraph",
+        "Node",
+        "Netlify"
+      ],
+      "description": "",
+      "url": "https://rhenania-computer.de/de"
+    },
+    {
+      "name": "Ferienwohnung - Am Meer Norderneys",
       "entity": "Johannes Schäfer",
-			"roles": ["Backend Developer"],
-			"startDate": "2022-01-28",
-			"endDate": "2022-08-09",
-			"keywords": ["Svelte", "SvelteKit", "Tailwind CSS"],
-			"description": "",
-			"url": "https://am-meer-norderney.de/"
-		},
-		{
-			"name": "Tanzimpulse - Institut für Tanzpädagogik",
+      "roles": [
+        "Backend Developer"
+      ],
+      "startDate": "2022-01-28",
+      "endDate": "2022-08-09",
+      "keywords": [
+        "Svelte",
+        "SvelteKit",
+        "Tailwind CSS"
+      ],
+      "description": "",
+      "url": "https://am-meer-norderney.de/"
+    },
+    {
+      "name": "Tanzimpulse - Institut für Tanzpädagogik",
       "entity": "Johannes Schäfer",
-			"roles": ["Backend Developer"],
-			"startDate": "2021-05-12",
-			"endDate": "2022-12-10",
-			"keywords": ["Svelte", "SvelteKit", "Tailwind CSS"],
-			"description": "",
-			"url": "https://tanzimpulse.de/"
-		},
-		{
-			"name": "Werkhof Ichen",
+      "roles": [
+        "Backend Developer"
+      ],
+      "startDate": "2021-05-12",
+      "endDate": "2022-12-10",
+      "keywords": [
+        "Svelte",
+        "SvelteKit",
+        "Tailwind CSS"
+      ],
+      "description": "",
+      "url": "https://tanzimpulse.de/"
+    },
+    {
+      "name": "Werkhof Ichen",
       "entity": "Johannes Schäfer",
-			"roles": ["Backend Developer"],
-			"startDate": "2020-08-11",
-			"endDate": "2023-05-02",
-			"keywords": ["Vue", "Nuxt", "HyGraph"],
-			"description": "",
-			"url": "https://werkhof-ichen.de/"
-		},
-		{
-			"name": "Human Connection",
+      "roles": [
+        "Backend Developer"
+      ],
+      "startDate": "2020-08-11",
+      "endDate": "2023-05-02",
+      "keywords": [
+        "Vue",
+        "Nuxt",
+        "HyGraph"
+      ],
+      "description": "",
+      "url": "https://werkhof-ichen.de/"
+    },
+    {
+      "name": "Human Connection",
       "entity": "Human Connection gGmbH",
-			"roles": ["Technical Lead"],
-			"startDate": "2018-11-30",
-			"endDate": "2020-04-30",
-			"keywords": [
-				"Vue",
-				"Vue Test Utils",
-				"Storybook",
-				"Nuxt",
-				"Cypress",
-				"Apollo GraphQL",
-				"Node.js",
-				"Neo4j",
-				"Docker",
-				"Kubernetes"
-			],
-			"description": "[Donation-based, free and open-source social network](https://github.com/Human-Connection/Human-Connection/graphs/contributors) for active citizenship. Development continues as [Ocelot-Social](https://github.com/Ocelot-Social-Community/Ocelot-Social)."
-		},
-		{
-			"entity": "tactile.news",
-			"roles": ["Full Stack Developer"],
-			"startDate": "2019-03-31",
-			"endDate": "2019-05-31",
-			"keywords": [],
-			"description": "Automate journalism and generate a live report of bee hives based on their sensory data. Built with Ruby on Rails.\nWon German Reporter Award 2019, Nominated for Grimme Online Award 2020."
-		},
-		{
-			"entity": "Rundfunk mitbestimmen",
-			"roles": ["Founder"],
-			"startDate": "2016-08-31",
-			"endDate": "2019-03-31",
-			"keywords": ["Ember.js", "Ruby on Rails", "Ember.js", "D3", "Highcharts", "Uberspace"],
-			"description": "Prototype a tool to encourage public participation in the expenditure German broadcasting fees.",
-			"location": "Berlin"
-		},
-		{
-			"entity": "MIZ Babelsberg",
-			"roles": ["Programming Mentor"],
-			"startDate": "2015-09-30",
-			"endDate": "2018-11-30",
-			"keywords": [],
-			"description": "Coach a beginner friendly programming course to encourage diversity in tech.",
-			"url": "https://www.linkedin.com/company/miz-babelsberg/",
-			"location": "Potsdam, Brandenburg, Germany"
-		},
-		{
-			"entity": "MIZ Babelsberg",
-			"roles": ["Hackathon Coach"],
-			"startDate": "2016-09-30",
-			"endDate": "2016-09-30",
-			"keywords": [],
-			"description": "Prototype an interactive, decision-based podcast.",
-			"url": "https://www.linkedin.com/company/miz-babelsberg/",
-			"location": "Potsdam, Brandenburg, Germany"
-		},
-		{
-			"entity": "MIZ Babelsberg",
-			"roles": ["Hackathon Coach"],
-			"startDate": "2016-08-31",
-			"endDate": "2016-08-31",
-			"keywords": [],
-			"description": "Prototype a location aware music player.",
-			"url": "https://www.linkedin.com/company/miz-babelsberg/",
-			"location": "Potsdam, Brandenburg, Germany"
-		},
-		{
-			"entity": "MIZ Babelsberg",
-			"roles": ["Hackathon Coach"],
-			"startDate": "2015-08-31",
-			"endDate": "2015-08-31",
-			"keywords": [],
-			"description": "#ursuppe - IoT app for automated journalism based on scientific experiments. Winner of MIZ Formatfestival 2015.",
-			"url": "https://www.linkedin.com/company/miz-babelsberg/"
-		},
-		{
-			"entity": "Solutiance AG",
-			"roles": ["Back End Developer"],
-			"startDate": "2018-04-30",
-			"endDate": "2018-06-30",
-			"keywords": [],
-			"description": "Custom CMS development using PHP and Docker with a focus on search engine optimization.",
-			"url": "https://www.linkedin.com/company/solutiance/"
-		},
-		{
-			"entity": "tactile.news",
-			"roles": ["IoT Developer"],
-			"startDate": "2018-01-31",
-			"endDate": "2018-01-31",
-			"keywords": [],
-			"description": "Rapid prototype of a smart bathroom mirror and cabinet. Built with several Raspberry PI Zeros and Arduinos, plain HTML/JavaScript and MQTT.",
-			"location": "Lunenburg, Lower Saxony, Germany"
-		},
-		{
-			"entity": "tactile.news",
-			"roles": ["Full Stack Developer"],
-			"startDate": "2016-05-31",
-			"endDate": "2017-10-31",
-			"keywords": [],
-			"description": "Automate journalism and generate a live report of dairy cows based on their sensory data. Built with Ruby on Rails.\nNominated for German Reporter Award 2017"
-		},
-		{
-			"entity": "tactile.news",
-			"roles": ["IoT Developer"],
-			"startDate": "2017-06-30",
-			"endDate": "2017-06-30",
-			"keywords": [],
-			"description": "Rapid prototype of a smart shopping cart. Built with a Raspberry Pi, EmberJS, Python and WebSockets."
-		},
-		{
-			"entity": "SAP",
-			"roles": ["Research Internship"],
-			"startDate": "2013-10-31",
-			"endDate": "2013-11-30",
-			"keywords": ["Java"],
-			"description": "Tool development for automated risk analysis in supply chains. Legacy code.",
-			"location": "Belfast, United Kingdom"
-		},
-		{
-			"entity": "OXON AG",
-			"roles": ["Full Stack Developer"],
-			"startDate": "2013-04-01",
-			"endDate": "2013-09-30",
-			"keywords": ["Ruby on Rails", "RSpec", "Cucumber", "PostgreSQL"],
-			"description": "Develop a web application for officials, referees and coaches. First developer who established an automated test environment.",
-			"url": "https://www.linkedin.com/company/oxon-ag/",
-			"location": "Bern, Switzerland"
-		},
-		{
-			"entity": "Hasso Plattner Institute",
-			"roles": ["Student Assistant"],
-			"startDate": "2012-01-31",
-			"endDate": "2012-08-31",
-			"keywords": ["SAP HANA"],
-			"description": "Implementation of a business process and web application as specified by SAP as a use case for the HANA in-memory database.",
-			"url": "https://www.linkedin.com/school/hasso-plattner-institute/"
-		}
-	],
-	"meta": {
-		"theme": "jsonresume-theme-universal",
-		"version": "v1.0.0",
-		"canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-	}
+      "roles": [
+        "Technical Lead"
+      ],
+      "startDate": "2018-11-30",
+      "endDate": "2020-04-30",
+      "keywords": [
+        "Vue",
+        "Vue Test Utils",
+        "Storybook",
+        "Nuxt",
+        "Cypress",
+        "Apollo GraphQL",
+        "Node.js",
+        "Neo4j",
+        "Docker",
+        "Kubernetes"
+      ],
+      "description": "[Donation-based, free and open-source social network](https://github.com/Human-Connection/Human-Connection/graphs/contributors) for active citizenship. Development continues as [Ocelot-Social](https://github.com/Ocelot-Social-Community/Ocelot-Social)."
+    },
+    {
+      "entity": "tactile.news",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "startDate": "2019-03-31",
+      "endDate": "2019-05-31",
+      "keywords": [],
+      "description": "Automate journalism and generate a live report of bee hives based on their sensory data. Built with Ruby on Rails.\nWon German Reporter Award 2019, Nominated for Grimme Online Award 2020."
+    },
+    {
+      "entity": "Rundfunk mitbestimmen",
+      "roles": [
+        "Founder"
+      ],
+      "startDate": "2016-08-31",
+      "endDate": "2019-03-31",
+      "keywords": [
+        "Ember.js",
+        "Ruby on Rails",
+        "Ember.js",
+        "D3",
+        "Highcharts",
+        "Uberspace"
+      ],
+      "description": "Prototype a tool to encourage public participation in the expenditure German broadcasting fees.",
+      "location": "Berlin"
+    },
+    {
+      "entity": "MIZ Babelsberg",
+      "roles": [
+        "Programming Mentor"
+      ],
+      "startDate": "2015-09-30",
+      "endDate": "2018-11-30",
+      "keywords": [],
+      "description": "Coach a beginner friendly programming course to encourage diversity in tech.",
+      "url": "https://www.linkedin.com/company/miz-babelsberg/",
+      "location": "Potsdam, Brandenburg, Germany"
+    },
+    {
+      "entity": "MIZ Babelsberg",
+      "roles": [
+        "Hackathon Coach"
+      ],
+      "startDate": "2016-09-30",
+      "endDate": "2016-09-30",
+      "keywords": [],
+      "description": "Prototype an interactive, decision-based podcast.",
+      "url": "https://www.linkedin.com/company/miz-babelsberg/",
+      "location": "Potsdam, Brandenburg, Germany"
+    },
+    {
+      "entity": "MIZ Babelsberg",
+      "roles": [
+        "Hackathon Coach"
+      ],
+      "startDate": "2016-08-31",
+      "endDate": "2016-08-31",
+      "keywords": [],
+      "description": "Prototype a location aware music player.",
+      "url": "https://www.linkedin.com/company/miz-babelsberg/",
+      "location": "Potsdam, Brandenburg, Germany"
+    },
+    {
+      "entity": "MIZ Babelsberg",
+      "roles": [
+        "Hackathon Coach"
+      ],
+      "startDate": "2015-08-31",
+      "endDate": "2015-08-31",
+      "keywords": [],
+      "description": "#ursuppe - IoT app for automated journalism based on scientific experiments. Winner of MIZ Formatfestival 2015.",
+      "url": "https://www.linkedin.com/company/miz-babelsberg/"
+    },
+    {
+      "entity": "Solutiance AG",
+      "roles": [
+        "Back End Developer"
+      ],
+      "startDate": "2018-04-30",
+      "endDate": "2018-06-30",
+      "keywords": [],
+      "description": "Custom CMS development using PHP and Docker with a focus on search engine optimization.",
+      "url": "https://www.linkedin.com/company/solutiance/"
+    },
+    {
+      "entity": "tactile.news",
+      "roles": [
+        "IoT Developer"
+      ],
+      "startDate": "2018-01-31",
+      "endDate": "2018-01-31",
+      "keywords": [],
+      "description": "Rapid prototype of a smart bathroom mirror and cabinet. Built with several Raspberry PI Zeros and Arduinos, plain HTML/JavaScript and MQTT.",
+      "location": "Lunenburg, Lower Saxony, Germany"
+    },
+    {
+      "entity": "tactile.news",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "startDate": "2016-05-31",
+      "endDate": "2017-10-31",
+      "keywords": [],
+      "description": "Automate journalism and generate a live report of dairy cows based on their sensory data. Built with Ruby on Rails.\nNominated for German Reporter Award 2017"
+    },
+    {
+      "entity": "tactile.news",
+      "roles": [
+        "IoT Developer"
+      ],
+      "startDate": "2017-06-30",
+      "endDate": "2017-06-30",
+      "keywords": [],
+      "description": "Rapid prototype of a smart shopping cart. Built with a Raspberry Pi, EmberJS, Python and WebSockets."
+    },
+    {
+      "entity": "SAP",
+      "roles": [
+        "Research Internship"
+      ],
+      "startDate": "2013-10-31",
+      "endDate": "2013-11-30",
+      "keywords": [
+        "Java"
+      ],
+      "description": "Tool development for automated risk analysis in supply chains. Legacy code.",
+      "location": "Belfast, United Kingdom"
+    },
+    {
+      "entity": "OXON AG",
+      "roles": [
+        "Full Stack Developer"
+      ],
+      "startDate": "2013-04-01",
+      "endDate": "2013-09-30",
+      "keywords": [
+        "Ruby on Rails",
+        "RSpec",
+        "Cucumber",
+        "PostgreSQL"
+      ],
+      "description": "Develop a web application for officials, referees and coaches. First developer who established an automated test environment.",
+      "url": "https://www.linkedin.com/company/oxon-ag/",
+      "location": "Bern, Switzerland"
+    },
+    {
+      "entity": "Hasso Plattner Institute",
+      "roles": [
+        "Student Assistant"
+      ],
+      "startDate": "2012-01-31",
+      "endDate": "2012-08-31",
+      "keywords": [
+        "SAP HANA"
+      ],
+      "description": "Implementation of a business process and web application as specified by SAP as a use case for the HANA in-memory database.",
+      "url": "https://www.linkedin.com/school/hasso-plattner-institute/"
+    }
+  ],
+  "meta": {
+    "theme": "jsonresume-theme-universal",
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }
