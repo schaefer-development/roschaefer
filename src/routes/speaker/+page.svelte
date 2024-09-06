@@ -3,6 +3,13 @@
 
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
+	import Embed from '$lib/components/Embed.svelte';
+
+  const youtubeId = (givenUrl: string | undefined) => {
+    if (!givenUrl) { return undefined }
+    const url = new URL(givenUrl)
+    return url.searchParams.get('v')
+  }
 </script>
 
 <svelte:head>
@@ -16,7 +23,7 @@
 	<Divider />
 	{#each $page.data.resume.publications as publication, index}
 		<div class="pt-14">
-			<p class="stroke text-9xl tracking-tighter">{index + 1}</p>
+      <Embed url={publication.url}></Embed>
 			<p class="mb-6">
 				{publication.releaseDate}
 			</p>
@@ -39,7 +46,7 @@
 							d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
 						/>
 					</svg>
-					{publication.url}</a
+					{new URL(publication.url).hostname}</a
 				>
 			{/if}
 			<div class="w-full h-16" />

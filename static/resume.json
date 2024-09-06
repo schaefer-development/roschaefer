@@ -103,19 +103,19 @@
     {
       "name": "Vue.js Berlin Meetup",
       "releaseDate": "2020-01-14",
-      "url": "https://youtu.be/p5iMjfVCXBY",
+      "url": "https://www.youtube.com/watch?v=p5iMjfVCXBY",
       "summary": "Find open-source contributors in online learner communities"
     },
     {
       "name": "Neo4J Online Meetup",
       "releaseDate": "2019-06-20",
-      "url": "https://youtu.be/kGwGX6R70H4",
+      "url": "https://www.youtube.com/watch?v=kGwGX6R70H4",
       "summary": "Using Neo4J and GraphQL to build Human Connection"
     },
     {
       "name": "35C3 Congress",
       "releaseDate": "2018-12-30",
-      "url": "https://media.ccc.de/v/35c3-9568-lightning_talks_day_4#t=1146",
+      "url": "https://media.ccc.de/v/35c3-9568-lightning_talks_day_4#t=1147",
       "summary": "Find open-source contributors in online learner communities"
     },
     {
@@ -127,7 +127,7 @@
     {
       "name": "Gesellschaft für Informatik",
       "releaseDate": "2018-05-04",
-      "url": "https://youtu.be/fzTmJBo4R5A",
+      "url": "https://www.youtube.com/watch?v=fzTmJBo4R5A",
       "summary": "Informatikradar #1 - \"Rundfunk Mitbestimmen\""
     },
     {
@@ -139,7 +139,7 @@
     {
       "name": "34C3 Congress",
       "releaseDate": "2017-12-30",
-      "url": "https://media.ccc.de/v/34c3-9258-lightning_talks_day_4#t=1355",
+      "url": "https://media.ccc.de/v/34c3-9258-lightning_talks_day_4#t=1352",
       "summary": "Lightning Talk: Rundfunk mitbestimmen"
     },
     {
@@ -186,14 +186,14 @@
     },
     {
       "name": "Swift Meetup Berlin",
-      "releaseDate": "2022-11-22",
-      "url": "https://youtu.be/8TyViNgmeSQ",
+      "releaseDate": "2016-11-14",
+      "url": "https://www.youtube.com/watch?v=8TyViNgmeSQ",
       "summary": "Lightning Talk: Rundfunk mitbestimmen"
     },
     {
       "name": "HPI Hack'n Tell",
       "releaseDate": "2016-10-26",
-      "url": "https://youtu.be/JxnWeyYFwUw",
+      "url": "https://www.youtube.com/watch?v=JxnWeyYFwUw",
       "summary": "Lightning Talk: Rundfunk mitbestimmen"
     }
   ],
