@@ -3,6 +3,7 @@
 
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
+	import Embed from '$lib/components/Embed.svelte';
 	import Link from '$lib/components/Link.svelte';
 </script>
 
@@ -15,9 +16,9 @@
 		My<br /><span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
-	{#each $page.data.resume.projects as project, index}
+	{#each $page.data.resume.projects as project}
 		<div class="pt-14">
-			<p class="stroke text-9xl tracking-tighter">{index + 1}</p>
+			<Embed url={project.url}></Embed>
 			<h2 class="decoratefont mt-4">
 				{project.roles}
 			</h2>
@@ -31,7 +32,7 @@
 				<div class="py-6">
 					{#each project.keywords as keyword}
 						<div
-							class="cursor-default m-1 inline-block rounded-full bg-neutral-600 text-white px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-neutral-700 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
+							class="cursor-default m-1 inline-block rounded-full bg-neutral-600 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
 						>
 							{keyword}
 						</div>
@@ -44,13 +45,3 @@
 		</div>
 	{/each}
 </section>
-
-<style>
-	.stroke {
-		font-weight: 700;
-		-webkit-text-fill-color: rgba(0, 0, 0, 0);
-		-webkit-text-stroke-width: 1.2px;
-		-webkit-text-stroke-color: rgba(184, 192, 204, 0.8);
-		/* #9ca3af */
-	}
-</style>
