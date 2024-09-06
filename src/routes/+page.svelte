@@ -16,7 +16,10 @@
 		<h3 class="text-white">Hi, I'm {basics.name}</h3>
 	</div>
 	<h1 class="font-medium text-white mb-12">
-		Software<br /><span class="text-primary">Developer</span>
+		{basics.label.split(' ').slice(0, -1).join(' ')}
+		<br /><span class="text-primary">
+			{basics.label.split(' ').slice(-1).join(' ')}
+		</span>
 	</h1>
 	<Divider />
 	<p class="py-10">
