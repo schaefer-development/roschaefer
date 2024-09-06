@@ -11,6 +11,10 @@
 	export let data: LayoutData;
 </script>
 
+<svelte:head>
+	<meta name="description" content="Website of {$page.data.resume.basics.name}" />
+</svelte:head>
+
 <div id="page" class="app relative flex flex-col justify-between">
 	<Header />
 	<PageTransition url={$page.url}>

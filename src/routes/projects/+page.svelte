@@ -7,7 +7,6 @@
 
 <svelte:head>
 	<title>Projects</title>
-	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section class="pb-24">
