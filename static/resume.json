@@ -90,6 +90,11 @@
       "date": "2019-12-11",
       "summary": "Category Multimedia [Team \"Superkühe\"](https://archiv.reporter-forum.de/index.php%3Fid=231.html#c2904)",
       "awarder": "Reporter-Forum e. V."
+    },
+    {
+      "title": "Winner of MIZ Formatfestival 2015",
+      "date": "2015-11-12",
+      "awarder": "MIZ Babelsberg"
     }
   ],
   "certificates": [],
@@ -519,8 +524,7 @@
         "Highcharts",
         "Uberspace"
       ],
-      "description": "Prototype a tool to encourage public participation in the expenditure German broadcasting fees.",
-      "location": "Berlin"
+      "description": "Prototype a tool to encourage public participation in the expenditure German broadcasting fees."
     },
     {
       "entity": "MIZ Babelsberg",
@@ -531,7 +535,7 @@
       "endDate": "2018-11-30",
       "keywords": [],
       "description": "Coach a beginner friendly programming course to encourage diversity in tech.",
-      "url": "https://www.linkedin.com/company/miz-babelsberg/",
+      "url": "https://www.miz-babelsberg.de/startseite.html",
       "location": "Potsdam, Brandenburg, Germany"
     },
     {
@@ -543,7 +547,7 @@
       "endDate": "2016-09-30",
       "keywords": [],
       "description": "Prototype an interactive, decision-based podcast.",
-      "url": "https://www.linkedin.com/company/miz-babelsberg/",
+      "url": "https://www.miz-babelsberg.de/startseite.html",
       "location": "Potsdam, Brandenburg, Germany"
     },
     {
@@ -555,7 +559,7 @@
       "endDate": "2016-08-31",
       "keywords": [],
       "description": "Prototype a location aware music player.",
-      "url": "https://www.linkedin.com/company/miz-babelsberg/",
+      "url": "https://www.miz-babelsberg.de/startseite.html",
       "location": "Potsdam, Brandenburg, Germany"
     },
     {
@@ -567,7 +571,7 @@
       "endDate": "2015-08-31",
       "keywords": [],
       "description": "#ursuppe - IoT app for automated journalism based on scientific experiments. Winner of MIZ Formatfestival 2015.",
-      "url": "https://www.linkedin.com/company/miz-babelsberg/"
+      "url": "https://www.miz-babelsberg.de/startseite.html"
     },
     {
       "entity": "Solutiance AG",
@@ -628,6 +632,7 @@
     },
     {
       "entity": "OXON AG",
+      "name": "Clubcorner",
       "roles": [
         "Full Stack Developer"
       ],
@@ -640,7 +645,7 @@
         "PostgreSQL"
       ],
       "description": "Develop a web application for officials, referees and coaches. First developer who established an automated test environment.",
-      "url": "https://www.linkedin.com/company/oxon-ag/",
+      "url": "https://clubcorner.ch/",
       "location": "Bern, Switzerland"
     },
     {
@@ -654,7 +659,7 @@
         "SAP HANA"
       ],
       "description": "Implementation of a business process and web application as specified by SAP as a use case for the HANA in-memory database.",
-      "url": "https://www.linkedin.com/school/hasso-plattner-institute/"
+      "url": "https://hpi.de/"
     }
   ],
   "meta": {
