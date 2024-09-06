@@ -17,7 +17,7 @@
 		My<br /><span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
-	{#each data.resume.projects as project, index}
+	{#each data.projects as project, index}
 		<div class="pt-14">
 			<p class="stroke text-9xl tracking-tighter">{index + 1}</p>
 			<h2 class="decoratefont mt-4">

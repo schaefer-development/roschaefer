@@ -1,10 +1,10 @@
 import type { PageServerLoad } from './$types';
 import resume from '../../../static/resume.json';
 
-const { projects } = resume;
+const { publications } = resume;
 
 export const load = (() => {
 	return {
-		projects
+		publications
 	};
 }) satisfies PageServerLoad;
