@@ -116,25 +116,25 @@
       "name": "35C3 Congress",
       "releaseDate": "2018-12-30",
       "url": "https://media.ccc.de/v/35c3-9568-lightning_talks_day_4#t=1147",
-      "summary": "Find open-source contributors in online learner communities"
+      "summary": "Lightning-Talk: Find open-source contributors in online learner communities"
     },
     {
       "name": "35C3 Congress",
       "releaseDate": "2018-12-29",
       "url": "https://media.ccc.de/v/35c3-9567-lightning_talks_day_3#t=5180",
-      "summary": "Human Connection - free and open source social network"
+      "summary": "Lightning-Talk: Human Connection"
     },
     {
       "name": "Gesellschaft für Informatik",
       "releaseDate": "2018-05-04",
       "url": "https://www.youtube.com/watch?v=fzTmJBo4R5A",
-      "summary": "Informatikradar #1 - \"Rundfunk Mitbestimmen\""
+      "summary": "Informatikradar #1"
     },
     {
       "name": "Ember.js Meetup Berlin",
       "releaseDate": "2018-01-19",
       "url": "https://www.youtube.com/watch?v=oWNqLev23AQ&list=PL1CiawkXA01NeLHG2QNHmtACrb_brDodm",
-      "summary": "Story-Trolley: Ember meets IoT - How to use Ember to build a smart shopping cart."
+      "summary": "Story-Trolley: Ember meets the IoT<br/> How to use Ember to build a smart shopping cart."
     },
     {
       "name": "34C3 Congress",
@@ -152,13 +152,13 @@
       "name": "Codemotion Berlin 2017",
       "releaseDate": "2017-10-12",
       "url": "https://berlin2017.codemotionworld.com/speaker/3623/",
-      "summary": "Coding In The Woods - Introduction to Coding with Rails."
+      "summary": "Coding In The Woods<br/> Introduction to Coding with Rails."
     },
     {
       "name": "Z2X Festival",
       "releaseDate": "2017-09-04",
       "url": "https://www.zeit.de/campus/2017-09/z2x-festival-zehn-beste-projekte/seite-2",
-      "summary": "How to enjoy paying for public broadcasting - Ask-me-anything session at the festival for young visionaries."
+      "summary": "How to enjoy paying for public broadcasting<br/> Ask-me-anything session at the festival for young visionaries."
     },
     {
       "name": "Nerd Nite Berlin #17",
@@ -170,19 +170,19 @@
       "name": "OpenTechSummit 2017",
       "releaseDate": "2017-05-25",
       "url": "https://www.youtube.com/watch?v=mr_9iNma0pI&list=PL1CiawkXA01PaCTnImLLqbrcbJmf7Xssv",
-      "summary": "Why do I have to pay and don't get a say? Democratize public broadcasting."
+      "summary": "Why do I have to pay and don't get a say?<br/> Democratize public broadcasting."
     },
     {
       "name": "re:publica 2017 - Love Out Loud",
       "releaseDate": "2017-05-09",
       "url": "https://www.youtube.com/watch?v=GKKaVHjxJII&t=358s",
-      "summary": "MIZ Rapid Fire Pitch - SensorStory (Best Practices)"
+      "summary": "MIZ Rapid Fire Pitch<br/> SensorStory (Best Practices)"
     },
     {
       "name": "Ember.js Meetup Berlin",
       "releaseDate": "2017-03-10",
       "url": "https://www.youtube.com/watch?v=xSukVhdX0DI&list=PL1CiawkXA01N8PRcrZ4UlFJRT8Bx9gDOp",
-      "summary": "\"Ember.js + Rails + Capybara = ♥️\" Full stack testing Ember and Rails with Capybara."
+      "summary": "Ember.js + Rails + Capybara = ♥️<br/> Full stack testing Ember and Rails with Capybara."
     },
     {
       "name": "Swift Meetup Berlin",
@@ -508,7 +508,9 @@
       ],
       "startDate": "2019-03-31",
       "endDate": "2019-05-31",
-      "keywords": ["Ruby on Rails"],
+      "keywords": [
+        "Ruby on Rails"
+      ],
       "description": "Automate journalism and generate a live report of bee hives based on their sensory data."
     },
     {
@@ -564,7 +566,11 @@
       ],
       "startDate": "2018-04-30",
       "endDate": "2018-06-30",
-      "keywords": ["Wordpress", "PHP", "Docker"],
+      "keywords": [
+        "Wordpress",
+        "PHP",
+        "Docker"
+      ],
       "description": "Custom CMS development with a focus on search engine optimization.",
       "url": "https://solutiance.com/"
     },
@@ -576,7 +582,13 @@
       ],
       "startDate": "2018-01-31",
       "endDate": "2018-01-31",
-      "keywords": ["Arduino", "Raspberry Pi", "HTML", "JavaScript", "MQTT"],
+      "keywords": [
+        "Arduino",
+        "Raspberry Pi",
+        "HTML",
+        "JavaScript",
+        "MQTT"
+      ],
       "description": "Rapid prototype of a smart bathroom mirror and cabinet.",
       "location": "Lunenburg, Lower Saxony, Germany"
     },
@@ -588,7 +600,9 @@
       ],
       "startDate": "2016-05-31",
       "endDate": "2017-10-31",
-      "keywords": ["Ruby on Rails"],
+      "keywords": [
+        "Ruby on Rails"
+      ],
       "description": "Automate journalism and generate a live report of dairy cows based on their sensory data."
     },
     {
@@ -598,7 +612,12 @@
       ],
       "startDate": "2017-06-30",
       "endDate": "2017-06-30",
-      "keywords": ["Ember", "Python", "Arduino", "Raspberry Pi"],
+      "keywords": [
+        "Ember",
+        "Python",
+        "Arduino",
+        "Raspberry Pi"
+      ],
       "description": "Rapid prototype of a smart shopping cart."
     },
     {
