@@ -93,6 +93,7 @@
     },
     {
       "title": "Winner of MIZ Formatfestival 2015",
+      "summary": "[#ursuppe](https://www.mabb.de/uber-die-mabb/aktuelles/veranstaltungen-details/miz-formatfestival-2015-preisverleihung-im-miz-babelsberg)",
       "date": "2015-11-12",
       "awarder": "MIZ Babelsberg"
     }
@@ -364,7 +365,7 @@
         "Google Cloud Platform",
         "Vercel"
       ],
-      "description": "Meta search-engine to enable competition in the automotive aftermarket. Full-Stack development.",
+      "description": "Meta search-engine to enable competition in the automotive aftermarket.",
       "url": "https://www.auteon.com"
     },
     {
@@ -501,6 +502,7 @@
     },
     {
       "entity": "tactile.news GmbH",
+      "name": "#bienenlive",
       "roles": [
         "Full Stack Developer"
       ],
@@ -510,7 +512,7 @@
       "description": "Automate journalism and generate a live report of bee hives based on their sensory data."
     },
     {
-      "entity": "Rundfunk mitbestimmen",
+      "name": "Rundfunk mitbestimmen",
       "roles": [
         "Founder"
       ],
@@ -543,35 +545,17 @@
       "roles": [
         "Hackathon Coach"
       ],
-      "startDate": "2016-09-30",
+      "startDate": "2015-08-31",
       "endDate": "2016-09-30",
       "keywords": [],
-      "description": "Prototype an interactive, decision-based podcast.",
+      "highlights": [
+        "An interactive, decision-based podcast.",
+        "A location aware music player.",
+        "#ursuppe - IoT app for automated journalism based on scientific experiments."
+      ],
+      "description": "",
       "url": "https://www.miz-babelsberg.de/startseite.html",
       "location": "Potsdam, Brandenburg, Germany"
-    },
-    {
-      "entity": "MIZ Babelsberg",
-      "roles": [
-        "Hackathon Coach"
-      ],
-      "startDate": "2016-08-31",
-      "endDate": "2016-08-31",
-      "keywords": [],
-      "description": "Prototype a location aware music player.",
-      "url": "https://www.miz-babelsberg.de/startseite.html",
-      "location": "Potsdam, Brandenburg, Germany"
-    },
-    {
-      "entity": "MIZ Babelsberg",
-      "roles": [
-        "Hackathon Coach"
-      ],
-      "startDate": "2015-08-31",
-      "endDate": "2015-08-31",
-      "keywords": [],
-      "description": "#ursuppe - IoT app for automated journalism based on scientific experiments. Winner of MIZ Formatfestival 2015.",
-      "url": "https://www.miz-babelsberg.de/startseite.html"
     },
     {
       "entity": "Solutiance AG",
