@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { LayoutData } from './$types';
+	import type { LayoutData } from './$types';
 
 	import { page } from '$app/stores';
 	import Header from './Header.svelte';
@@ -7,6 +7,7 @@
 	import PageTransition from '$lib/components/PageTransition.svelte';
 	import '../app.css';
 
+	// eslint-disable-next-line svelte/valid-compile
 	export let data: LayoutData;
 </script>
 

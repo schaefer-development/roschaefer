@@ -1,7 +1,8 @@
 <script lang="ts">
-	import Robert from '$lib/images/roschaefer.jpg';
+	import Avatar from '$lib/components/Avatar.svelte';
 	import Divider from '$lib/components/Divider.svelte';
 	import ProfileList from '$lib/components/ProfileList.svelte';
+	import EmailLink from '$lib/components/EmailLink.svelte';
 </script>
 
 <svelte:head>
@@ -17,20 +18,12 @@
 
 	<div class="flex gap-x-8 items-center flex-col md:flex-row">
 		<div class="w-full md:w-5/12">
-			<img
-				src={Robert}
-				width="400"
-				height="400"
-				class="w-24 md:w-48 aspect-ratio rounded-full my-12 md:my-24"
-				alt="Robert Schäfer"
-			/>
+			<Avatar classNames="w-24 md:w-48 aspect-ratio rounded-full my-12 md:my-24"></Avatar>
 		</div>
 		<div class="w-full md:w-57/12">
 			<div class="flex gap-y-2 flex-col">
 				<h3 class="text-primary uppercase tracking-widest mb-6">Robert Schäfer</h3>
-				<a class="text-white max-w-max pb-6" href="mailto:hello@roschaefer.de"
-					>hello@roschaefer.de</a
-				>
+				<EmailLink classNames="text-white max-w-max pb-6"></EmailLink>
 				<ProfileList></ProfileList>
 			</div>
 		</div>

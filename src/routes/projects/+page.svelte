@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { page } from '$app/stores';
+	import { page } from '$app/stores';
 
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';

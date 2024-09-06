@@ -1,31 +1,26 @@
-<script>
-	import Robert from '$lib/images/roschaefer.jpg';
+<script lang="ts">
+	import Avatar from '$lib/components/Avatar.svelte';
 	import Divider from '$lib/components/Divider.svelte';
+	import { page } from '$app/stores';
+	$: basics = $page.data.resume.basics;
 </script>
 
 <svelte:head>
 	<title>Start</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Website of {basics.name}" />
 </svelte:head>
 
 <section>
 	<div class="flex gap-6 items-center">
-		<img
-			src={Robert}
-			width="400"
-			height="400"
-			class="w-16 aspect-ratio rounded-full my-4"
-			alt="Robert Schäfer"
-		/>
-		<h3 class="text-white">Hi, I'm Robert</h3>
+		<Avatar classNames="w-16 aspect-ratio rounded-full my-4"></Avatar>
+		<h3 class="text-white">Hi, I'm {basics.name}</h3>
 	</div>
 	<h1 class="font-medium text-white mb-12">
 		Software<br /><span class="text-primary">Developer</span>
 	</h1>
 	<Divider />
 	<p class="py-10">
-		At the moment a digital nomad, I work 100% remotely as a freelancer. Since my studies in 2009 I
-		am involved in computer science and started 2012 as a full stack developer.
+		{basics.summary}
 	</p>
 	<div class="flex gap-8">
 		<a

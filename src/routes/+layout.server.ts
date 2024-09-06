@@ -3,6 +3,6 @@ import resume from '../../static/resume.json';
 
 export const load = (() => {
 	return {
-    resume
+		resume
 	};
-}) satisfies LayoutData
+}) satisfies LayoutData;
