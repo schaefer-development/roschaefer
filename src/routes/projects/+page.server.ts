@@ -1,5 +1,5 @@
 import type { PageServerLoad } from './$types';
-import resume from '../lebenslauf/resume.json';
+import resume from '../../../static/resume.json';
 
 export const load = (() => {
 	return {

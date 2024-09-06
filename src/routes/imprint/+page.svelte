@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/stores';
 	import Divider from '$lib/components/Divider.svelte';
 </script>
 
@@ -13,5 +12,5 @@
 		Imprint &<br /><span class="text-primary">Data Privacy</span>
 	</h1>
 	<Divider />
-	<p class="py-10">Lorem ipsum</p>
+	<p class="py-10"></p>
 </section>

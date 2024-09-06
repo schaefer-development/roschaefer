@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/stores';
 	import Robert from '$lib/images/roschaefer.jpg';
 	import Divider from '$lib/components/Divider.svelte';
 </script>
