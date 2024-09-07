@@ -236,7 +236,7 @@
 		{
 			"name": "Backend",
 			"level": "",
-			"keywords": ["Apollo Server", "Nuxt", "SvelteKit", "Express", "Node.js", "Ruby on Rails"]
+			"keywords": ["Apollo Server", "Nuxt", "SvelteKit", "Express", "Node", "Ruby on Rails"]
 		},
 		{
 			"name": "Testing",
@@ -342,17 +342,21 @@
 			"startDate": "2019-10-31",
 			"endDate": "2021-03-31",
 			"keywords": [
-				"Advanced Git",
+				"Git",
+        "Github",
+        "JavaScript",
+        "Node",
 				"Functional Programming",
 				"Promises",
-				"Automated Software Testing",
+				"Software Testing",
 				"CI/CD",
-				"Tailwind",
-				"SPA Frameworks",
-				"CSR/SSR Rendering",
-				"GraphQL",
-				"Graph Databases",
-				"Kubernetes"
+        "Vue",
+        "JWT",
+        "Apollo GraphQL",
+        "Neo4J",
+        "Nuxt",
+        "Vuetify",
+				"Tailwind"
 			],
 			"description": "[Design and hold weekly lectures and seminars](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs) with about 40 participants about fullstack development. Group tasks are submitted via pull requests on Github and reviewed by other teams and teaching staff.",
 			"url": "https://www.youtube.com/watch?v=-cuzwDjdowo&list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs",
@@ -411,7 +415,7 @@
 				"Nuxt",
 				"Cypress",
 				"Apollo GraphQL",
-				"Node.js",
+				"Node",
 				"Neo4j",
 				"Docker",
 				"Kubernetes"
