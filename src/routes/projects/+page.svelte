@@ -23,7 +23,7 @@
 				{project.roles}
 			</h2>
 			<p class="mb-6">
-				{project.startDate} — {project.endDate}
+				{project.startDate} — {project.endDate ?? 'now'}
 			</p>
 			<h3 class="font-bold text-white">{project.name || project.entity}</h3>
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
