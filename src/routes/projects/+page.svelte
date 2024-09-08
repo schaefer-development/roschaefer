@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { experiences } from '$lib/data/experiences';
 
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Projects</title>
+	<title>Experiences</title>
 </svelte:head>
 
 <section class="pb-24">
@@ -16,21 +16,21 @@
 		My<br /><span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
-	{#each $page.data.resume.projects as project}
+	{#each experiences as experience}
 		<div class="pt-14">
-			<Embed url={project.url}></Embed>
+			<Embed url={experience.url}></Embed>
 			<h2 class="decoratefont mt-4">
-				{project.roles}
+				{experience.roles}
 			</h2>
 			<p class="mb-6">
-				{project.startDate} — {project.endDate ?? 'now'}
+				{experience.startDate} — {experience.endDate ?? 'now'}
 			</p>
-			<h3 class="font-bold text-white">{project.name || project.entity}</h3>
+			<h3 class="font-bold text-white">{experience.name || experience.entity}</h3>
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-			<p class="pt-1">{@html marked(project.description)}</p>
-			{#if project.keywords.length > 0}
+			<p class="pt-1">{@html marked(experience.description)}</p>
+			{#if experience.keywords.length > 0}
 				<div class="py-6">
-					{#each project.keywords as keyword}
+					{#each experience.keywords as keyword}
 						<div
 							class="cursor-default m-1 inline-block rounded-full bg-neutral-600 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
 						>
@@ -39,7 +39,7 @@
 					{/each}
 				</div>
 			{/if}
-			<Link url={project.url}></Link>
+			<Link url={experience.url}></Link>
 			<div class="w-full h-16" />
 			<Divider />
 		</div>

@@ -1,18 +1,14 @@
 <script lang="ts">
-	import type { LayoutData } from './$types';
-
 	import { page } from '$app/stores';
+	import { basics } from '$lib/data/basics';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
 	import '../app.css';
-
-	// eslint-disable-next-line svelte/valid-compile
-	export let data: LayoutData;
 </script>
 
 <svelte:head>
-	<meta name="description" content="Website of {$page.data.resume.basics.name}" />
+	<meta name="description" content="Website of {basics.name}" />
 </svelte:head>
 
 <div id="page" class="app relative flex flex-col justify-between">

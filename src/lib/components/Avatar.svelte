@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	$: basics = $page.data.resume.basics;
+	import { basics } from '$lib/data/basics';
 	export let classNames = '';
 </script>
 
