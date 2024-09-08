@@ -121,7 +121,7 @@ export const experiences = [
 			'PostgreSQL',
 			'MariaDB'
 		],
-		description: 'Social media app for video conferencing.',
+		description: 'DreamMall is a free and open-source social media app for entrepreneurs. Our team is fully remote and includes members of all skill levels. We self-host a K3S Kubernetes cluster on Hetzner using Terraform, allowing each team member to deploy their git branches in a separate environment.',
 		url: 'https://dreammall.earth/',
 		type: 'freelancing'
 	},
