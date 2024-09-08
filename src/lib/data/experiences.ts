@@ -62,7 +62,7 @@ const work = [
 	},
 	{
 		entity: 'SAP',
-		roles: ['Research Internship'],
+		roles: ['Research Intern'],
 		startDate: '2013-10-31',
 		endDate: '2013-11-30',
 		keywords: ['Java'],
@@ -103,6 +103,28 @@ interface TimeEntry {
 }
 
 export const experiences = [
+	{
+		name: 'DreamMall',
+		entity: 'IT4C',
+		roles: ['Full Stack Developer'],
+		startDate: '2021-06-21',
+		keywords: [
+			'TypeScript',
+			'Node',
+			'Vue',
+			'Vuetify',
+			'Jest',
+			'Authentik',
+			'Apollo GraphQL',
+			'Terraform',
+			'Helm',
+			'Kubernetes',
+			'Hetzner'
+		],
+		description: 'Social media app for video conferencing.',
+		url: 'https://dreammall.earth/',
+		type: 'freelancing'
+	},
 	{
 		name: 'beteon',
 		entity: 'auteon',
