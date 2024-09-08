@@ -13,7 +13,7 @@
 
 <section class="pb-24">
 	<h1 class="font-medium text-white mb-12">
-		My<br /><span class="text-primary">Experience</span>
+		Project <span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
 	{#each experiences as experience}

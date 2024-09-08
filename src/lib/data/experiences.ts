@@ -111,6 +111,7 @@ export const experiences = [
 			'Docker',
 			'Node.js',
 			'Vue',
+      'Vike',
 			'Jest',
 			'Vuetify',
 			'Jest',
@@ -122,8 +123,7 @@ export const experiences = [
 			'Helmfile',
 			'Kubernetes',
 			'Hetzner',
-			'PostgreSQL',
-			'MariaDB'
+			'PostgreSQL'
 		],
 		description:
 			'DreamMall is a free and open-source social media app for entrepreneurs. Our team is fully remote and includes members of all skill levels. We self-host a K3S Kubernetes cluster on Hetzner using Terraform, allowing each team member to deploy their git branches in a separate environment.',
@@ -248,8 +248,8 @@ export const experiences = [
 		startDate: '2015-09-30',
 		endDate: '2018-11-30',
 		keywords: ['Ruby'],
-		description: 'Coach a beginner friendly programming course to encourage diversity in tech.',
-		url: 'https://www.miz-babelsberg.de/startseite.html',
+		description: 'Help a beginner friendly group to learn programming. Encourage diversity. Meetings every week.',
+		url: 'https://www.facebook.com/watch/?v=1342132595875337',
 		location: 'Potsdam, Brandenburg, Germany',
 		type: 'freelancing'
 	},

@@ -11,7 +11,7 @@
 
 <section class="pb-24">
 	<h1 class="font-medium text-white mb-12">
-		My<br /><span class="text-primary">Speaker experience</span>
+		Speaker<br /><span class="text-primary">experience</span>
 	</h1>
 	<Divider />
 	{#each talks as talk}
