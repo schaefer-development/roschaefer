@@ -36,7 +36,7 @@ const work = [
 			'Storybook',
 			'Cypress',
 			'Apollo GraphQL',
-			'Neo4j',
+			'Neo4J',
 			'Docker',
 			'Digital Ocean',
 			'Kubernetes'
@@ -81,12 +81,12 @@ const work = [
 		type: 'employment'
 	},
 	{
-		name: 'Evaluation of enterprise programming models for in-memory databases',
+		name: 'Enterprise programming models for in-memory databases',
 		entity: 'Hasso Plattner Institute',
 		roles: ['Researcher'],
 		startDate: '2012-01-31',
 		endDate: '2012-08-31',
-		keywords: ['SAP HANA'],
+		keywords: ['Java'],
 		description:
 			'Implementation of a business process and web application as specified by SAP as a use case for the HANA in-memory database.',
 		url: 'https://hpi.de/',
@@ -118,9 +118,7 @@ export const experiences = [
 			'Authentik',
 			'Apollo GraphQL',
 			'Terraform',
-			'SOPS',
 			'Helm',
-			'Helmfile',
 			'Kubernetes',
 			'Hetzner',
 			'PostgreSQL'
@@ -171,14 +169,9 @@ export const experiences = [
 			'Digital Ocean',
 			'Sentry',
 			'Postmark',
-			'Telegram API',
-			'Signal CLI',
-			'Threema API',
-			'Twilio',
-			'360dialog'
 		],
 		description:
-			'[100eyes](https://github.com/tactilenews/100eyes) is a dialogue software that allows journalists to interact with their readers. Feedback from readers can be incorporated into the reporting process. The software uses APIs from messaging apps like Telegram, Signal, Threema, and WhatsApp, as well as Postmark for emails.',
+			'[100eyes](https://github.com/tactilenews/100eyes) is a dialogue software that allows journalists to interact with their readers. Feedback from readers can be incorporated into the reporting process. The software uses APIs from the messaging apps Telegram, Signal, Threema and WhatsApp, as well as Postmark for emails.',
 		url: 'https://tactile.news/',
 		type: 'freelancing'
 	},
@@ -200,7 +193,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2022-01-28',
 		endDate: '2022-08-09',
-		keywords: ['TypeScript', 'Netlify', 'Svelte', 'SvelteKit', 'Tailwind', 'Google APIs'],
+		keywords: ['TypeScript', 'Netlify', 'Svelte', 'SvelteKit', 'Tailwind'],
 		description:
 			'A website for booking a holiday apartment on Norderney. Availability for each day is managed through a Google Calendar and the data is updated via Google APIs on the website.',
 		url: 'https://am-meer-norderney.de/',
@@ -286,10 +279,10 @@ export const experiences = [
 		name: 'sMirror',
 		entity: 'tactile.news GmbH',
 		roles: ['IoT Developer'],
-		startDate: '2018-01-31',
+		startDate: '2018-01-01',
 		endDate: '2018-01-31',
-		keywords: ['Arduino', 'Raspberry Pi', 'JavaScript', 'MQTT'],
-		description: 'Rapid prototype of a smart bathroom mirror and cabinet.',
+		keywords: ['Python', 'JavaScript', 'MQTT'],
+		description: 'Rapid prototype of a smart bathroom mirror and cabinet using Raspberry PIs and Arduinos.',
 		location: 'Lunenburg, Lower Saxony, Germany',
 		type: 'freelancing'
 	},
@@ -308,9 +301,9 @@ export const experiences = [
 		name: 'Story trolley',
 		entity: 'tactile.news GmbH',
 		roles: ['IoT Developer'],
-		startDate: '2017-06-30',
+		startDate: '2017-06-01',
 		endDate: '2017-06-30',
-		keywords: ['Node.js', 'Ember', 'Python', 'Arduino', 'Raspberry Pi'],
+		keywords: ['Node.js', 'Ember', 'Python'],
 		description: 'Rapid prototype of a smart shopping cart.',
 		url: 'https://www.facebook.com/PHASEXI/videos/746195418906331',
 		type: 'freelancing'
