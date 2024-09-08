@@ -6,16 +6,9 @@ const work = [
 		startDate: '2019-10-31',
 		endDate: '2021-03-31',
 		keywords: [
-			'Git',
-			'Github',
 			'JavaScript',
 			'Node',
-			'Functional Programming',
-			'Promises',
-			'Software Testing',
-			'CI/CD',
 			'Vue',
-			'JWT',
 			'Apollo GraphQL',
 			'Neo4J',
 			'Nuxt',
@@ -23,7 +16,7 @@ const work = [
 			'Tailwind'
 		],
 		description:
-			'[Design and hold weekly lectures and seminars](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs) with about 40 participants about fullstack development. Group tasks are submitted via pull requests on Github and reviewed by other teams and teaching staff.',
+			'Complete responsibility including grading for a lecture on full stack development in the Master of Applied Computer Science with 40 students. Topics cover e.g. functional programming, advanced git and test-driven development. Team submissions were [submitted on Github](https://github.com/systems-development-and-frameworks) and evaluated via code reviews. All lectures are [published on YouTube](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs).',
 		url: 'https://www.youtube.com/watch?v=-cuzwDjdowo&list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs',
 		location: 'Berlin, Germany',
 		type: 'teaching'
@@ -35,13 +28,15 @@ const work = [
 		startDate: '2018-11-30',
 		endDate: '2020-04-30',
 		keywords: [
+      'JavaScript',
+			'Jest',
+      'Node',
 			'Vue',
-			'Vue Test Utils',
+      'Nuxt',
+      'Node',
 			'Storybook',
-			'Nuxt',
 			'Cypress',
 			'Apollo GraphQL',
-			'Node',
 			'Neo4j',
 			'Docker',
 			'Kubernetes'
@@ -55,7 +50,7 @@ const work = [
 		roles: ['Founder'],
 		startDate: '2016-08-31',
 		endDate: '2019-03-31',
-		keywords: ['Ember', 'Ruby on Rails', 'Ember', 'D3', 'Highcharts', 'Uberspace'],
+		keywords: ['Ember', 'Ruby on Rails', 'Auth0', 'D3', 'Highcharts', 'Uberspace', 'PostgreSQL'],
 		description:
 			'Prototype a tool to encourage public participation in the expenditure German broadcasting fees.',
 		type: 'volunteering'
@@ -76,7 +71,7 @@ const work = [
 		roles: ['Full Stack Developer'],
 		startDate: '2013-04-01',
 		endDate: '2013-09-30',
-		keywords: ['Ruby on Rails', 'RSpec', 'Cucumber', 'PostgreSQL'],
+		keywords: ['Ruby', 'Ruby on Rails', 'RSpec', 'Cucumber', 'PostgreSQL'],
 		description:
 			'Develop a web application for officials, referees and coaches. First developer who established an automated test environment.',
 		url: 'https://clubcorner.ch/',
@@ -107,19 +102,25 @@ export const experiences = [
 		name: 'DreamMall',
 		entity: 'IT4C',
 		roles: ['Full Stack Developer'],
-		startDate: '2021-06-21',
+		startDate: '2024-06-21',
 		keywords: [
 			'TypeScript',
+      'Docker',
 			'Node',
 			'Vue',
+			'Jest',
 			'Vuetify',
 			'Jest',
 			'Authentik',
 			'Apollo GraphQL',
 			'Terraform',
+      'SOPS',
 			'Helm',
+      'Helmfile',
 			'Kubernetes',
-			'Hetzner'
+			'Hetzner',
+      'PostgreSQL',
+      'MariaDB',
 		],
 		description: 'Social media app for video conferencing.',
 		url: 'https://dreammall.earth/',
@@ -133,6 +134,7 @@ export const experiences = [
 		endDate: '2023-09-01',
 		keywords: [
 			'TypeScript',
+      'Docker',
 			'Node',
 			'Vue',
 			'Tailwind',
@@ -141,7 +143,6 @@ export const experiences = [
 			'Auth0',
 			'Apollo GraphQL',
 			'Hasura',
-			'Terraform',
 			'Google Cloud Platform',
 			'Vercel'
 		],
@@ -154,7 +155,7 @@ export const experiences = [
 		entity: 'tactile.news GmbH',
 		roles: ['Full Stack Developer'],
 		startDate: '2020-03-30',
-		keywords: ['Ruby on Rails', 'Stimulus', 'Docker', 'Ansible', 'Traefik'],
+		keywords: ['Ruby', 'TypeScript', 'Ruby on Rails', 'RSpec', 'Stimulus', 'Docker', 'Ansible', 'Digital Ocean', 'Sentry'],
 		description:
 			'Crowdsourced journalism tool [100eyes](https://github.com/tactilenews/100eyes) connecting WhatsApp, Telegram, Threema, Signal and E-Mail as communication channels.',
 		url: 'https://tactile.news/',
@@ -166,7 +167,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2021-12-09',
 		endDate: '2023-06-28',
-		keywords: ['Svelte', 'SvelteKit', 'HyGraph', 'Node', 'Netlify', 'Serverless'],
+		keywords: ['TypeScript', 'Svelte', 'SvelteKit', 'HyGraph', 'Node', 'Netlify', 'Serverless'],
 		description: '',
 		url: 'https://rhenania-computer.de/de',
 		type: 'freelancing'
@@ -177,7 +178,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2022-01-28',
 		endDate: '2022-08-09',
-		keywords: ['Svelte', 'SvelteKit', 'Tailwind', 'Google Calendar API'],
+		keywords: ['TypeScript', 'Netlify', 'Svelte', 'SvelteKit', 'Tailwind', 'Google APIs'],
 		description: '',
 		url: 'https://am-meer-norderney.de/',
 		type: 'freelancing'
@@ -188,7 +189,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2021-05-12',
 		endDate: '2022-12-10',
-		keywords: ['Svelte', 'SvelteKit', 'Tailwind'],
+		keywords: ['TypeScript', 'Netlify', 'Svelte', 'SvelteKit', 'Tailwind'],
 		description: '',
 		url: 'https://tanzimpulse.de/',
 		type: 'freelancing'
@@ -199,7 +200,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2020-08-11',
 		endDate: '2023-05-02',
-		keywords: ['Vue', 'Nuxt', 'HyGraph'],
+		keywords: ['TypeScript', 'Netlify', 'Node', 'Vue', 'Nuxt', 'HyGraph'],
 		description: '',
 		url: 'https://werkhof-ichen.de/',
 		type: 'freelancing'
@@ -210,7 +211,7 @@ export const experiences = [
 		roles: ['Full Stack Developer'],
 		startDate: '2019-03-31',
 		endDate: '2019-05-31',
-		keywords: ['Ruby on Rails'],
+		keywords: ['Ruby on Rails', 'Node'],
 		description:
 			'Automate journalism and generate a live report of bee hives based on their sensory data.',
 		type: 'freelancing'
@@ -220,7 +221,7 @@ export const experiences = [
 		roles: ['Programming Mentor'],
 		startDate: '2015-09-30',
 		endDate: '2018-11-30',
-		keywords: [],
+		keywords: ['Ruby'],
 		description: 'Coach a beginner friendly programming course to encourage diversity in tech.',
 		url: 'https://www.miz-babelsberg.de/startseite.html',
 		location: 'Potsdam, Brandenburg, Germany',
@@ -231,7 +232,7 @@ export const experiences = [
 		roles: ['Hackathon Coach'],
 		startDate: '2015-08-31',
 		endDate: '2016-09-30',
-		keywords: [],
+		keywords: ['Node', 'JavaScript'],
 		highlights: [
 			'An interactive, decision-based podcast.',
 			'A location aware music player.',
@@ -246,7 +247,7 @@ export const experiences = [
 		roles: ['Back End Developer'],
 		startDate: '2018-04-30',
 		endDate: '2018-06-30',
-		keywords: ['Wordpress', 'PHP', 'Docker'],
+		keywords: ['Node', 'Wordpress', 'PHP', 'Docker'],
 		description: 'Custom CMS development with a focus on search engine optimization.',
 		url: 'https://solutiance.com/',
 		type: 'freelancing'
@@ -257,7 +258,7 @@ export const experiences = [
 		roles: ['IoT Developer'],
 		startDate: '2018-01-31',
 		endDate: '2018-01-31',
-		keywords: ['Arduino', 'Raspberry Pi', 'HTML', 'JavaScript', 'MQTT'],
+		keywords: ['Arduino', 'Raspberry Pi', 'JavaScript', 'MQTT'],
 		description: 'Rapid prototype of a smart bathroom mirror and cabinet.',
 		location: 'Lunenburg, Lower Saxony, Germany',
 		type: 'freelancing'
@@ -268,7 +269,7 @@ export const experiences = [
 		roles: ['Full Stack Developer'],
 		startDate: '2016-05-31',
 		endDate: '2017-10-31',
-		keywords: ['Ruby on Rails'],
+		keywords: ['Ruby on Rails', 'Ruby', 'RSpec'],
 		description:
 			'Automate journalism and generate a live report of dairy cows based on their sensory data.'
 	},
@@ -277,7 +278,7 @@ export const experiences = [
 		roles: ['IoT Developer'],
 		startDate: '2017-06-30',
 		endDate: '2017-06-30',
-		keywords: ['Ember', 'Python', 'Arduino', 'Raspberry Pi'],
+		keywords: ['Node', 'Ember', 'Python', 'Arduino', 'Raspberry Pi'],
 		description: 'Rapid prototype of a smart shopping cart.',
 		type: 'freelancing'
 	},
