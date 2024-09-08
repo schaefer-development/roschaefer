@@ -22,8 +22,8 @@ const work = [
 		type: 'teaching'
 	},
 	{
-		name: 'Human Connection',
-		entity: 'Human Connection gGmbH',
+		name: 'Ocelot.social',
+		entity: 'busfaktor e.V.',
 		roles: ['Technical Lead'],
 		startDate: '2018-11-30',
 		endDate: '2020-04-30',
@@ -38,10 +38,12 @@ const work = [
 			'Apollo GraphQL',
 			'Neo4j',
 			'Docker',
+			'Digital Ocean',
 			'Kubernetes'
 		],
+		url: 'https://github.com/Ocelot-Social-Community/Ocelot-Social',
 		description:
-			'[Donation-based, free and open-source social network](https://github.com/Human-Connection/Human-Connection/graphs/contributors) for active citizenship. Development continues as [Ocelot-Social](https://github.com/Ocelot-Social-Community/Ocelot-Social).',
+			'Ocelot.social, formerly known as Human Connection, is a donation-based, free and open-source social network focused on active citizenship. We use the Neo4J graph database in production to model user accounts and social connections. Data is served via GraphQL and deployed on a managed Kubernetes cluster on Digital Ocean. As an open-source project, we engage with online learning communities to attract contributors and help people learn programming. The software can be self-hosted and individually branded, a [staging environment is available online](https://stage.ocelot.social).',
 		type: 'employment'
 	},
 	{
@@ -121,7 +123,8 @@ export const experiences = [
 			'PostgreSQL',
 			'MariaDB'
 		],
-		description: 'DreamMall is a free and open-source social media app for entrepreneurs. Our team is fully remote and includes members of all skill levels. We self-host a K3S Kubernetes cluster on Hetzner using Terraform, allowing each team member to deploy their git branches in a separate environment.',
+		description:
+			'DreamMall is a free and open-source social media app for entrepreneurs. Our team is fully remote and includes members of all skill levels. We self-host a K3S Kubernetes cluster on Hetzner using Terraform, allowing each team member to deploy their git branches in a separate environment.',
 		url: 'https://dreammall.earth/',
 		type: 'freelancing'
 	},
@@ -145,7 +148,8 @@ export const experiences = [
 			'Google Cloud',
 			'Vercel'
 		],
-		description: 'Auteon GmbH is an investor-funded startup that creates software for the automotive aftermarket, allowing auto repair shops to compare prices across various wholesalers. We transitioned from a desktop application based on Electron to a cloud-based solution on the Google Cloud Platform, Auth0 and Hasura. This significantly improved software quality and increased the number of connected wholesalers from three to 240. Vue, Tailwind and Node.js as techologies were retained.',
+		description:
+			'Auteon GmbH is an investor-funded startup that creates software for the automotive aftermarket, allowing auto repair shops to compare prices across various wholesalers. We transitioned from a desktop application based on Electron to a cloud-based solution on the Google Cloud Platform, Auth0 and Hasura. This significantly improved software quality and increased the number of connected wholesalers from three to 240. Vue, Tailwind and Node.js as techologies were retained.',
 		url: 'https://www.auteon.com',
 		type: 'freelancing'
 	},
@@ -163,13 +167,13 @@ export const experiences = [
 			'Docker',
 			'Ansible',
 			'Digital Ocean',
-      'Sentry',
-      'Postmark',
-      'Telegram API',
-      'Signal CLI',
-      'Threema API',
-      'Twilio',
-      '360dialog',
+			'Sentry',
+			'Postmark',
+			'Telegram API',
+			'Signal CLI',
+			'Threema API',
+			'Twilio',
+			'360dialog'
 		],
 		description:
 			'[100eyes](https://github.com/tactilenews/100eyes) is a dialogue software that allows journalists to interact with their readers. Feedback from readers can be incorporated into the reporting process. The software uses APIs from messaging apps like Telegram, Signal, Threema, and WhatsApp, as well as Postmark for emails.',
@@ -183,7 +187,8 @@ export const experiences = [
 		startDate: '2021-12-09',
 		endDate: '2023-06-28',
 		keywords: ['TypeScript', 'Svelte', 'SvelteKit', 'HyGraph', 'Node.js', 'Netlify', 'Serverless'],
-		description: 'Rhenania Computer GmbH has been developing logistics software for over 30 years. We rebuilt their website using SvelteKit and deployed it statically on Netlify. Server-side code runs in Serverless Functions and data is fetched via GraphQL from the Headless CMS called HyGraph. This allowed us to improve performance, SEO and user experience.',
+		description:
+			'Rhenania Computer GmbH has been developing logistics software for over 30 years. We rebuilt their website using SvelteKit and deployed it statically on Netlify. Server-side code runs in Serverless Functions and data is fetched via GraphQL from the Headless CMS called HyGraph. This allowed us to improve performance, SEO and user experience.',
 		url: 'https://rhenania-computer.de/de',
 		type: 'freelancing'
 	},
@@ -194,7 +199,8 @@ export const experiences = [
 		startDate: '2022-01-28',
 		endDate: '2022-08-09',
 		keywords: ['TypeScript', 'Netlify', 'Svelte', 'SvelteKit', 'Tailwind', 'Google APIs'],
-		description: 'A website for booking a holiday apartment on Norderney. Availability for each day is managed through a Google Calendar and the data is updated via Google APIs on the website.',
+		description:
+			'A website for booking a holiday apartment on Norderney. Availability for each day is managed through a Google Calendar and the data is updated via Google APIs on the website.',
 		url: 'https://am-meer-norderney.de/',
 		type: 'freelancing'
 	},
@@ -205,7 +211,8 @@ export const experiences = [
 		startDate: '2021-05-12',
 		endDate: '2022-12-10',
 		keywords: ['TypeScript', 'Netlify', 'Svelte', 'SvelteKit', 'Tailwind'],
-		description: 'The Tanzimpulse Institute in Cologne offers part-time continuing education options aimed at a wide range of professional groups. We built a custom booking system for their website with email confirmation and a waiting list. The technical implementation was done using SvelteKit with HyGraph as the headless CMS.',
+		description:
+			'The Tanzimpulse Institute in Cologne offers part-time continuing education options aimed at a wide range of professional groups. We built a custom booking system for their website with email confirmation and a waiting list. The technical implementation was done using SvelteKit with HyGraph as the headless CMS.',
 		url: 'https://tanzimpulse.de/',
 		type: 'freelancing'
 	},
@@ -216,7 +223,8 @@ export const experiences = [
 		startDate: '2020-08-11',
 		endDate: '2023-05-02',
 		keywords: ['TypeScript', 'Netlify', 'Node.js', 'Vue', 'Nuxt', 'HyGraph'],
-		description: 'At Werkhof Ichen, Irmina Schmitz creates tailor-made clothing. We developed a custom booking system for the website, where sewing classes for adults, teens, and children are offered. Interested individuals can sign up for courses or join a waiting list.',
+		description:
+			'At Werkhof Ichen, Irmina Schmitz creates tailor-made clothing. We developed a custom booking system for the website, where sewing classes for adults, teens, and children are offered. Interested individuals can sign up for courses or join a waiting list.',
 		url: 'https://werkhof-ichen.de/',
 		type: 'freelancing'
 	},

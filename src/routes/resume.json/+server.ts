@@ -1,6 +1,7 @@
 import { json } from '@sveltejs/kit';
 
 import { basics } from '$lib/data/basics';
+import { awards } from '$lib/data/awards';
 import { experiences } from '$lib/data/experiences';
 import { talks } from '$lib/data/talks';
 import { interests } from '$lib/data/interests';
@@ -38,6 +39,7 @@ for (const experience of experiences) {
 const projects = [...experiences, ...talks.map(toProject)];
 
 const resume = {
+	awards,
 	skills,
 	languages,
 	work,
