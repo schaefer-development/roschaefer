@@ -163,10 +163,16 @@ export const experiences = [
 			'Docker',
 			'Ansible',
 			'Digital Ocean',
-			'Sentry'
+      'Sentry',
+      'Postmark',
+      'Telegram API',
+      'Signal CLI',
+      'Threema API',
+      'Twilio',
+      '360dialog',
 		],
 		description:
-			'Crowdsourced journalism tool [100eyes](https://github.com/tactilenews/100eyes) connecting WhatsApp, Telegram, Threema, Signal and E-Mail as communication channels.',
+			'[100eyes](https://github.com/tactilenews/100eyes) is a dialogue software that allows journalists to interact with their readers. Feedback from readers can be incorporated into the reporting process. The software uses APIs from messaging apps like Telegram, Signal, Threema, and WhatsApp, as well as Postmark for emails.',
 		url: 'https://tactile.news/',
 		type: 'freelancing'
 	},
