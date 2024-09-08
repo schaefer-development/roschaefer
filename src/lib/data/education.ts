@@ -16,14 +16,14 @@ export const education = [
 		endDate: '2012-07-01',
 		score: '1.7',
 		courses: []
-	},
-	{
-		institution: 'Gymnasium Lohmar',
-		area: '',
-		studyType: 'A Levels',
-		startDate: '1999-12-31',
-		endDate: '2008-12-31',
-		score: '1.5',
-		courses: []
 	}
+	// {
+	// 	institution: 'Gymnasium Lohmar',
+	// 	area: '',
+	// 	studyType: 'A Levels',
+	// 	startDate: '1999-12-31',
+	// 	endDate: '2008-12-31',
+	// 	score: '1.5',
+	// 	courses: []
+	// }
 ];

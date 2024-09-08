@@ -10,7 +10,7 @@ export const interests = [
 	{
 		name: 'Infrastructure as Code',
 		keywords: ['Terraform']
-	},
+	}
 	// {
 	// 	name: 'Modern Node.js Backends',
 	// 	keywords: ['NestJS']

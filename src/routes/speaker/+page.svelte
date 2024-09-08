@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { talks } from '$lib/data/talks';
-	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
 	import Embed from '$lib/components/Embed.svelte';
 	import Link from '$lib/components/Link.svelte';
@@ -21,9 +20,11 @@
 			<p class="mb-6">
 				{talk.date}
 			</p>
-			<h3 class="font-bold text-white">{talk.name}</h3>
-			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-			<p class="pt-1">{@html marked(talk.summary)}</p>
+			<h3 class="font-bold text-white">{talk.entity}</h3>
+			<p class="pt-1">{talk.name}</p>
+			{#if talk.description}
+				<p>{talk.description}</p>
+			{/if}
 			<Link url={talk.url}></Link>
 			<div class="w-full h-16" />
 			<Divider />

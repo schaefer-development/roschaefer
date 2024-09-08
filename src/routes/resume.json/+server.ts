@@ -5,6 +5,7 @@ import { experiences } from '$lib/data/experiences';
 import { talks } from '$lib/data/talks';
 import { interests } from '$lib/data/interests';
 import { education } from '$lib/data/education';
+import { languages } from '$lib/data/languages';
 
 import { skills } from './skills';
 
@@ -14,10 +15,11 @@ const certificates: never[] = [];
 const references: never[] = [];
 
 const toProject = (talk: (typeof talks)[number]) => {
-	const { name, date, summary, url } = talk;
+	const { name, description, date, entity, url } = talk;
 	return {
 		name,
-		description: summary,
+		description,
+		entity,
 		startDate: date,
 		endDate: date,
 		roles: ['Speaker'],
@@ -37,6 +39,7 @@ const projects = [...experiences, ...talks.map(toProject)];
 
 const resume = {
 	skills,
+	languages,
 	work,
 	volunteer,
 	certificates,
