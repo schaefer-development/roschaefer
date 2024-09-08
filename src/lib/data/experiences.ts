@@ -111,7 +111,7 @@ export const experiences = [
 			'Docker',
 			'Node.js',
 			'Vue',
-      'Vike',
+			'Vike',
 			'Jest',
 			'Vuetify',
 			'Jest',
@@ -239,6 +239,7 @@ export const experiences = [
 		keywords: ['Ruby on Rails', 'Node.js'],
 		description:
 			'Automate journalism and generate a live report of bee hives based on their sensory data.',
+		url: 'https://tactile.news/startseite/journalismus-der-dinge/bienenlive/',
 		type: 'freelancing'
 	},
 	{
@@ -248,7 +249,8 @@ export const experiences = [
 		startDate: '2015-09-30',
 		endDate: '2018-11-30',
 		keywords: ['Ruby'],
-		description: 'Help a beginner friendly group to learn programming. Encourage diversity. Meetings every week.',
+		description:
+			'Help a beginner friendly group to learn programming. Encourage diversity. Meetings every week.',
 		url: 'https://www.facebook.com/watch/?v=1342132595875337',
 		location: 'Potsdam, Brandenburg, Germany',
 		type: 'freelancing'
@@ -299,7 +301,8 @@ export const experiences = [
 		endDate: '2017-10-31',
 		keywords: ['Ruby on Rails', 'Ruby', 'RSpec'],
 		description:
-			'Automate journalism and generate a live report of dairy cows based on their sensory data.'
+			'Automate journalism and generate a live report of dairy cows based on their sensory data.',
+		url: 'https://superkuehe.wdr.de/'
 	},
 	{
 		name: 'Story trolley',

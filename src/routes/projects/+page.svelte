@@ -25,7 +25,15 @@
 			<p class="mb-6">
 				{experience.startDate} — {experience.endDate ?? 'now'}
 			</p>
-			<h3 class="font-bold text-white">{experience.name || experience.entity}</h3>
+			{#if experience.url}
+				<h3>
+					<a class="font-bold text-white hover:text-white hover:border-white" href={experience.url}
+						>{experience.name || experience.entity}</a
+					>
+				</h3>
+			{:else}
+				<h3 class="font-bold text-white">{experience.name || experience.entity}</h3>
+			{/if}
 			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 			<p class="pt-1">{@html marked(experience.description)}</p>
 			{#if experience.keywords.length > 0}
