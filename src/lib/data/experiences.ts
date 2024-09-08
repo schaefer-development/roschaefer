@@ -7,7 +7,7 @@ const work = [
 		endDate: '2021-03-31',
 		keywords: [
 			'JavaScript',
-			'Node',
+			'Node.js',
 			'Vue',
 			'Apollo GraphQL',
 			'Neo4J',
@@ -30,10 +30,9 @@ const work = [
 		keywords: [
       'JavaScript',
 			'Jest',
-      'Node',
 			'Vue',
       'Nuxt',
-      'Node',
+      'Node.js',
 			'Storybook',
 			'Cypress',
 			'Apollo GraphQL',
@@ -106,7 +105,7 @@ export const experiences = [
 		keywords: [
 			'TypeScript',
       'Docker',
-			'Node',
+			'Node.js',
 			'Vue',
 			'Jest',
 			'Vuetify',
@@ -135,7 +134,7 @@ export const experiences = [
 		keywords: [
 			'TypeScript',
       'Docker',
-			'Node',
+			'Node.js',
 			'Vue',
 			'Tailwind',
 			'Jest',
@@ -167,7 +166,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2021-12-09',
 		endDate: '2023-06-28',
-		keywords: ['TypeScript', 'Svelte', 'SvelteKit', 'HyGraph', 'Node', 'Netlify', 'Serverless'],
+		keywords: ['TypeScript', 'Svelte', 'SvelteKit', 'HyGraph', 'Node.js', 'Netlify', 'Serverless'],
 		description: '',
 		url: 'https://rhenania-computer.de/de',
 		type: 'freelancing'
@@ -200,7 +199,7 @@ export const experiences = [
 		roles: ['Backend Developer'],
 		startDate: '2020-08-11',
 		endDate: '2023-05-02',
-		keywords: ['TypeScript', 'Netlify', 'Node', 'Vue', 'Nuxt', 'HyGraph'],
+		keywords: ['TypeScript', 'Netlify', 'Node.js', 'Vue', 'Nuxt', 'HyGraph'],
 		description: '',
 		url: 'https://werkhof-ichen.de/',
 		type: 'freelancing'
@@ -211,7 +210,7 @@ export const experiences = [
 		roles: ['Full Stack Developer'],
 		startDate: '2019-03-31',
 		endDate: '2019-05-31',
-		keywords: ['Ruby on Rails', 'Node'],
+		keywords: ['Ruby on Rails', 'Node.js'],
 		description:
 			'Automate journalism and generate a live report of bee hives based on their sensory data.',
 		type: 'freelancing'
@@ -232,7 +231,7 @@ export const experiences = [
 		roles: ['Hackathon Coach'],
 		startDate: '2015-08-31',
 		endDate: '2016-09-30',
-		keywords: ['Node', 'JavaScript'],
+		keywords: ['Node.js', 'JavaScript'],
 		highlights: [
 			'An interactive, decision-based podcast.',
 			'A location aware music player.',
@@ -247,7 +246,7 @@ export const experiences = [
 		roles: ['Back End Developer'],
 		startDate: '2018-04-30',
 		endDate: '2018-06-30',
-		keywords: ['Node', 'Wordpress', 'PHP', 'Docker'],
+		keywords: ['Node.js', 'Wordpress', 'PHP', 'Docker'],
 		description: 'Custom CMS development with a focus on search engine optimization.',
 		url: 'https://solutiance.com/',
 		type: 'freelancing'
@@ -278,7 +277,7 @@ export const experiences = [
 		roles: ['IoT Developer'],
 		startDate: '2017-06-30',
 		endDate: '2017-06-30',
-		keywords: ['Node', 'Ember', 'Python', 'Arduino', 'Raspberry Pi'],
+		keywords: ['Node.js', 'Ember', 'Python', 'Arduino', 'Raspberry Pi'],
 		description: 'Rapid prototype of a smart shopping cart.',
 		type: 'freelancing'
 	},

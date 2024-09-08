@@ -1,7 +1,7 @@
 export const interests = [
 	{
 		name: 'Modern Compiled Languages',
-		keywords: ['Rust', 'Go']
+		keywords: ['Rust', 'Go', 'Zig']
 	},
 	{
 		name: 'Cross-platform Development',
@@ -11,8 +11,8 @@ export const interests = [
 		name: 'Infrastructure as Code',
 		keywords: ['Terraform']
 	},
-	{
-		name: 'Modern Node.js Backends',
-		keywords: ['NestJS']
-	}
+	// {
+	// 	name: 'Modern Node.js Backends',
+	// 	keywords: ['NestJS']
+	// }
 ];
