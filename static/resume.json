@@ -6,7 +6,7 @@
 		"image": "https://avatars.githubusercontent.com/u/2110676",
 		"email": "hello@roschaefer.de",
 		"url": "https://roschaefer.de/",
-		"phone": "https://signal.me/#eu/tCnLbbxqMMr49CvnfrdWEpc57STq2EpAtFEvfrM9c4fZwrnAwgdE0ZS163oz2PH6",
+		"signal": "https://signal.me/#eu/tCnLbbxqMMr49CvnfrdWEpc57STq2EpAtFEvfrM9c4fZwrnAwgdE0ZS163oz2PH6",
 		"summary": "I'm a digital nomad, working remotely as a freelance full stack developer. I'm passionate about free and open-source software and love sharing knowledge through pair programming and tech talks. At work I prioritize software quality, spending most of my time writing software tests and reviewing code.",
 		"location": {},
 		"profiles": [
@@ -199,74 +199,160 @@
 	],
 	"skills": [
 		{
-			"name": "Programming Languages",
-			"level": "",
-			"keywords": [
-				"TypeScript",
-				"JavaScript",
-				"Ruby",
-				"Python",
-				"Java",
-				"Rust",
-				"Go",
-				"HTML",
-				"CSS",
-				"Gherkin",
-				"SQL",
-				"R",
-				"LaTeX"
-			]
+			"name": "TypeScript"
 		},
 		{
-			"name": "Frontend",
-			"level": "",
-			"keywords": [
-				"Tailwind",
-				"Storybook",
-				"Vue",
-				"Nuxt",
-				"Svelte",
-				"Stimulus",
-				"Ember",
-				"Apollo Client",
-				"D3",
-				"Highcharts"
-			]
+			"name": "JavaScript"
 		},
 		{
-			"name": "Backend",
-			"level": "",
-			"keywords": ["Apollo Server", "Nuxt", "SvelteKit", "Express", "Node", "Ruby on Rails"]
+			"name": "Ruby"
 		},
 		{
-			"name": "Testing",
-			"level": "",
-			"keywords": ["Jest", "Testing Library", "Vue Test Utils", "Cucumber", "Cypress", "RSpec"]
+			"name": "Python"
 		},
 		{
-			"name": "DevOps",
-			"keywords": ["Docker", "Kubernetes", "Traefik", "Serverless", "Ansible"]
+			"name": "Java"
 		},
 		{
-			"name": "Deployment",
-			"keywords": [
-				"Google Cloud Platform",
-				"Hasura",
-				"Netlify",
-				"Vercel",
-				"Hygraph",
-				"Digital Ocean",
-				"Github Actions",
-				"Uberspace"
-			]
+			"name": "Rust"
 		},
 		{
-			"name": "Databases",
-			"keywords": ["PostgreSQL", "MariaDB", "MongoDB", "Neo4j"]
+			"name": "HTML"
 		},
 		{
-			"name": "Workstation",
-			"keywords": ["♥️  Neovim", "git", "Arch Linux", "fish shell", "Sway"]
+			"name": "CSS"
+		},
+		{
+			"name": "SQL"
+		},
+		{
+			"name": "R"
+		},
+		{
+			"name": "LaTeX"
+		},
+		{
+			"name": "Tailwind"
+		},
+		{
+			"name": "Storybook"
+		},
+		{
+			"name": "Vue"
+		},
+		{
+			"name": "Nuxt"
+		},
+		{
+			"name": "Svelte"
+		},
+		{
+			"name": "Stimulus"
+		},
+		{
+			"name": "Ember"
+		},
+		{
+			"name": "Apollo Server"
+		},
+		{
+			"name": "Nuxt"
+		},
+		{
+			"name": "SvelteKit"
+		},
+		{
+			"name": "Express"
+		},
+		{
+			"name": "Node"
+		},
+		{
+			"name": "Ruby on Rails"
+		},
+		{
+			"name": "Jest"
+		},
+		{
+			"name": "Testing Library"
+		},
+		{
+			"name": "Vue Test Utils"
+		},
+		{
+			"name": "Cucumber"
+		},
+		{
+			"name": "Cypress"
+		},
+		{
+			"name": "RSpec"
+		},
+		{
+			"name": "Docker"
+		},
+		{
+			"name": "Kubernetes"
+		},
+		{
+			"name": "Traefik"
+		},
+		{
+			"name": "Serverless"
+		},
+		{
+			"name": "Ansible"
+		},
+		{
+			"name": "Google Cloud Platform"
+		},
+		{
+			"name": "Hasura"
+		},
+		{
+			"name": "Netlify"
+		},
+		{
+			"name": "Vercel"
+		},
+		{
+			"name": "Hygraph"
+		},
+		{
+			"name": "Digital Ocean"
+		},
+		{
+			"name": "Github Actions"
+		},
+		{
+			"name": "Uberspace"
+		},
+		{
+			"name": "PostgreSQL"
+		},
+		{
+			"name": "MariaDB"
+		},
+		{
+			"name": "MongoDB"
+		},
+		{
+			"name": "Neo4j"
+		},
+		{
+			"name": "♥️  Neovim"
+		},
+		{
+			"name": "git"
+		},
+		{
+			"name": "Arch Linux"
+		},
+		{
+			"name": "fish shell"
+		},
+		{
+			"name": "Sway"
 		}
 	],
 	"languages": [
@@ -343,19 +429,19 @@
 			"endDate": "2021-03-31",
 			"keywords": [
 				"Git",
-        "Github",
-        "JavaScript",
-        "Node",
+				"Github",
+				"JavaScript",
+				"Node",
 				"Functional Programming",
 				"Promises",
 				"Software Testing",
 				"CI/CD",
-        "Vue",
-        "JWT",
-        "Apollo GraphQL",
-        "Neo4J",
-        "Nuxt",
-        "Vuetify",
+				"Vue",
+				"JWT",
+				"Apollo GraphQL",
+				"Neo4J",
+				"Nuxt",
+				"Vuetify",
 				"Tailwind"
 			],
 			"description": "[Design and hold weekly lectures and seminars](https://www.youtube.com/playlist?list=PL1CiawkXA01PO_39DnKSrxWw99mU7mwWs) with about 40 participants about fullstack development. Group tasks are submitted via pull requests on Github and reviewed by other teams and teaching staff.",
