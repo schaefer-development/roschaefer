@@ -56,16 +56,17 @@ const work = [
 			'Prototype a tool to encourage public participation in the expenditure German broadcasting fees.',
 		type: 'volunteering'
 	},
-	{
-		entity: 'SAP',
-		roles: ['Research Intern'],
-		startDate: '2013-10-31',
-		endDate: '2013-11-30',
-		keywords: ['Java'],
-		description: 'Tool development for automated risk analysis in supply chains. Legacy code.',
-		location: 'Belfast, United Kingdom',
-		type: 'internship'
-	},
+	// {
+	//   name: 'Automated risk analysis in supply chains.',
+	// 	entity: 'SAP Research',
+	// 	roles: ['Research Intern'],
+	// 	startDate: '2013-10-31',
+	// 	endDate: '2013-11-30',
+	// 	keywords: ['Java'],
+	// 	description: 'Legacy code.',
+	// 	location: 'Belfast, United Kingdom',
+	// 	type: 'internship'
+	// },
 	{
 		entity: 'OXON AG',
 		name: 'Clubcorner',
@@ -80,6 +81,7 @@ const work = [
 		type: 'employment'
 	},
 	{
+		name: 'Evaluation of enterprise programming models for in-memory databases',
 		entity: 'Hasso Plattner Institute',
 		roles: ['Researcher'],
 		startDate: '2012-01-31',
@@ -240,6 +242,7 @@ export const experiences = [
 		type: 'freelancing'
 	},
 	{
+		name: 'Rubies in the woods',
 		entity: 'MIZ Babelsberg',
 		roles: ['Programming Mentor'],
 		startDate: '2015-09-30',
@@ -251,6 +254,7 @@ export const experiences = [
 		type: 'freelancing'
 	},
 	{
+		name: 'Protothon',
 		entity: 'MIZ Babelsberg',
 		roles: ['Hackathon Coach'],
 		startDate: '2015-08-31',
@@ -266,6 +270,7 @@ export const experiences = [
 		location: 'Potsdam, Brandenburg, Germany'
 	},
 	{
+		name: 'solutiance.com',
 		entity: 'Solutiance AG',
 		roles: ['Back End Developer'],
 		startDate: '2018-04-30',
@@ -276,8 +281,8 @@ export const experiences = [
 		type: 'freelancing'
 	},
 	{
-		entity: 'tactile.news GmbH',
 		name: 'sMirror',
+		entity: 'tactile.news GmbH',
 		roles: ['IoT Developer'],
 		startDate: '2018-01-31',
 		endDate: '2018-01-31',
@@ -287,8 +292,8 @@ export const experiences = [
 		type: 'freelancing'
 	},
 	{
-		entity: 'tactile.news GmbH',
 		name: 'Superkühe',
+		entity: 'tactile.news GmbH',
 		roles: ['Full Stack Developer'],
 		startDate: '2016-05-31',
 		endDate: '2017-10-31',
@@ -297,12 +302,14 @@ export const experiences = [
 			'Automate journalism and generate a live report of dairy cows based on their sensory data.'
 	},
 	{
+		name: 'Story trolley',
 		entity: 'tactile.news GmbH',
 		roles: ['IoT Developer'],
 		startDate: '2017-06-30',
 		endDate: '2017-06-30',
 		keywords: ['Node.js', 'Ember', 'Python', 'Arduino', 'Raspberry Pi'],
 		description: 'Rapid prototype of a smart shopping cart.',
+		url: 'https://www.facebook.com/PHASEXI/videos/746195418906331',
 		type: 'freelancing'
 	},
 	...work

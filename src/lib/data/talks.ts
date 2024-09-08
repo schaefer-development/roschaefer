@@ -12,13 +12,13 @@ export const talks = [
 		name: 'Using Neo4J and GraphQL to build Human Connection'
 	},
 	{
-		entity: '35C3 Congress',
+		entity: '35th Chaos Communication Congress',
 		date: '2018-12-30',
 		url: 'https://media.ccc.de/v/35c3-9568-lightning_talks_day_4#t=1147',
 		name: 'Find open-source contributors in online learner communities'
 	},
 	{
-		entity: '35C3 Congress',
+		entity: '35th Chaos Communication Congress',
 		date: '2018-12-29',
 		url: 'https://media.ccc.de/v/35c3-9567-lightning_talks_day_3#t=5180',
 		name: 'Human Connection'
@@ -37,7 +37,7 @@ export const talks = [
 		description: 'How to use Ember to build a smart shopping cart.'
 	},
 	{
-		entity: '34C3 Congress',
+		entity: '34th Chaos Communication Congress',
 		date: '2017-12-30',
 		url: 'https://media.ccc.de/v/34c3-9258-lightning_talks_day_4#t=1352',
 		name: 'Rundfunk mitbestimmen'

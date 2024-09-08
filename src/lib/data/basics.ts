@@ -7,7 +7,12 @@ export const basics = {
 	signal: 'https://signal.me/#eu/tCnLbbxqMMr49CvnfrdWEpc57STq2EpAtFEvfrM9c4fZwrnAwgdE0ZS163oz2PH6',
 	summary:
 		"I'm a digital nomad, working remotely as a freelance full stack developer. I'm passionate about free and open-source software and love sharing knowledge through pair programming and tech talks. At work I prioritize software quality, spending most of my time writing software tests and reviewing code.",
-	location: {},
+	location: {
+		address: 'no permanent address',
+		city: 'Cologne',
+		region: 'NRW',
+		countryCode: 'DE'
+	},
 	profiles: [
 		{
 			network: 'LinkedIn',

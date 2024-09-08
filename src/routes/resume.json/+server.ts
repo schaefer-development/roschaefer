@@ -39,14 +39,14 @@ for (const experience of experiences) {
 const projects = [...experiences, ...talks.map(toProject)];
 
 const resume = {
+	basics,
+	work,
+	volunteer,
 	awards,
 	skills,
 	languages,
-	work,
-	volunteer,
 	certificates,
 	references,
-	basics,
 	education,
 	interests,
 	projects
