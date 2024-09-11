@@ -229,9 +229,9 @@ export const experiences = [
 		roles: ['Full Stack Developer'],
 		startDate: '2019-03-31',
 		endDate: '2019-05-31',
-		keywords: ['Ruby on Rails', 'Node.js'],
+		keywords: ['Ruby', 'Ruby on Rails', 'RSpec', 'Cucumber'],
 		description:
-			'Automate journalism and generate a live report of bee hives based on their sensory data.',
+      'Building on the success of the "Superkühe" project, we reused the software for new content. This time, the focus was on insect decline, and reports were automatically generated based on sensor data from three beehives. With this project, we were nominated for the Grimme Online Award and won the German Reporter Award.',
 		url: 'https://tactile.news/startseite/journalismus-der-dinge/bienenlive/',
 		type: 'freelancing'
 	},
@@ -292,9 +292,9 @@ export const experiences = [
 		roles: ['Full Stack Developer'],
 		startDate: '2016-05-31',
 		endDate: '2017-10-31',
-		keywords: ['Ruby on Rails', 'Ruby', 'RSpec'],
+		keywords: ['Ruby on Rails', 'Ruby', 'RSpec', 'Cucumber'],
 		description:
-			'Automate journalism and generate a live report of dairy cows based on their sensory data.',
+      'We developed an innovative media format for [WDR](https://www1.wdr.de/unternehmen/der-wdr/unternehmen/superkuehe-114.html) and [Spiegel Online](https://www.spiegel.de/netzwelt/web/superkuehe-sensorjournalismus-mit-milchkuehen-a-1165241.html). A software was created to automatically generate a report based on sensory data from three dairy cows. This project received significant media attention with over [63 reports and features](https://superkuehe.wdr.de/zum-projekt/meinung/).',
 		url: 'https://superkuehe.wdr.de/'
 	},
 	{
