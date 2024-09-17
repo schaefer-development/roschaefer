@@ -53,7 +53,7 @@ const work = [
 		endDate: '2019-03-31',
 		keywords: ['Ember', 'Ruby on Rails', 'Auth0', 'D3', 'Highcharts', 'Uberspace', 'PostgreSQL'],
 		description:
-			'Prototype a tool to encourage public participation in the expenditure German broadcasting fees.',
+			'"Rundfunk mitbestimmen" is a tool to encourage public participation in the expenditure of German broadcasting fees. Fee payers can symbolically allocate their monies to specific programs. The project was covered by [Zeit Online](https://www.zeit.de/campus/2017-09/z2x-festival-zehn-beste-projekte/seite-2), [Netzpolitik.org](https://netzpolitik.org/2017/neues-aus-dem-fernsehrat-6-ein-gespraech-ueber-rundfunk-mitbestimmen-de/), [Deutschlandfunk](https://www.deutschlandfunk.de/oeffentlich-rechtlicher-rundfunk-mehr-direkte-demokratie-100.html) and [RBB](https://www.wwwagner.tv/?p=36200).',
 		type: 'volunteering'
 	},
 	// {
@@ -168,7 +168,7 @@ export const experiences = [
 			'Ansible',
 			'Digital Ocean',
 			'Sentry',
-			'Postmark',
+			'Postmark'
 		],
 		description:
 			'[100eyes](https://github.com/tactilenews/100eyes) is a dialogue software that allows journalists to interact with their readers. Feedback from readers can be incorporated into the reporting process. The software uses APIs from the messaging apps Telegram, Signal, Threema and WhatsApp, as well as Postmark for emails.',
@@ -231,7 +231,7 @@ export const experiences = [
 		endDate: '2019-05-31',
 		keywords: ['Ruby', 'Ruby on Rails', 'RSpec', 'Cucumber'],
 		description:
-      'Building on the success of the "Superkühe" project, we reused the software for new content. This time, the focus was on insect decline, and reports were automatically generated based on sensor data from three beehives. With this project, we were nominated for the Grimme Online Award and won the German Reporter Award.',
+			'Building on the success of the "Superkühe" project, we reused the software for new content. This time, the focus was on insect decline, and reports were automatically generated based on sensor data from three beehives. With this project, we were nominated for the Grimme Online Award and won the German Reporter Award.',
 		url: 'https://tactile.news/startseite/journalismus-der-dinge/bienenlive/',
 		type: 'freelancing'
 	},
@@ -282,7 +282,8 @@ export const experiences = [
 		startDate: '2018-01-01',
 		endDate: '2018-01-31',
 		keywords: ['Python', 'JavaScript', 'MQTT'],
-		description: 'Rapid prototype of a smart bathroom mirror and cabinet using Raspberry PIs and Arduinos.',
+		description:
+			'Rapid prototype of a smart bathroom mirror and cabinet using Raspberry PIs and Arduinos.',
 		location: 'Lunenburg, Lower Saxony, Germany',
 		type: 'freelancing'
 	},
@@ -294,7 +295,7 @@ export const experiences = [
 		endDate: '2017-10-31',
 		keywords: ['Ruby on Rails', 'Ruby', 'RSpec', 'Cucumber'],
 		description:
-      'We developed an innovative media format for [WDR](https://www1.wdr.de/unternehmen/der-wdr/unternehmen/superkuehe-114.html) and [Spiegel Online](https://www.spiegel.de/netzwelt/web/superkuehe-sensorjournalismus-mit-milchkuehen-a-1165241.html). A software was created to automatically generate a report based on sensory data from three dairy cows. This project received significant media attention with over [63 reports and features](https://superkuehe.wdr.de/zum-projekt/meinung/).',
+			'We developed an innovative media format for [WDR](https://www1.wdr.de/unternehmen/der-wdr/unternehmen/superkuehe-114.html) and [Spiegel Online](https://www.spiegel.de/netzwelt/web/superkuehe-sensorjournalismus-mit-milchkuehen-a-1165241.html). A software was created to automatically generate a report based on sensory data from three dairy cows. This project received significant media attention with over [63 reports and features](https://superkuehe.wdr.de/zum-projekt/meinung/).',
 		url: 'https://superkuehe.wdr.de/'
 	},
 	{

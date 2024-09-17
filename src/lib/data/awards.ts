@@ -16,8 +16,7 @@ export const awards = [
 	{
 		title: 'German Reporter Award 2017 (nominated)',
 		date: '2019-12-11',
-		summary:
-			'["Superkühe"](https://archiv.reporter-forum.de/index.php%3Fid=231.html#c2904)',
+		summary: '["Superkühe"](https://archiv.reporter-forum.de/index.php%3Fid=231.html#c2904)',
 		awarder: 'Reporter-Forum e. V.'
 	},
 	{
