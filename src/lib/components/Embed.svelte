@@ -62,9 +62,9 @@
 		aspect-ratio: 1.7699;
 		width: 100%;
 	}
-  img {
-    height: auto;
-    aspect-ratio: var(--aspect-ratio);
-    width: 100%;
-  }
+	img {
+		height: auto;
+		aspect-ratio: var(--aspect-ratio);
+		width: 100%;
+	}
 </style>
