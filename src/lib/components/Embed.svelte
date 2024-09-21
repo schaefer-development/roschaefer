@@ -16,7 +16,7 @@
 			embedUrl.pathname += '/oembed';
 			return { ccc: embedUrl.href };
 		}
-		if (url.hostname === 'www.facebook.com') {
+		if (url.hostname === 'www.facebook.com' && url.pathname === '/watch') {
 			const embedUrl = new URL('https://www.facebook.com/plugins/video.php');
 			embedUrl.searchParams.append('href', url.href);
 			return { facebook: embedUrl.href };
@@ -52,7 +52,7 @@
 		scrolling="no"
 		frameborder="0"
 		allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-		allowFullScreen={true}
+		allowFullScreen
 	></iframe>
 {/if}
 

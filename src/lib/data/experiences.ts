@@ -306,7 +306,7 @@ export const experiences = [
 		endDate: '2017-06-30',
 		keywords: ['Node.js', 'Ember', 'Python'],
 		description: 'Rapid prototype of a smart shopping cart.',
-		url: 'https://www.facebook.com/PHASEXI/videos/746195418906331',
+		url: 'https://www.facebook.com/watch?v=746195418906331',
 		type: 'freelancing'
 	},
 	...work
