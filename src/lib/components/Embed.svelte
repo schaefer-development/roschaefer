@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Youtube from 'svelte-youtube-embed';
+	import Youtube from '$lib/components/Youtube/Youtube.svelte';
 
 	export let url: string | undefined;
 
@@ -30,7 +30,18 @@
 </script>
 
 {#if youtubeId}
-	<Youtube id={youtubeId}></Youtube>
+	<Youtube id={youtubeId}>
+		<svelte:fragment slot="thumbnail" let:id let:altThumb let:title let:play>
+			{#key play}
+				<img
+					src="https://i.ytimg.com/vi/{id}/{altThumb ? 'hqdefault' : 'maxresdefault'}.jpg"
+					{title}
+					alt="Youtube video: {title}"
+					referrerpolicy="no-referrer"
+				/>
+			{/key}
+		</svelte:fragment>
+	</Youtube>
 {:else if cccId}
 	<iframe title="Talk" src={cccId} frameborder="0" allowfullscreen></iframe>
 {:else if facebookId}
@@ -51,4 +62,9 @@
 		aspect-ratio: 1.7699;
 		width: 100%;
 	}
+  img {
+    height: auto;
+    aspect-ratio: var(--aspect-ratio);
+    width: 100%;
+  }
 </style>
