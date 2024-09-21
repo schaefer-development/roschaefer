@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { talks } from '$lib/data/talks';
 	import Divider from '$lib/components/Divider.svelte';
-	import Embed from '$lib/components/Embed.svelte';
+	import Embed from '$lib/components/Embeds/Embed.svelte';
 	import Link from '$lib/components/Link.svelte';
 </script>
 

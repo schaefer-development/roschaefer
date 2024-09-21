@@ -3,7 +3,7 @@
 
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
-	import Embed from '$lib/components/Embed.svelte';
+	import Embed from '$lib/components/Embeds/Embed.svelte';
 	import Link from '$lib/components/Link.svelte';
 </script>
 
