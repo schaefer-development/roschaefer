@@ -244,7 +244,7 @@ export const experiences = [
 		keywords: ['Ruby'],
 		description:
 			'Help a beginner friendly group to learn programming. Encourage diversity. Meetings every week.',
-		url: 'https://www.facebook.com/watch/?v=1342132595875337',
+		url: 'https://www.facebook.com/watch?v=1342132595875337',
 		location: 'Potsdam, Brandenburg, Germany',
 		type: 'freelancing'
 	},
