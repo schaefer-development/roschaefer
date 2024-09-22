@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Speaker</title>
+	<title>Robert Schäfer - Full Stack Developer - Speaker Experience</title>
 </svelte:head>
 
 <section class="pb-24">

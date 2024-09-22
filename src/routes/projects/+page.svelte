@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Experiences</title>
+	<title>Robert Schäfer - Full Stack Developer - Projects</title>
 </svelte:head>
 
 <section class="pb-24">

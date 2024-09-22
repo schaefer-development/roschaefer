@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Start</title>
+	<title>Robert Schäfer - Full Stack Developer</title>
 	<meta name="description" content="Website of {basics.name}" />
 </svelte:head>
 
