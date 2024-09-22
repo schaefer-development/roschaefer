@@ -1,5 +1,5 @@
 <script lang="ts">
-	const explanation = 'Click to load video from Facebook';
+	export let explanation = 'Click to load video';
 </script>
 
 <button

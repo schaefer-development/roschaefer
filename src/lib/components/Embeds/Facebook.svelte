@@ -1,7 +1,9 @@
 <script lang="ts">
-	import Button from './Facebook/Button.svelte';
+	import Button from './/Button.svelte';
 
 	export let url: string | undefined;
+
+	const explanation = 'Click to load video from Facebook';
 	const embedUrl = (url: string) => {
 		const embedUrl = new URL('https://www.facebook.com/plugins/video.php');
 		embedUrl.searchParams.append('href', url);
@@ -24,7 +26,7 @@
 			allowFullScreen
 		></iframe>
 	{:else}
-		<Button on:click={() => (loadData = true)}>
+		<Button {explanation} on:click={() => (loadData = true)}>
 			<slot />
 		</Button>
 	{/if}
