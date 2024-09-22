@@ -24,18 +24,13 @@
 
 	let play = false;
 	const isCustomPlayButton = $$slots.default;
-	const isCustomThumbnail = $$slots.thumbnail;
 </script>
 
 <div class="you__tube" style="--aspect-ratio:{width / height || '16/9'}" {title}>
 	{#if play}
 		<Iframe {id} {title} {animations} />
 	{:else}
-		{#if isCustomThumbnail}
-			<slot name="thumbnail" {id} {title} {altThumb} {play} />
-		{:else}
-			<Image {id} {title} {altThumb} {play} />
-		{/if}
+    <Image {id} {title} {altThumb} {play} />
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="b__overlay" on:click={() => (play = true)} on:keypress={() => (play = true)} />
 		<div class="v__title"><h3>{title}</h3></div>
