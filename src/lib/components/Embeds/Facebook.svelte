@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Button from './/Button.svelte';
+	import { loadFacebookData } from '$lib/stores/embeds';
 
 	export let url: string | undefined;
 
@@ -11,6 +12,9 @@
 	};
 
 	let loadData = false;
+	loadFacebookData.subscribe((value: boolean) => {
+		loadData = value;
+	}); // logs '0'
 </script>
 
 {#if url}
@@ -26,7 +30,7 @@
 			allowFullScreen
 		></iframe>
 	{:else}
-		<Button {explanation} on:click={() => (loadData = true)}>
+		<Button {explanation} on:click={() => loadFacebookData.set(true)}>
 			<slot />
 		</Button>
 	{/if}

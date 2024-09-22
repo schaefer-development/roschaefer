@@ -6,16 +6,5 @@
 </script>
 
 {#if youtubeId}
-	<Youtube id={youtubeId}>
-		<svelte:fragment slot="thumbnail" let:id let:altThumb let:title let:play>
-			{#key play}
-				<img
-					src="https://i.ytimg.com/vi/{id}/{altThumb ? 'hqdefault' : 'maxresdefault'}.jpg"
-					{title}
-					alt="Youtube video: {title}"
-					referrerpolicy="no-referrer"
-				/>
-			{/key}
-		</svelte:fragment>
-	</Youtube>
+	<Youtube id={youtubeId}></Youtube>
 {/if}
