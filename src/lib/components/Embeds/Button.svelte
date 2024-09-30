@@ -5,7 +5,7 @@
 <button
 	class="w-full aspect-video top-0 left-0 flex flex-col justify-center items-center text-white hover:bg-black hover:bg-opacity-30 transition ease-in-out duration-500"
 	on:click
-	aria-label="Play Facebook video"
+	aria-label="Play video"
 >
 	<svg
 		class="h-20 w-20 fill-transparent stroke-current"
