@@ -18,6 +18,7 @@
 </script>
 
 {#if url}
+	<div class="pb-6">
 	{#if loadData}
 		<iframe title="Talk" src={embedUrl(url)} frameborder="0" allowfullscreen></iframe>
 	{:else}
@@ -25,6 +26,7 @@
 			<slot />
 		</Button>
 	{/if}
+</div>
 {/if}
 
 <style>

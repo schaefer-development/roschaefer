@@ -18,6 +18,7 @@
 </script>
 
 {#if url}
+<div class="pb-6">
 	{#if loadData}
 		<iframe
 			class="w-full aspect-video"
@@ -34,4 +35,5 @@
 			<slot />
 		</Button>
 	{/if}
+</div>
 {/if}
