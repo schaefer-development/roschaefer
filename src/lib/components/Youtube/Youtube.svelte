@@ -30,7 +30,7 @@
 	{#if play}
 		<Iframe {id} {title} {animations} />
 	{:else}
-    <Image {id} {title} {altThumb} {play} />
+		<Image {id} {title} {altThumb} {play} />
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
 		<div class="b__overlay" on:click={() => (play = true)} on:keypress={() => (play = true)} />
 		<div class="v__title"><h3>{title}</h3></div>
