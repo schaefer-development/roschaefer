@@ -17,7 +17,7 @@
 
 	<div class="flex flex-col items-center gap-x-8 md:flex-row">
 		<div class="w-full md:w-5/12">
-			<Avatar classNames="w-24 md:w-48 aspect-ratio rounded-full my-12 md:my-24"></Avatar>
+			<Avatar classNames="w-24 md:w-48 rounded-full my-12 md:my-24"></Avatar>
 		</div>
 		<div class="md:w-57/12 w-full">
 			<div class="flex flex-col gap-y-2">

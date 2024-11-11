@@ -21,7 +21,7 @@
 				class="shadow_inset absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center bg-black/70"
 			>
 				<svg
-					class="aspect-ratio w-[12vw] max-w-32 fill-transparent stroke-current"
+					class="w-[12vw] max-w-32 fill-transparent stroke-current"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"

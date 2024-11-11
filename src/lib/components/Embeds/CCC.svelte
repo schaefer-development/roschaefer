@@ -14,15 +14,7 @@
 {#if url}
 	<div class="pb-6">
 		<GdprConsent consent={ccc}>
-			<iframe title="Talk" src={embedUrl(url)} frameborder="0" allowfullscreen></iframe>
+			<iframe title="Talk" class="aspect-video h-auto w-full" src={embedUrl(url)} frameborder="0" allowfullscreen></iframe>
 		</GdprConsent>
 	</div>
 {/if}
-
-<style>
-	iframe {
-		height: auto;
-		aspect-ratio: 1.7699;
-		width: 100%;
-	}
-</style>
