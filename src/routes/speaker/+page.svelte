@@ -26,7 +26,7 @@
 				<p>{talk.description}</p>
 			{/if}
 			<Link url={talk.url}></Link>
-			<div class="w-full h-16" />
+			<div class="w-full h-16"></div>
 			<Divider />
 		</div>
 	{/each}
