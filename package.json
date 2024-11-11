@@ -16,7 +16,7 @@
 		"@neoconfetti/svelte": "^2.2.1",
 		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.8.0",
-		"@sveltejs/vite-plugin-svelte": "^3.1.2",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/eslint": "^9.6.1",
 		"@types/humanize-duration": "^3.27.4",
 		"@types/luxon": "^3.4.2",
@@ -30,7 +30,7 @@
 		"postcss": "^8.4.48",
 		"prettier": "^3.3.3",
 		"prettier-plugin-svelte": "^3.2.8",
-		"svelte": "^4.2.19",
+		"svelte": "^5.1.14",
 		"svelte-check": "^4.0.6",
 		"tailwindcss": "^3.4.14",
 		"typescript": "^5.6.3",
@@ -42,7 +42,7 @@
 	"dependencies": {
 		"@fontsource-variable/jost": "^5.1.1",
 		"@fontsource/titillium-web": "^5.1.0",
-		"marked": "^14.1.4"
+		"marked": "^15.0.0"
 	},
 	"packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
