@@ -20,12 +20,12 @@
 </svelte:head>
 
 <section>
-	<h1 class="font-medium text-white mb-12">Data privacy</h1>
+	<h1 class="mb-12 font-medium text-white">Data privacy</h1>
 	<Divider />
 
-	<div class="flex gap-x-8 items-center flex-col md:flex-row">
-		<div class="w-full md:w-57/12">
-			<div class="flex gap-y-2 flex-col">
+	<div class="flex flex-col items-center gap-x-8 md:flex-row">
+		<div class="md:w-57/12 w-full">
+			<div class="flex flex-col gap-y-2">
 				<label>
 					<input
 						type="checkbox"

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <section>
-	<h1 class="font-medium text-white mb-12">
+	<h1 class="mb-12 font-medium text-white">
 		Imprint &<br /><span class="text-primary">Data Privacy</span>
 	</h1>
 	<Divider />

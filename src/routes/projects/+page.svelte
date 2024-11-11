@@ -12,7 +12,7 @@
 </svelte:head>
 
 <section class="pb-24">
-	<h1 class="font-medium text-white mb-12">
+	<h1 class="mb-12 font-medium text-white">
 		Project <span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
@@ -27,7 +27,7 @@
 			</p>
 			{#if experience.url}
 				<h3>
-					<a class="font-bold text-white hover:text-white hover:border-white" href={experience.url}
+					<a class="font-bold text-white hover:border-white hover:text-white" href={experience.url}
 						>{experience.name || experience.entity}</a
 					>
 				</h3>
@@ -40,7 +40,7 @@
 				<div class="py-6">
 					{#each experience.keywords as keyword}
 						<div
-							class="cursor-default m-1 inline-block rounded-full bg-neutral-600 px-3 py-1 text-xs tracking-widest font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
+							class="m-1 inline-block cursor-default rounded-full bg-neutral-600 px-3 py-1 text-xs font-medium uppercase leading-normal tracking-widest text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
 						>
 							{keyword}
 						</div>
@@ -48,7 +48,7 @@
 				</div>
 			{/if}
 			<Link url={experience.url}></Link>
-			<div class="w-full h-16"></div>
+			<div class="h-16 w-full"></div>
 			<Divider />
 		</div>
 	{/each}

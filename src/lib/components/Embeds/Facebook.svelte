@@ -18,7 +18,7 @@
 	<div class="pb-6">
 		<GdprConsent consent={facebook}>
 			<iframe
-				class="w-full aspect-video"
+				class="aspect-video w-full"
 				title="Talk"
 				src={embedUrl(url)}
 				style="border:none;overflow:hidden"

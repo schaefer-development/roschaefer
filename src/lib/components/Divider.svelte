@@ -1,1 +1,1 @@
-<div class="relative w-24 h-1 bg-white"></div>
+<div class="relative h-1 w-24 bg-white"></div>

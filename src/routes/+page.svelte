@@ -10,11 +10,11 @@
 </svelte:head>
 
 <section>
-	<div class="flex gap-6 items-center">
+	<div class="flex items-center gap-6">
 		<Avatar classNames="w-16 aspect-ratio rounded-full my-4"></Avatar>
 		<h3 class="text-white">Hi, I'm {basics.name}</h3>
 	</div>
-	<h1 class="font-medium text-white mb-12">
+	<h1 class="mb-12 font-medium text-white">
 		{basics.label.split(' ').slice(0, -1).join(' ')}
 		<br /><span class="text-primary">
 			{basics.label.split(' ').slice(-1).join(' ')}
@@ -26,11 +26,11 @@
 	</p>
 	<div class="flex gap-8">
 		<a
-			class="text-sm bg-primary font-black text-black uppercase tracking-widest px-4 py-2 border-4 border-primary rounded-full hover:text-white hover:bg-primary hover:scale-110 ease-in-out transition-all duration-300"
+			class="rounded-full border-4 border-primary bg-primary px-4 py-2 text-sm font-black uppercase tracking-widest text-black transition-all duration-300 ease-in-out hover:scale-110 hover:bg-primary hover:text-white"
 			href="/projects">Browse Projects</a
 		>
 		<a
-			class="text-sm font-black text-white uppercase tracking-widest px-4 py-2 border-4 border-white rounded-full hover:text-black hover:bg-white hover:border-b-white hover:scale-110 ease-in-out transition-all duration-300"
+			class="rounded-full border-4 border-white px-4 py-2 text-sm font-black uppercase tracking-widest text-white transition-all duration-300 ease-in-out hover:scale-110 hover:border-b-white hover:bg-white hover:text-black"
 			href="/contact">Get in touch</a
 		>
 	</div>

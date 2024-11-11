@@ -13,15 +13,15 @@
 	<slot></slot>
 {:else}
 	<div
-		class="w-full aspect-video top-0 left-0 flex flex-col justify-center items-center text-white bg-black"
+		class="left-0 top-0 flex aspect-video w-full flex-col items-center justify-center bg-black text-white"
 	>
-		<div class="relative w-full h-full">
-			<img class="absolute top-0 left-0 w-full h-full bg-cover" src={Noise} alt="Noise" />
+		<div class="relative h-full w-full">
+			<img class="absolute left-0 top-0 h-full w-full bg-cover" src={Noise} alt="Noise" />
 			<div
-				class="shadow_inset absolute top-0 left-0 w-full h-full bg-black/70 flex flex-col items-center justify-center"
+				class="shadow_inset absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center bg-black/70"
 			>
 				<svg
-					class="w-[12vw] max-w-32 aspect-ratio fill-transparent stroke-current"
+					class="aspect-ratio w-[12vw] max-w-32 fill-transparent stroke-current"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"

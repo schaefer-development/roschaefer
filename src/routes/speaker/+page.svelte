@@ -10,7 +10,7 @@
 </svelte:head>
 
 <section class="pb-24">
-	<h1 class="font-medium text-white mb-12">
+	<h1 class="mb-12 font-medium text-white">
 		Speaker<br /><span class="text-primary">experience</span>
 	</h1>
 	<Divider />
@@ -26,7 +26,7 @@
 				<p>{talk.description}</p>
 			{/if}
 			<Link url={talk.url}></Link>
-			<div class="w-full h-16"></div>
+			<div class="h-16 w-full"></div>
 			<Divider />
 		</div>
 	{/each}

@@ -6,10 +6,10 @@
 </script>
 
 <ul class="flex gap-6 fill-{fill}">
-	<li class="hover:scale-110 ease-in-out transition-all duration-300">
+	<li class="transition-all duration-300 ease-in-out hover:scale-110">
 		<LinkedInLink></LinkedInLink>
 	</li>
-	<li class="hover:scale-110 ease-in-out transition-all duration-300">
+	<li class="transition-all duration-300 ease-in-out hover:scale-110">
 		<GithubLink></GithubLink>
 	</li>
 </ul>

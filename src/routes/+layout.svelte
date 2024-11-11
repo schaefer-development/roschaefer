@@ -14,7 +14,7 @@
 <div id="page" class="app relative flex flex-col justify-between">
 	<Header />
 	<PageTransition url={$page.url}>
-		<main class="relative max-w-4xl mx-auto mb-auto px-8 pb-12">
+		<main class="relative mx-auto mb-auto max-w-4xl px-8 pb-12">
 			<slot />
 		</main>
 	</PageTransition>
