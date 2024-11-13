@@ -36,10 +36,11 @@
 	<div class="pt-14">
 		<h3 class="pb-2 font-bold text-white">Skills</h3>
 		{#each skills as skill}
-			{#snippet slot()}
-				<span class="normal-case">({skill.level})</span>
-			{/snippet}
-			<Keyword keyword={skill.name} {selectedKeywords} {slot}></Keyword>
+			<Keyword keyword={skill.name} {selectedKeywords}>
+				{#snippet slot()}
+					<span class="normal-case">({skill.level})</span>
+				{/snippet}
+			</Keyword>
 		{/each}
 	</div>
 	{#each filteredExperiences as experience}

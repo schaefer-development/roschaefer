@@ -6,7 +6,7 @@
 
 	interface Props {
 		consent: Consent;
-		slot: Snippet;
+		slot: Snippet<[]>;
 	}
 
 	let { consent, slot }: Props = $props();

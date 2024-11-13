@@ -16,19 +16,20 @@
 
 {#if url}
 	<div class="pb-6">
-		{#snippet slot()}
-			<iframe
-				class="aspect-video w-full"
-				title="Talk"
-				src={embedUrl(url)}
-				style="border:none;overflow:hidden"
-				scrolling="no"
-				frameborder="0"
-				allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-				allowFullScreen
-				in:scale={animations}
-			></iframe>
-		{/snippet}
-		<GdprConsent consent={youtube} {slot} />
+		<GdprConsent consent={youtube}>
+			{#snippet slot()}
+				<iframe
+					class="aspect-video w-full"
+					title="Talk"
+					src={embedUrl(url)}
+					style="border:none;overflow:hidden"
+					scrolling="no"
+					frameborder="0"
+					allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+					allowFullScreen
+					in:scale={animations}
+				></iframe>
+			{/snippet}
+		</GdprConsent>
 	</div>
 {/if}
