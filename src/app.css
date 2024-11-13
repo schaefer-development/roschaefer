@@ -27,7 +27,6 @@ body {
 	overflow-x: hidden;
 	min-height: 100vh;
 	background: rgb(0, 0, 0);
-	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(64, 64, 64, 1) 100%);
 	font-size: calc(20px + 0.25vw);
 	font-kerning: normal;
 	margin: 0;

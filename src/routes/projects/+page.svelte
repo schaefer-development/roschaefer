@@ -33,7 +33,7 @@
 		Project <span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
-	<div class="pt-14">
+	<div>
 		<h3 class="pb-2 font-bold text-white">Skills</h3>
 		{#each skills as skill}
 			<Keyword keyword={skill.name} {selectedKeywords}>
@@ -43,8 +43,9 @@
 			</Keyword>
 		{/each}
 	</div>
+	<Divider />
 	{#each filteredExperiences as experience}
-		<div class="pt-14">
+		<div>
 			<Embed url={experience.url}></Embed>
 			<h2 class="decoratefont mt-4">
 				{experience.roles}
@@ -71,7 +72,7 @@
 				</div>
 			{/if}
 			<Link url={experience.url}></Link>
-			<div class="h-16 w-full"></div>
+
 			<Divider />
 		</div>
 	{/each}

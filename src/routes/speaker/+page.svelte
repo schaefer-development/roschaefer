@@ -15,7 +15,7 @@
 	</h1>
 	<Divider />
 	{#each talks as talk}
-		<div class="pt-14">
+		<div>
 			<Embed url={talk.url}></Embed>
 			<p class="mb-6">
 				{talk.date}
@@ -26,7 +26,6 @@
 				<p>{talk.description}</p>
 			{/if}
 			<Link url={talk.url}></Link>
-			<div class="h-16 w-full"></div>
 			<Divider />
 		</div>
 	{/each}

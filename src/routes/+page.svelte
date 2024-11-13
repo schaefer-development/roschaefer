@@ -20,8 +20,10 @@
 			{basics.label.split(' ').slice(-1).join(' ')}
 		</span>
 	</h1>
-	<Divider />
-	<p class="py-10">
+	<div class="relative flex h-[10vh] w-full items-center">
+		<hr class="relative h-0.5 w-24 -translate-x-12 bg-white" />
+	</div>
+	<p class="pb-12">
 		{basics.summary}
 	</p>
 	<div class="flex gap-8">

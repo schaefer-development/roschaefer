@@ -13,16 +13,18 @@
 	<h1 class="mb-12 font-medium text-white">
 		Say<br /><span class="text-primary">Hello</span>
 	</h1>
-	<Divider />
+	<div class="relative flex h-[10vh] w-full items-center">
+		<hr class="relative h-0.5 w-24 -translate-x-12 bg-white" />
+	</div>
 
 	<div class="flex flex-col items-center gap-x-8 md:flex-row">
 		<div class="w-full md:w-5/12">
-			<Avatar classNames="w-24 md:w-48 rounded-full my-12 md:my-24"></Avatar>
+			<Avatar classNames="w-24 md:w-48 rounded-full my-12"></Avatar>
 		</div>
 		<div class="md:w-57/12 w-full">
 			<div class="flex flex-col gap-y-2">
 				<h3 class="mb-6 uppercase tracking-widest text-primary">Robert Schäfer</h3>
-				<EmailLink classNames="text-white max-w-max pb-6"></EmailLink>
+				<EmailLink classNames="text-white max-w-max mb-6"></EmailLink>
 				<ProfileList></ProfileList>
 			</div>
 		</div>

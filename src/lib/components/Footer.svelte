@@ -4,9 +4,9 @@
 </script>
 
 <footer
-	class="flex w-full flex-col items-center justify-center gap-y-1 bg-white px-8 py-6 md:flex-row md:gap-x-12"
+	class="flex w-full flex-col items-center justify-center gap-y-1 bg-black px-8 py-6 md:flex-row md:gap-x-12"
 >
-	<EmailLink classNames="text-black max-w-max"></EmailLink>
+	<EmailLink classNames=" max-w-max"></EmailLink>
 	<ProfileList fill="black"></ProfileList>
 	<a class="max-w-max" href="/imprint">imprint & data privacy</a>
 </footer>
