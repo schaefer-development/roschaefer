@@ -6,8 +6,19 @@
 	import Embed from '$lib/components/Embeds/Embed.svelte';
 	import Link from '$lib/components/Link.svelte';
 	import Keyword from '$lib/components/Keyword.svelte';
+	import { SvelteSet } from 'svelte/reactivity';
 
-	const onClick = () => console.log('clicked');
+	const selectedKeywords = new SvelteSet<string>();
+
+	const filterExperiences = (exps: typeof experiences) => {
+		if (selectedKeywords.size <= 0) {
+			return exps;
+		}
+		return exps.filter((experience) =>
+			experience.keywords.some((keyword) => selectedKeywords.has(keyword))
+		);
+	};
+	const filteredExperiences = $derived(filterExperiences(experiences));
 </script>
 
 <svelte:head>
@@ -19,7 +30,15 @@
 		Project <span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
-	{#each experiences as experience}
+	<div class="min-h-40 pt-14">
+		{#if selectedKeywords.size > 0}
+			<h3 class="pb-2 font-bold text-white">Keywords</h3>
+			{#each selectedKeywords as keyword}
+				<Keyword {keyword} {selectedKeywords}></Keyword>
+			{/each}
+		{/if}
+	</div>
+	{#each filteredExperiences as experience}
 		<div class="pt-14">
 			<Embed url={experience.url}></Embed>
 			<h2 class="decoratefont mt-4">
@@ -42,7 +61,7 @@
 			{#if experience.keywords.length > 0}
 				<div class="py-6">
 					{#each experience.keywords as keyword}
-						<Keyword {keyword} onclick={onClick}></Keyword>
+						<Keyword {keyword} {selectedKeywords}></Keyword>
 					{/each}
 				</div>
 			{/if}

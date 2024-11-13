@@ -112,7 +112,6 @@ export const experiences = [
 			'Node.js',
 			'Vue',
 			'Vike',
-			'Jest',
 			'Vuetify',
 			'Jest',
 			'Authentik',
