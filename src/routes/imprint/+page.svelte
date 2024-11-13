@@ -1,15 +1,30 @@
-<script>
+<script lang="ts">
 	import Divider from '$lib/components/Divider.svelte';
+
+	import { facebook, youtube, ccc } from '$lib/stores/embeds.svelte';
+	const checks = [facebook, youtube, ccc];
 </script>
 
 <svelte:head>
-	<title>Imprint & Data Privacy</title>
+	<title>Imprint &amp; Data Privacy</title>
 </svelte:head>
 
 <section>
 	<h1 class="mb-12 font-medium text-white">
-		Imprint &<br /><span class="text-primary">Data Privacy</span>
+		Imprint &amp;<br /><span class="text-primary">Data Privacy</span>
 	</h1>
 	<Divider />
-	<p class="py-10"></p>
+
+	<div class="flex flex-col items-center gap-x-8 md:flex-row">
+		<div class="md:w-57/12 w-full">
+			<div class="flex flex-col gap-y-2">
+				{#each checks as check}
+					<label>
+						<input type="checkbox" bind:checked={check.hasConsented} />
+						{check.explanation}
+					</label>
+				{/each}
+			</div>
+		</div>
+	</div>
 </section>
