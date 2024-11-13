@@ -1,16 +1,19 @@
 <script lang="ts">
-	import type { Consent } from '$lib/stores/embeds';
-	export let consent: Consent;
+	import type { Consent } from '$lib/stores/embeds.svelte';
+	import type { Snippet } from 'svelte';
+
 	import Noise from '$lib/assets/noise.gif';
 
-	let loadData = false;
-	consent.store.subscribe((value: boolean) => {
-		loadData = value;
-	}); // logs '0'
+	interface Props {
+		consent: Consent;
+		slot: Snippet;
+	}
+
+	let { consent, slot }: Props = $props();
 </script>
 
-{#if loadData}
-	<slot></slot>
+{#if consent.hasConsented}
+	{@render slot()}
 {:else}
 	<div
 		class="left-0 top-0 flex aspect-video w-full flex-col items-center justify-center bg-black text-white"
@@ -33,7 +36,7 @@
 					/>
 				</svg>
 				<label class="flex items-center gap-2">
-					<input type="checkbox" on:input={() => consent.store.set(true)} value="false" />
+					<input type="checkbox" bind:checked={consent.hasConsented} value="false" />
 					{consent.explanation}
 				</label>
 			</div>

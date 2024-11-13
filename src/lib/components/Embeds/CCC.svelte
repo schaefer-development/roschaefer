@@ -1,6 +1,6 @@
 <script lang="ts">
 	import GdprConsent from './GdprConsent.svelte';
-	import { ccc } from '$lib/stores/embeds';
+	import { ccc } from '$lib/stores/embeds.svelte';
 
 	export let url: string | undefined;
 
@@ -13,8 +13,15 @@
 
 {#if url}
 	<div class="pb-6">
-		<GdprConsent consent={ccc}>
-			<iframe title="Talk" class="aspect-video h-auto w-full" src={embedUrl(url)} frameborder="0" allowfullscreen></iframe>
-		</GdprConsent>
+		{#snippet slot()}
+			<iframe
+				title="Talk"
+				class="aspect-video h-auto w-full"
+				src={embedUrl(url)}
+				frameborder="0"
+				allowfullscreen
+			></iframe>
+		{/snippet}
+		<GdprConsent consent={ccc} {slot} />
 	</div>
 {/if}

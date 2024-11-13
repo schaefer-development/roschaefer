@@ -1,6 +1,6 @@
 <script lang="ts">
 	import GdprConsent from './GdprConsent.svelte';
-	import { youtube } from '$lib/stores/embeds';
+	import { youtube } from '$lib/stores/embeds.svelte';
 	import { scale } from 'svelte/transition';
 
 	export let url: string | undefined;
@@ -16,7 +16,7 @@
 
 {#if url}
 	<div class="pb-6">
-		<GdprConsent consent={youtube}>
+		{#snippet slot()}
 			<iframe
 				class="aspect-video w-full"
 				title="Talk"
@@ -28,6 +28,7 @@
 				allowFullScreen
 				in:scale={animations}
 			></iframe>
-		</GdprConsent>
+		{/snippet}
+		<GdprConsent consent={youtube} {slot} />
 	</div>
 {/if}
