@@ -4,6 +4,7 @@
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
+
 	import '../app.css';
 </script>
 
@@ -15,6 +16,7 @@
 	id="page"
 	class="app relative flex flex-col justify-between bg-gradient-to-r from-gray-950 to-gray-800"
 >
+
 	<Header />
 	<PageTransition url={$page.url}>
 		<main class="relative mx-auto mb-auto max-w-4xl px-8 pb-12">
