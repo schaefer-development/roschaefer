@@ -13,7 +13,9 @@
 	<h1 class="mb-12 font-medium text-white">
 		Imprint &amp;<br /><span class="text-primary">Data Privacy</span>
 	</h1>
-	<Divider />
+	<div class="relative flex h-[10vh] w-full items-center pb-12">
+		<hr class="relative h-0.5 w-24 -translate-x-12 bg-white" />
+	</div>
 
 	<div class="flex flex-col items-center gap-x-8 md:flex-row">
 		<div class="md:w-57/12 w-full">

@@ -20,7 +20,7 @@
 			{basics.label.split(' ').slice(-1).join(' ')}
 		</span>
 	</h1>
-	<div class="relative flex h-[10vh] w-full items-center">
+	<div class="relative flex h-[10vh] w-full items-center pb-12">
 		<hr class="relative h-0.5 w-24 -translate-x-12 bg-white" />
 	</div>
 	<p class="pb-12">

@@ -32,7 +32,9 @@
 	<h1 class="mb-12 font-medium text-white">
 		Project <span class="text-primary">Experience</span>
 	</h1>
-	<Divider />
+	<div class="relative flex h-[10vh] w-full items-center pb-12">
+		<hr class="relative h-0.5 w-24 -translate-x-12 bg-white" />
+	</div>
 	<div>
 		<h3 class="pb-2 font-bold text-white">Skills</h3>
 		{#each skills as skill}
