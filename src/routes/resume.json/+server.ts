@@ -8,7 +8,7 @@ import { interests } from '$lib/data/interests';
 import { education } from '$lib/data/education';
 import { languages } from '$lib/data/languages';
 
-import { skills } from './skills';
+import { createSkills } from '$lib/utils/createSkills';
 
 const work: never[] = [];
 const volunteer: never[] = [];
@@ -37,6 +37,7 @@ for (const experience of experiences) {
 }
 
 const projects = [...experiences, ...talks.map(toProject)];
+const skills = createSkills(experiences);
 
 const resume = {
 	basics,

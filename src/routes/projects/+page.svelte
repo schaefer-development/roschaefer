@@ -1,6 +1,8 @@
 <script lang="ts">
-	import { experiences } from '$lib/data/experiences';
+	import type { Experiences } from '$lib/data/experiences';
 
+	import { experiences } from '$lib/data/experiences';
+	import { createSkills } from '$lib/utils/createSkills';
 	import { marked } from 'marked';
 	import Divider from '$lib/components/Divider.svelte';
 	import Embed from '$lib/components/Embeds/Embed.svelte';
@@ -10,15 +12,16 @@
 
 	const selectedKeywords = new SvelteSet<string>();
 
-	const filterExperiences = (exps: typeof experiences) => {
+	const filterExperiences = (experiences: Experiences) => {
 		if (selectedKeywords.size <= 0) {
-			return exps;
+			return experiences;
 		}
-		return exps.filter((experience) =>
+		return experiences.filter((experience) =>
 			experience.keywords.some((keyword) => selectedKeywords.has(keyword))
 		);
 	};
 	const filteredExperiences = $derived(filterExperiences(experiences));
+	const skills = $derived(createSkills(experiences));
 </script>
 
 <svelte:head>
@@ -30,13 +33,14 @@
 		Project <span class="text-primary">Experience</span>
 	</h1>
 	<Divider />
-	<div class="min-h-40 pt-14">
-		{#if selectedKeywords.size > 0}
-			<h3 class="pb-2 font-bold text-white">Keywords</h3>
-			{#each selectedKeywords as keyword}
-				<Keyword {keyword} {selectedKeywords}></Keyword>
-			{/each}
-		{/if}
+	<div class="pt-14">
+		<h3 class="pb-2 font-bold text-white">Skills</h3>
+		{#each skills as skill}
+			{#snippet slot()}
+				<span class="normal-case">({skill.level})</span>
+			{/snippet}
+			<Keyword keyword={skill.name} {selectedKeywords} {slot}></Keyword>
+		{/each}
 	</div>
 	{#each filteredExperiences as experience}
 		<div class="pt-14">
