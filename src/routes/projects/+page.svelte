@@ -36,14 +36,20 @@
 		<hr class="relative h-0.5 w-24 -translate-x-12 bg-white" />
 	</div>
 	<div>
-		<h3 class="pb-2 font-bold text-white">Skills</h3>
-		{#each skills as skill}
-			<Keyword keyword={skill.name} {selectedKeywords}>
-				{#snippet slot()}
-					<span class="normal-case">({skill.level})</span>
-				{/snippet}
-			</Keyword>
-		{/each}
+		<h3 class="pb-2 font-bold text-white">
+			Skills<span class="absolute animate-bounce pl-6 font-normal text-primary"
+				>Select to filter</span
+			>
+		</h3>
+		<div class="flex flex-wrap justify-between">
+			{#each skills as skill}
+				<Keyword keyword={skill.name} {selectedKeywords}>
+					{#snippet slot()}
+						<span class="normal-case">({skill.level})</span>
+					{/snippet}
+				</Keyword>
+			{/each}
+		</div>
 	</div>
 	<Divider />
 	{#each filteredExperiences as experience}
@@ -57,8 +63,9 @@
 			</p>
 			{#if experience.url}
 				<h3>
-					<a class="font-bold text-white hover:border-white hover:text-white" href={experience.url}
-						>{experience.name || experience.entity}</a
+					<a
+						class="border-none font-bold text-white hover:border-none hover:text-white"
+						href={experience.url}>{experience.name || experience.entity}</a
 					>
 				</h3>
 			{:else}
