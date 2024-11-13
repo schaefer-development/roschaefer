@@ -35,8 +35,7 @@ export default {
 			},
 			colors: {
 				primary: {
-					dark: '#2E303A',
-					DEFAULT: '#33CCFF'
+					DEFAULT: '#33BBFF'
 				}
 			}
 		}

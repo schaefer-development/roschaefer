@@ -4,7 +4,7 @@
 </script>
 
 <footer
-	class="flex w-full flex-col items-center justify-center gap-y-1 bg-black px-8 py-6 md:flex-row md:gap-x-12"
+	class="flex w-full flex-col items-center justify-center gap-y-1 bg-black px-8 py-12 text-lg md:flex-row md:gap-x-12"
 >
 	<EmailLink classNames=" max-w-max"></EmailLink>
 	<ProfileList fill="black"></ProfileList>
