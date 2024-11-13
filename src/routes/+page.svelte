@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Avatar from '$lib/components/Avatar.svelte';
-	import Divider from '$lib/components/Divider.svelte';
 	import { basics } from '$lib/data/basics';
 </script>
 

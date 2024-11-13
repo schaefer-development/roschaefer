@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Avatar from '$lib/components/Avatar.svelte';
-	import Divider from '$lib/components/Divider.svelte';
 	import ProfileList from '$lib/components/ProfileList.svelte';
 	import EmailLink from '$lib/components/EmailLink.svelte';
 </script>

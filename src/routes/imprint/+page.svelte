@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Divider from '$lib/components/Divider.svelte';
-
 	import { facebook, youtube, ccc } from '$lib/stores/embeds.svelte';
 	const checks = [facebook, youtube, ccc];
 </script>
