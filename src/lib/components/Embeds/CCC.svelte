@@ -1,8 +1,11 @@
 <script lang="ts">
 	import GdprConsent from './GdprConsent.svelte';
 	import { ccc } from '$lib/stores/embeds.svelte';
+	import { scale } from 'svelte/transition';
 
 	export let url: string | undefined;
+
+	const animations = { delay: 500, duration: 800 };
 
 	const embedUrl = (url: string) => {
 		const embedUrl = new URL(url);
@@ -20,6 +23,7 @@
 				src={embedUrl(url)}
 				frameborder="0"
 				allowfullscreen
+				in:scale={animations}
 			></iframe>
 		{/snippet}
 		<GdprConsent consent={ccc} {slot} />
