@@ -13,9 +13,7 @@
 			selectedKeywords.add(keyword);
 		}
 	};
-	const extraClasses = $derived(
-		selected ? 'text-white bg-primary' : 'text-white'
-	);
+	const extraClasses = $derived(selected ? 'text-white bg-primary' : 'text-white');
 </script>
 
 <button
