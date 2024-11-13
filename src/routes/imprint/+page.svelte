@@ -21,7 +21,7 @@
 		<div class="md:w-57/12 w-full">
 			<div class="flex flex-col gap-y-2">
 				{#each checks as check}
-					<label>
+					<label class="flex flex-row items-center gap-x-4">
 						<input type="checkbox" bind:checked={check.hasConsented} />
 						{check.explanation}
 					</label>

@@ -11,7 +11,7 @@
 
 <section>
 	<div class="flex items-center gap-6">
-		<Avatar classNames="w-16 rounded-full my-4"></Avatar>
+		<Avatar classNames="w-20 rounded-full my-4"></Avatar>
 		<h3 class="text-white">Hi, I'm {basics.name}</h3>
 	</div>
 	<h1 class="mb-12 font-medium text-white">

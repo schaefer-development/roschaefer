@@ -27,7 +27,7 @@
 	<div class="fixed left-0 top-0 h-screen w-full">
 		<div
 			style="background-image: url({Bg}); transform: translateY({parallaxOffset}px); will-change: transform;"
-			class="z-1 relative h-[200vh] w-full bg-cover opacity-100 opacity-50"
+			class="z-1 relative h-[200vh] w-full bg-cover opacity-70"
 		></div>
 	</div>
 
