@@ -8,19 +8,18 @@
 	import Embed from '$lib/components/Embeds/Embed.svelte';
 	import Link from '$lib/components/Link.svelte';
 	import Keyword from '$lib/components/Keyword.svelte';
-	import { SvelteSet } from 'svelte/reactivity';
+	import { send, receive } from '$lib/transitions/transition';
+	import { flip } from 'svelte/animate';
 
-	const selectedKeywords = new SvelteSet<string>();
+	let selectedKeyword: undefined | string = $state(undefined);
 
-	const filterExperiences = (experiences: Experiences) => {
-		if (selectedKeywords.size <= 0) {
+	const filterExperiences = (experiences: Experiences, selectedKeyword: undefined | string) => {
+		if (!selectedKeyword) {
 			return experiences;
 		}
-		return experiences.filter((experience) =>
-			experience.keywords.some((keyword) => selectedKeywords.has(keyword))
-		);
+		return experiences.filter((experience) => experience.keywords.includes(selectedKeyword));
 	};
-	const filteredExperiences = $derived(filterExperiences(experiences));
+	const filteredExperiences = $derived(filterExperiences(experiences, selectedKeyword));
 	const skills = $derived(createSkills(experiences));
 </script>
 
@@ -43,7 +42,7 @@
 		</h3>
 		<div class="flex flex-wrap justify-between">
 			{#each skills as skill}
-				<Keyword keyword={skill.name} {selectedKeywords}>
+				<Keyword keyword={skill.name} bind:selectedKeyword>
 					{#snippet slot()}
 						<span class="normal-case">({skill.level})</span>
 					{/snippet}
@@ -52,37 +51,43 @@
 		</div>
 	</div>
 	<Divider />
-	{#each filteredExperiences as experience}
-		<div>
-			<Embed url={experience.url}></Embed>
-			<h2 class="decoratefont mt-4">
-				{experience.roles}
-			</h2>
-			<p class="mb-6">
-				{experience.startDate} — {experience.endDate ?? 'now'}
-			</p>
-			{#if experience.url}
-				<h3>
-					<a
-						class="border-none font-bold text-white hover:border-none hover:text-white"
-						href={experience.url}>{experience.name || experience.entity}</a
-					>
-				</h3>
-			{:else}
-				<h3 class="font-bold text-white">{experience.name || experience.entity}</h3>
-			{/if}
-			<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-			<p class="pt-1">{@html marked(experience.description)}</p>
-			{#if experience.keywords.length > 0}
-				<div class="py-6">
-					{#each experience.keywords as keyword}
-						<Keyword {keyword} {selectedKeywords}></Keyword>
-					{/each}
-				</div>
-			{/if}
-			<Link url={experience.url}></Link>
+	<ul>
+		{#each filteredExperiences as experience (experience)}
+			<li
+				in:receive={{ key: experience.name }}
+				out:send={{ key: experience.name }}
+				animate:flip={{ duration: 2000 }}
+			>
+				<Embed url={experience.url}></Embed>
+				<h2 class="decoratefont mt-4">
+					{experience.roles}
+				</h2>
+				<p class="mb-6">
+					{experience.startDate} — {experience.endDate ?? 'now'}
+				</p>
+				{#if experience.url}
+					<h3>
+						<a
+							class="border-none font-bold text-white hover:border-none hover:text-white"
+							href={experience.url}>{experience.name || experience.entity}</a
+						>
+					</h3>
+				{:else}
+					<h3 class="font-bold text-white">{experience.name || experience.entity}</h3>
+				{/if}
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+				<p class="pt-1">{@html marked(experience.description)}</p>
+				{#if experience.keywords.length > 0}
+					<div class="py-6">
+						{#each experience.keywords as keyword}
+							<Keyword {keyword} bind:selectedKeyword></Keyword>
+						{/each}
+					</div>
+				{/if}
+				<Link url={experience.url}></Link>
 
-			<Divider />
-		</div>
-	{/each}
+				<Divider />
+			</li>
+		{/each}
+	</ul>
 </section>

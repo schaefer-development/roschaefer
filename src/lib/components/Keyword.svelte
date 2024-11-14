@@ -1,19 +1,18 @@
 <script lang="ts">
-	import type { SvelteSet } from 'svelte/reactivity';
 	import type { Snippet } from 'svelte';
 	interface Props {
 		keyword: string;
-		selectedKeywords: SvelteSet<string>;
+		selectedKeyword: undefined | string;
 		slot?: Snippet;
 	}
-	const { keyword, selectedKeywords, slot }: Props = $props();
-	const selected = $derived(selectedKeywords.has(keyword));
+	let { keyword, selectedKeyword = $bindable(), slot }: Props = $props();
+	const selected = $derived(selectedKeyword === keyword);
 	const onclick = () => {
-		if (!selectedKeywords.delete(keyword)) {
-			selectedKeywords.add(keyword);
-		}
+		selectedKeyword = selectedKeyword === keyword ? undefined : keyword;
 	};
-	const extraClasses = $derived(selected ? 'bg-primary text-white' : 'bg-gray-600 hover:text-primary');
+	const extraClasses = $derived(
+		selected ? 'bg-primary text-white' : 'bg-gray-600 hover:text-primary'
+	);
 </script>
 
 <button
