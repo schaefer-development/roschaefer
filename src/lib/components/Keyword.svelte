@@ -13,12 +13,12 @@
 			selectedKeywords.add(keyword);
 		}
 	};
-	const extraClasses = $derived(selected ? 'text-white bg-primary' : 'text-white');
+	const extraClasses = $derived(selected ? 'bg-primary text-white' : 'bg-gray-600 hover:text-primary');
 </script>
 
 <button
 	{onclick}
-	class="{extraClasses} my-1.5 mr-1.5 inline-block rounded-full bg-gray-600 px-3 py-1 text-xs font-medium uppercase leading-normal tracking-widest shadow-md transition duration-150 ease-in-out hover:bg-primary hover:text-white hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
+	class="{extraClasses} my-1.5 mr-1.5 inline-block rounded-full px-3 py-1 text-xs font-medium uppercase leading-normal tracking-widest shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
 >
 	{keyword}
 	{#if slot && selected}
