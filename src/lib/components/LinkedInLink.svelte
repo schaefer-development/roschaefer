@@ -6,13 +6,15 @@
 </script>
 
 {#if url}
+	<!-- eslint-disable svelte/no-navigation-without-resolve -->
 	<a
+		href={url}
 		class="border-none hover:border-none"
 		rel="noreferrer"
-		href={url}
 		target="_blank"
 		aria-label="Linkedin"
 	>
+		<!-- eslint-enable -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"

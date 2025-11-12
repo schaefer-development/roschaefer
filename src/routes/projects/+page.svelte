@@ -36,12 +36,12 @@
 	</div>
 	<div>
 		<h3 class="pb-2 font-bold text-white">
-			Skills<span class="absolute animate-bounce pl-6 font-normal text-primary"
+			Skills<span class="text-primary absolute animate-bounce pl-6 font-normal"
 				>Select to filter</span
 			>
 		</h3>
 		<div class="flex flex-wrap justify-between">
-			{#each skills as skill}
+			{#each skills as skill (skill.name)}
 				<Keyword keyword={skill.name} bind:selectedKeyword>
 					{#snippet slot()}
 						<span class="normal-case">({skill.level})</span>
@@ -52,7 +52,7 @@
 	</div>
 	<Divider />
 	<ul>
-		{#each filteredExperiences as experience (experience)}
+		{#each filteredExperiences as experience (experience.name)}
 			<li
 				in:receive={{ key: experience.name }}
 				out:send={{ key: experience.name }}
@@ -67,10 +67,12 @@
 				</p>
 				{#if experience.url}
 					<h3>
+						<!-- eslint-disable svelte/no-navigation-without-resolve -->
 						<a
 							class="border-none font-bold text-white hover:border-none hover:text-white"
 							href={experience.url}>{experience.name || experience.entity}</a
 						>
+						<!-- eslint-enable -->
 					</h3>
 				{:else}
 					<h3 class="font-bold text-white">{experience.name || experience.entity}</h3>
@@ -79,7 +81,7 @@
 				<p class="pt-1">{@html marked(experience.description)}</p>
 				{#if experience.keywords.length > 0}
 					<div class="py-6">
-						{#each experience.keywords as keyword}
+						{#each experience.keywords as keyword (keyword)}
 							<Keyword {keyword} bind:selectedKeyword></Keyword>
 						{/each}
 					</div>

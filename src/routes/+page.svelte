@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Avatar from '$lib/components/Avatar.svelte';
 	import { basics } from '$lib/data/basics';
+	import { resolve } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -27,12 +28,12 @@
 	</p>
 	<div class="flex gap-8">
 		<a
-			class="rounded-full border-4 border-primary bg-primary px-4 py-2 text-sm font-black uppercase tracking-widest text-black transition-all duration-300 ease-in-out hover:scale-110 hover:bg-primary hover:text-white"
-			href="/projects">Browse Projects</a
+			class="border-primary bg-primary hover:bg-primary rounded-full border-4 px-4 py-2 text-sm font-black tracking-widest text-black uppercase transition-all duration-300 ease-in-out hover:scale-110 hover:text-white"
+			href={resolve('/projects')}>Browse Projects</a
 		>
 		<a
-			class="rounded-full border-4 border-white px-4 py-2 text-sm font-black uppercase tracking-widest text-white transition-all duration-300 ease-in-out hover:scale-110 hover:border-b-white hover:bg-white hover:text-black"
-			href="/contact">Get in touch</a
+			class="rounded-full border-4 border-white px-4 py-2 text-sm font-black tracking-widest text-white uppercase transition-all duration-300 ease-in-out hover:scale-110 hover:border-b-white hover:bg-white hover:text-black"
+			href={resolve('/contact')}>Get in touch</a
 		>
 	</div>
 </section>

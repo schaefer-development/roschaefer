@@ -16,12 +16,12 @@
 	{@render slot()}
 {:else}
 	<div
-		class="left-0 top-0 flex aspect-video w-full flex-col items-center justify-center bg-black text-white"
+		class="top-0 left-0 flex aspect-video w-full flex-col items-center justify-center bg-black text-white"
 	>
 		<div class="relative h-full w-full">
-			<img class="absolute left-0 top-0 h-full w-full bg-cover" src={Noise} alt="Noise" />
+			<img class="absolute top-0 left-0 h-full w-full bg-cover" src={Noise} alt="Noise" />
 			<div
-				class="shadow_inset absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center bg-black/70"
+				class="shadow_inset absolute top-0 left-0 flex h-full w-full flex-col items-center justify-center bg-black/70"
 			>
 				<svg
 					class="w-[12vw] max-w-32 fill-transparent stroke-current"

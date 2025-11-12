@@ -1,113 +1,113 @@
 @import 'tailwindcss';
-@plugin "@tailwindcss/typography";
+@plugin '@tailwindcss/typography';
 @import '@fontsource/titillium-web';
 @import '@fontsource/titillium-web/600.css';
 @import '@fontsource/titillium-web/700.css';
 @import '@fontsource-variable/jost';
 
 @theme {
-  --font-sans: "Titilium Web", "PT Sans", Helvetica, Arial, sans-serif;
-  --font-serif: "PT Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-	--font-body: 'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-sans: 'Titilium Web', 'PT Sans', Helvetica, Arial, sans-serif;
+	--font-serif: 'PT Serif', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+	--font-body:
+		'Titillium Web', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Courier', monospace;
 
-  --color-primary: #33BBFF;
+	--color-primary: #33bbff;
 	--color-bg-0: rgb(202, 216, 228);
 	--color-theme-1: #33ccff;
 	--color-text: #ccc;
 }
 
 @layer base {
-
-:root {
-	font-family: var(--font-body);
-	color: var(--color-text);
-}
-
-body {
-	min-height: 100vh;
-	width: 100%;
-	overflow-x: hidden;
-	min-height: 100vh;
-	background: rgb(0, 0, 0);
-	font-size: calc(20px + 0.25vw);
-	font-kerning: normal;
-	margin: 0;
-}
-
-::-moz-selection {
-	/* Code for Firefox */
-	background-color: var(--primary);
-	color: white;
-}
-
-::selection {
-	background-color: var(--primary);
-	color: white;
-}
-
-h1 {
-	font-family: 'Jost Variable', sans-serif;
-}
-
-.decoratefont {
-	font-family: 'Jost Variable', sans-serif;
-}
-
-h1 {
-	@apply text-6xl uppercase md:text-8xl lg:text-9xl;
-}
-
-h2 {
-	@apply text-2xl uppercase tracking-wider text-primary md:text-3xl lg:text-4xl;
-}
-
-h3 {
-	@apply text-xl md:text-2xl lg:text-3xl;
-}
-
-h1,
-h2,
-p {
-	font-weight: 400;
-}
-
-p {
-	line-height: 1.5;
-}
-
-a {
-	color: var(--color-theme-1);
-	text-decoration: none;
-	border-bottom: 3px solid rgba(0, 0, 0, 0);
-	transition: all 0.25s;
-}
-
-a:hover {
-	color: var(--color-theme-1);
-	border-bottom: 3px solid var(--color-theme-1);
-}
-
-button:focus:not(:focus-visible) {
-	outline: none;
-}
-
-.visually-hidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: auto;
-	margin: 0;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
-	white-space: nowrap;
-}
-
-@media only screen and (max-width: 768px) {
-	body {
-		font-size: calc(15px + 0.25vw);
+	:root {
+		font-family: var(--font-body);
+		color: var(--color-text);
 	}
-}
+
+	body {
+		min-height: 100vh;
+		width: 100%;
+		overflow-x: hidden;
+		min-height: 100vh;
+		background: rgb(0, 0, 0);
+		font-size: calc(20px + 0.25vw);
+		font-kerning: normal;
+		margin: 0;
+	}
+
+	::-moz-selection {
+		/* Code for Firefox */
+		background-color: var(--primary);
+		color: white;
+	}
+
+	::selection {
+		background-color: var(--primary);
+		color: white;
+	}
+
+	h1 {
+		font-family: 'Jost Variable', sans-serif;
+	}
+
+	.decoratefont {
+		font-family: 'Jost Variable', sans-serif;
+	}
+
+	h1 {
+		@apply text-6xl uppercase md:text-8xl lg:text-9xl;
+	}
+
+	h2 {
+		@apply text-primary text-2xl tracking-wider uppercase md:text-3xl lg:text-4xl;
+	}
+
+	h3 {
+		@apply text-xl md:text-2xl lg:text-3xl;
+	}
+
+	h1,
+	h2,
+	p {
+		font-weight: 400;
+	}
+
+	p {
+		line-height: 1.5;
+	}
+
+	a {
+		color: var(--color-theme-1);
+		text-decoration: none;
+		border-bottom: 3px solid rgba(0, 0, 0, 0);
+		transition: all 0.25s;
+	}
+
+	a:hover {
+		color: var(--color-theme-1);
+		border-bottom: 3px solid var(--color-theme-1);
+	}
+
+	button:focus:not(:focus-visible) {
+		outline: none;
+	}
+
+	.visually-hidden {
+		border: 0;
+		clip: rect(0 0 0 0);
+		height: auto;
+		margin: 0;
+		overflow: hidden;
+		padding: 0;
+		position: absolute;
+		width: 1px;
+		white-space: nowrap;
+	}
+
+	@media only screen and (max-width: 768px) {
+		body {
+			font-size: calc(15px + 0.25vw);
+		}
+	}
 }

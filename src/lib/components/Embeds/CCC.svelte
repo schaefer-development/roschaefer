@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { SvelteURL } from 'svelte/reactivity';
 	import GdprConsent from './GdprConsent.svelte';
 	import { ccc } from '$lib/stores/embeds.svelte';
 	import { scale } from 'svelte/transition';
@@ -8,7 +9,7 @@
 	const animations = { delay: 500, duration: 800 };
 
 	const embedUrl = (url: string) => {
-		const embedUrl = new URL(url);
+		const embedUrl = new SvelteURL(url);
 		embedUrl.pathname += '/oembed';
 		return embedUrl.href;
 	};

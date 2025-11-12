@@ -16,9 +16,9 @@
 	</div>
 
 	<div class="flex flex-col items-center gap-x-8 md:flex-row">
-		<div class="md:w-57/12 w-full">
+		<div class="w-full md:w-57/12">
 			<div class="flex flex-col gap-y-2">
-				{#each checks as check}
+				{#each checks as check (check.explanation)}
 					<label class="flex flex-row items-center gap-x-4">
 						<input type="checkbox" bind:checked={check.hasConsented} />
 						{check.explanation}

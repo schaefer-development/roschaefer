@@ -3,6 +3,7 @@
 </script>
 
 {#if url}
+	<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 	<a class="mt-2 flex max-w-max" href={url}>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +11,7 @@
 			viewBox="0 0 24 24"
 			stroke-width="4"
 			stroke="currentColor"
-			class="mr-1.5 mt-1 w-3 md:mr-2 md:w-4"
+			class="mt-1 mr-1.5 w-3 md:mr-2 md:w-4"
 		>
 			<path
 				stroke-linecap="round"

@@ -17,7 +17,7 @@
 
 <button
 	{onclick}
-	class="{extraClasses} my-1.5 mr-1.5 inline-block rounded-full px-3 py-1 text-xs font-medium uppercase leading-normal tracking-widest shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0"
+	class="{extraClasses} my-1.5 mr-1.5 inline-block rounded-full px-3 py-1 text-xs leading-normal font-medium tracking-widest uppercase shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:ring-0 focus:outline-none"
 >
 	{keyword}
 	{#if slot && selected}

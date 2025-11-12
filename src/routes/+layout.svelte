@@ -21,13 +21,13 @@
 
 <div id="page">
 	<div
-		class="pointer-none fixed left-0 top-0 h-screen w-full bg-linear-to-tr from-gray-950 to-gray-800"
+		class="pointer-none fixed top-0 left-0 h-screen w-full bg-linear-to-tr from-gray-950 to-gray-800"
 	></div>
 
-	<div class="fixed left-0 top-0 h-screen w-full">
+	<div class="fixed top-0 left-0 h-screen w-full">
 		<div
 			style="background-image: url({Bg}); background-position:50% 0%; transform: translateY({parallaxOffset}px); will-change: transform;"
-			class="z-1 relative h-[200vh] w-full bg-cover opacity-70"
+			class="relative z-1 h-[200vh] w-full bg-cover opacity-70"
 		></div>
 	</div>
 

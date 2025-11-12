@@ -14,7 +14,7 @@
 		Speaker<br /><span class="text-primary">experience</span>
 	</h1>
 	<Divider />
-	{#each talks as talk}
+	{#each talks as talk (talk.name)}
 		<div>
 			<Embed url={talk.url}></Embed>
 			<p class="mb-6">

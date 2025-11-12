@@ -20,9 +20,9 @@
 		<div class="w-full md:w-5/12">
 			<Avatar classNames="w-24 md:w-48 rounded-full my-12"></Avatar>
 		</div>
-		<div class="md:w-57/12 w-full">
+		<div class="w-full md:w-57/12">
 			<div class="flex flex-col gap-y-2">
-				<h3 class="mb-6 uppercase tracking-widest text-primary">Robert Schäfer</h3>
+				<h3 class="text-primary mb-6 tracking-widest uppercase">Robert Schäfer</h3>
 				<EmailLink classNames="text-white max-w-max mb-6"></EmailLink>
 				<ProfileList></ProfileList>
 			</div>
