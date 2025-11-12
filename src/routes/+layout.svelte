@@ -21,7 +21,7 @@
 
 <div id="page">
 	<div
-		class="pointer-none fixed left-0 top-0 h-screen w-full bg-gradient-to-tr from-gray-950 to-gray-800"
+		class="pointer-none fixed left-0 top-0 h-screen w-full bg-linear-to-tr from-gray-950 to-gray-800"
 	></div>
 
 	<div class="fixed left-0 top-0 h-screen w-full">
