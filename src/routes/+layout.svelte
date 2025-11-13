@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { asset } from '$app/paths';
 	import { basics } from '$lib/data/basics';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import PageTransition from '$lib/components/PageTransition.svelte';
-	import Bg from '$lib/assets/bg.svg';
 
 	import '../app.css';
 
@@ -26,7 +26,9 @@
 
 	<div class="fixed top-0 left-0 h-screen w-full">
 		<div
-			style="background-image: url({Bg}); background-position:50% 0%; transform: translateY({parallaxOffset}px); will-change: transform;"
+			style="background-image: url({asset(
+				'/bg.svg'
+			)}); background-position:50% 0%; transform: translateY({parallaxOffset}px); will-change: transform;"
 			class="relative z-1 h-[200vh] w-full bg-cover opacity-70"
 		></div>
 	</div>
