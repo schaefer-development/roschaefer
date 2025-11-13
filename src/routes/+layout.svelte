@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
+	import { fade } from 'svelte/transition';
 	import { asset } from '$app/paths';
 	import { basics } from '$lib/data/basics';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import PageTransition from '$lib/components/PageTransition.svelte';
 
 	import '../app.css';
 
@@ -35,11 +35,16 @@
 
 	<div class="app relative flex flex-col justify-between">
 		<Header />
-		<PageTransition url={$page.url}>
-			<main class="relative mx-auto mb-auto max-w-4xl px-8 pb-12">
-				<slot />
-			</main>
-		</PageTransition>
+		{#key page.url.pathname}
+			<div
+				in:fade={{ duration: 300, delay: 400 }}
+				class="top-0 left-0 z-1 h-full min-h-screen w-full"
+			>
+				<main class="relative mx-auto mb-auto max-w-4xl px-8 pb-12">
+					<slot />
+				</main>
+			</div>
+		{/key}
 		<Footer />
 	</div>
 </div>
